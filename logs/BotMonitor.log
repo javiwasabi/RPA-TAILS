@@ -1,0 +1,78 @@
+[2025-05-31 21:50:59.550] [BotMonitor     ] [INFO ] Iniciando monitoreo de actividad de Badniks...
+[2025-05-31 21:50:59.553] [BotMonitor     ] [INFO ] Intentando obtener datos de 'fuente_de_datos_simulada.html' con Selenium...
+[2025-05-31 21:51:11.786] [BotMonitor     ] [ERROR] WebDriverException con Selenium: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00CEA813+48355]
+	(No symbol) [0x00C7C4B1]
+	(No symbol) [0x00B85358]
+	(No symbol) [0x00BA1A9E]
+	(No symbol...
+[2025-05-31 21:51:11.788] [BotMonitor     ] [INFO ] Fallo al obtener datos vía Selenium. Se usará generación aleatoria.
+[2025-05-31 21:51:11.789] [BotMonitor     ] [INFO ] Procediendo con generación de datos aleatorios...
+[2025-05-31 21:51:11.790] [BotMonitor     ] [INFO ] Datos generados aleatoriamente de 'Reporte Campo'.
+[2025-05-31 21:51:11.790] [BotMonitor     ] [INFO ] Datos finales: ID EVT-RND-20250531215111-0001, Fuente: Reporte Campo
+[2025-05-31 21:51:11.792] [BotMonitor     ] [INFO ] Monitoreo completado.
+[2025-05-31 21:51:17.784] [BotMonitor     ] [INFO ] Iniciando monitoreo de actividad de Badniks...
+[2025-05-31 21:51:17.784] [BotMonitor     ] [INFO ] Intentando obtener datos de 'fuente_de_datos_simulada.html' con Selenium...
+[2025-05-31 21:51:29.971] [BotMonitor     ] [ERROR] WebDriverException con Selenium: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0118A813+48355]
+	(No symbol) [0x0111C4B1]
+	(No symbol) [0x01025358]
+	(No symbol) [0x01041A9E]
+	(No symbol...
+[2025-05-31 21:51:29.973] [BotMonitor     ] [INFO ] Fallo al obtener datos vía Selenium. Se usará generación aleatoria.
+[2025-05-31 21:51:29.974] [BotMonitor     ] [INFO ] Procediendo con generación de datos aleatorios...
+[2025-05-31 21:51:29.976] [BotMonitor     ] [INFO ] Datos generados aleatoriamente de 'Alerta ME'.
+[2025-05-31 21:51:29.977] [BotMonitor     ] [INFO ] Datos finales: ID EVT-RND-20250531215129-0002, Fuente: Alerta ME
+[2025-05-31 21:51:29.989] [BotMonitor     ] [INFO ] Monitoreo completado.
+[2025-05-31 21:51:41.026] [BotMonitor     ] [INFO ] Iniciando monitoreo de actividad de Badniks...
+[2025-05-31 21:51:41.027] [BotMonitor     ] [INFO ] Intentando obtener datos de 'fuente_de_datos_simulada.html' con Selenium...
+[2025-05-31 21:51:53.522] [BotMonitor     ] [ERROR] WebDriverException con Selenium: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x010EA813+48355]
+	(No symbol) [0x0107C4B1]
+	(No symbol) [0x00F85358]
+	(No symbol) [0x00FA1A9E]
+	(No symbol...
+[2025-05-31 21:51:53.524] [BotMonitor     ] [INFO ] Fallo al obtener datos vía Selenium. Se usará generación aleatoria.
+[2025-05-31 21:51:53.525] [BotMonitor     ] [INFO ] Procediendo con generación de datos aleatorios...
+[2025-05-31 21:51:53.526] [BotMonitor     ] [INFO ] Datos generados aleatoriamente de 'Alerta ME'.
+[2025-05-31 21:51:53.526] [BotMonitor     ] [INFO ] Datos finales: ID EVT-RND-20250531215153-0003, Fuente: Alerta ME
+[2025-05-31 21:51:53.530] [BotMonitor     ] [INFO ] Monitoreo completado.
+[2025-05-31 21:52:01.532] [BotMonitor     ] [INFO ] Iniciando monitoreo de actividad de Badniks...
+[2025-05-31 21:52:01.545] [BotMonitor     ] [INFO ] Intentando obtener datos de 'fuente_de_datos_simulada.html' con Selenium...
+[2025-05-31 21:52:15.571] [BotMonitor     ] [ERROR] WebDriverException con Selenium: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x010EA813+48355]
+	(No symbol) [0x0107C4B1]
+	(No symbol) [0x00F85358]
+	(No symbol) [0x00FA1A9E]
+	(No symbol...
+[2025-05-31 21:52:15.572] [BotMonitor     ] [INFO ] Fallo al obtener datos vía Selenium. Se usará generación aleatoria.
+[2025-05-31 21:52:15.573] [BotMonitor     ] [INFO ] Procediendo con generación de datos aleatorios...
+[2025-05-31 21:52:15.575] [BotMonitor     ] [INFO ] Datos generados aleatoriamente de 'Radar G.U.N.'.
+[2025-05-31 21:52:15.577] [BotMonitor     ] [INFO ] Datos finales: ID EVT-RND-20250531215215-0004, Fuente: Radar G.U.N.
+[2025-05-31 21:52:15.597] [BotMonitor     ] [INFO ] Monitoreo completado.
+[2025-05-31 21:52:23.678] [BotMonitor     ] [INFO ] Iniciando monitoreo de actividad de Badniks...
+[2025-05-31 21:52:23.679] [BotMonitor     ] [INFO ] Intentando obtener datos de 'fuente_de_datos_simulada.html' con Selenium...
+[2025-05-31 21:52:37.118] [BotMonitor     ] [ERROR] WebDriverException con Selenium: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0107A813+48355]
+	(No symbol) [0x0100C4B1]
+	(No symbol) [0x00F15358]
+	(No symbol) [0x00F31A9E]
+	(No symbol...
+[2025-05-31 21:52:37.119] [BotMonitor     ] [INFO ] Fallo al obtener datos vía Selenium. Se usará generación aleatoria.
+[2025-05-31 21:52:37.120] [BotMonitor     ] [INFO ] Procediendo con generación de datos aleatorios...
+[2025-05-31 21:52:37.121] [BotMonitor     ] [INFO ] Datos generados aleatoriamente de 'Radar G.U.N.'.
+[2025-05-31 21:52:37.121] [BotMonitor     ] [INFO ] Datos finales: ID EVT-RND-20250531215237-0005, Fuente: Radar G.U.N.
+[2025-05-31 21:52:37.123] [BotMonitor     ] [INFO ] Monitoreo completado.
+[2025-05-31 21:52:47.200] [BotMonitor     ] [INFO ] Iniciando monitoreo de actividad de Badniks...
+[2025-05-31 21:52:47.201] [BotMonitor     ] [INFO ] Intentando obtener datos de 'fuente_de_datos_simulada.html' con Selenium...
+[2025-05-31 21:52:49.098] [BotMonitor     ] [INFO ] Fallo al obtener datos vía Selenium. Se usará generación aleatoria.

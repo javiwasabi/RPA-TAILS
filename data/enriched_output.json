@@ -1,0 +1,29 @@
+{
+    "event_id": "EVT-RND-20250531215237-0005",
+    "timestamp_event": "2025-05-31T21:52:37.121238",
+    "source_system_name": "Radar G.U.N.",
+    "source_type": "RADAR_GUN",
+    "location_reported": "Station Square",
+    "threat_assessment": {
+        "initial_level": "medio",
+        "description": "Contacto sospechoso en Station Square (Radar G.U.N.)",
+        "priority_score": 5
+    },
+    "original_raw_data": {
+        "contacts": 5,
+        "signature": "UNKNOWN"
+    },
+    "location_details": {
+        "zone_name": "Station Square",
+        "description": "Una metrópolis bulliciosa concurrida por humanos.",
+        "known_nearby_heroes": [
+            "Sonic",
+            "Amy"
+        ],
+        "common_threats_in_zone": [
+            "Egg Walker",
+            "Chaos"
+        ]
+    },
+    "urgency_level": "URGENCIA_MEDIA"
+}

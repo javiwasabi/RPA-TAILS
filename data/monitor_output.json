@@ -1,0 +1,13 @@
+{
+    "event_id": "EVT-RND-20250531215237-0005",
+    "timestamp_raw": "2025-05-31T21:52:37.121238",
+    "source_system": "Radar G.U.N.",
+    "source_type_tag": "RADAR_GUN",
+    "detected_location_raw": "Station Square",
+    "threat_level_raw": "medio",
+    "description_raw": "Contacto sospechoso en Station Square (Radar G.U.N.)",
+    "raw_payload": {
+        "contacts": 5,
+        "signature": "UNKNOWN"
+    }
+}

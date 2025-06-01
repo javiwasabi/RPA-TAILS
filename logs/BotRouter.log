@@ -1,0 +1,20 @@
+[2025-05-31 21:51:12.487] [BotRouter      ] [INFO ] Iniciando ruteo...
+[2025-05-31 21:51:12.516] [BotRouter      ] [INFO ] Ruteando evento ID: EVT-RND-20250531215111-0001
+[2025-05-31 21:51:12.520] [BotRouter      ] [INFO ] Destinos: LogDB
+[2025-05-31 21:51:12.530] [BotRouter      ] [INFO ] Ruteo completado.
+[2025-05-31 21:51:30.691] [BotRouter      ] [INFO ] Iniciando ruteo...
+[2025-05-31 21:51:30.712] [BotRouter      ] [INFO ] Ruteando evento ID: EVT-RND-20250531215129-0002
+[2025-05-31 21:51:30.713] [BotRouter      ] [INFO ] Destinos: LogDB, Knuckles
+[2025-05-31 21:51:30.716] [BotRouter      ] [INFO ] Ruteo completado.
+[2025-05-31 21:51:54.187] [BotRouter      ] [INFO ] Iniciando ruteo...
+[2025-05-31 21:51:54.210] [BotRouter      ] [INFO ] Ruteando evento ID: EVT-RND-20250531215153-0003
+[2025-05-31 21:51:54.212] [BotRouter      ] [INFO ] Destinos: LogDB, Knuckles
+[2025-05-31 21:51:54.216] [BotRouter      ] [INFO ] Ruteo completado.
+[2025-05-31 21:52:16.307] [BotRouter      ] [INFO ] Iniciando ruteo...
+[2025-05-31 21:52:16.340] [BotRouter      ] [INFO ] Ruteando evento ID: EVT-RND-20250531215215-0004
+[2025-05-31 21:52:16.345] [BotRouter      ] [INFO ] Destinos: LogDB, Sonic
+[2025-05-31 21:52:16.360] [BotRouter      ] [INFO ] Ruteo completado.
+[2025-05-31 21:52:37.825] [BotRouter      ] [INFO ] Iniciando ruteo...
+[2025-05-31 21:52:37.865] [BotRouter      ] [INFO ] Ruteando evento ID: EVT-RND-20250531215237-0005
+[2025-05-31 21:52:37.866] [BotRouter      ] [INFO ] Destinos: LogDB
+[2025-05-31 21:52:37.869] [BotRouter      ] [INFO ] Ruteo completado.
