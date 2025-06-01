@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Táctico - Alerta Eggman</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #2c3e50; color: #ecf0f1; display: flex; flex-direction: column; align-items: center; min-height: 100vh; padding: 20px; box-sizing: border-box; }
+        .container { background-color: #34495e; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.5); width: 80%; max-width: 900px; text-align: left; }
+        h1 { color: #e74c3c; text-align: center; font-size: 2.5em; border-bottom: 2px solid #e74c3c; padding-bottom: 10px; margin-bottom: 20px; }
+        h1 .icon { font-size: 1em; vertical-align: middle; }
+        .alert-details { background-color: #4a627a; padding: 20px; border-radius: 8px; margin-bottom: 25px; }
+        .alert-details h2 { color: #1abc9c; margin-top: 0; border-bottom: 1px solid #1abc9c; padding-bottom: 5px;}
+        .alert-details p { margin: 10px 0; line-height: 1.6; }
+        .alert-details strong { color: #bdc3c7; }
+        .decision-form h2 { color: #f1c40f; text-align: center; margin-bottom: 15px;}
+        .buttons { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .btn { background-color: #3498db; color: white; padding: 12px 18px; border: none; border-radius: 5px; cursor: pointer; font-size: 1em; text-align: center; transition: background-color 0.3s ease; }
+        .btn:hover { background-color: #2980b9; }
+        .btn-sonic { background-color: #007bff; } .btn-sonic:hover{ background-color: #0056b3;}
+        .btn-tails { background-color: #ffaa00; color: #2c3e50;} .btn-tails:hover{ background-color: #cc8800;}
+        .btn-knuckles { background-color: #d90000; } .btn-knuckles:hover{ background-color: #a70000;}
+        .btn-all { background-color: #2ecc71; } .btn-all:hover{ background-color: #27ae60;}
+        .btn-logdb { background-color: #95a5a6; } .btn-logdb:hover{ background-color: #7f8c8d;}
+        .no-alert { font-size: 1.5em; text-align: center; color: #95a5a6; margin-top: 50px;}
+        .timer { text-align: center; font-size: 1.2em; color: #f1c40f; margin-bottom: 20px; background-color: #4a627a; padding: 10px; border-radius: 5px;}
+        .timer strong {font-size: 1.5em;}
+        #countdown { animation: pulse 1s infinite alternate; }
+        @keyframes pulse { 0% { transform: scale(1); } 100% { transform: scale(1.05); } }
+        /* Estilos para los personajes en la lista de héroes cercanos */
+        .hero-list .sonic { color: #007bff; font-weight: bold; }
+        .hero-list .tails { color: #ffaa00; font-weight: bold; }
+        .hero-list .knuckles { color: #d90000; font-weight: bold; }
+        .hero-list .amy { color: #e91e63; font-weight: bold; } /* Ejemplo si Amy está en KNOWLEDGE_BASE */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="icon">🚨</span> Dashboard Táctico de Alertas <span class="icon">🚨</span></h1>
+
+        {% if alert %}
+            <div class="timer">
+                Tiempo para decisión manual: <strong id="countdown">{{ time_left }}</strong> segundos
+            </div>
+            <div class="alert-details">
+                <h2>Detalles del Evento: {{ alert.event_id }}</h2>
+                <p><strong>Descripción:</strong> {{ alert.threat_assessment.description }}</p>
+                <p><strong>Ubicación:</strong> {{ alert.location_reported }} ({{ alert.location_details.zone_name }})</p>
+                <p><strong>Nivel de Amenaza:</strong> <span style="color: {% if alert.threat_assessment.initial_level == 'critico' %}#e74c3c{% elif alert.threat_assessment.initial_level == 'alto' %}#f39c12{% elif alert.threat_assessment.initial_level == 'medio' %}#f1c40f{% else %}#2ecc71{% endif %}; text-transform: uppercase; font-weight: bold;">{{ alert.threat_assessment.initial_level }}</span> (Score: {{ alert.threat_assessment.priority_score }})</p>
+                <p><strong>Nivel de Urgencia:</strong> <span style="font-weight: bold; color: #e74c3c;">{{ alert.urgency_level }}</span></p>
+                <p><strong>Fuente:</strong> {{ alert.source_system_name }} (Tipo: {{ alert.source_type }})</p>
+                <p><strong>Héroes Cercanos Detectados:</strong> 
+                    <span class="hero-list">
+                    {% if alert.location_details.known_nearby_heroes %}
+                        {% for hero in alert.location_details.known_nearby_heroes %}
+                            <span class="{{ hero.lower() }}">{{ hero }}</span>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% else %}
+                        Ninguno detectado.
+                    {% endif %}
+                    </span>
+                </p>
+                <p><strong>Payload Original (Resumen):</strong> Device ID: {{ alert.original_raw_data.device_id if alert.original_raw_data else 'N/A' }}, Value: {{ alert.original_raw_data.value if alert.original_raw_data else 'N/A' }}</p>
+            </div>
+
+            <form action="{{ url_for('make_decision') }}" method="POST" class="decision-form">
+                <h2>Tomar Decisión Táctica:</h2>
+                <input type="hidden" name="event_id" value="{{ event_id }}">
+                <div class="buttons">
+                    <button type="submit" name="action" value="sonic_only" class="btn btn-sonic">Sonic</button>
+                    <button type="submit" name="action" value="tails_only" class="btn btn-tails">Tails</button>
+                    <button type="submit" name="action" value="knuckles_only" class="btn btn-knuckles">Knuckles</button>
+                    <button type="submit" name="action" value="sonic_tails" class="btn" style="background-color: #16a085;">Sonic & Tails</button>
+                    <button type="submit" name="action" value="all_heroes" class="btn btn-all">¡Todos los Héroes!</button>
+                    <button type="submit" name="action" value="register_only" class="btn btn-logdb">Solo Registrar (LogDB)</button>
+                </div>
+            </form>
+        {% else %}
+            <p class="no-alert">Esperando nueva alerta del sistema Hedgehog...</p>
+        {% endif %}
+    </div>
+    <script>
+        // Script simple para actualizar el contador (solo visual)
+        let timeLeft = {{ time_left if alert else 0 }};
+        const countdownElement = document.getElementById('countdown');
+        if (countdownElement && timeLeft > 0) {
+            const interval = setInterval(() => {
+                timeLeft--;
+                countdownElement.textContent = timeLeft;
+                if (timeLeft <= 0) {
+                    clearInterval(interval);
+                    // Podríamos añadir un mensaje de "Tiempo agotado" aquí,
+                    // pero la lógica real de timeout está en bots.py
+                    // y la página se recargará/redirigirá.
+                }
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
