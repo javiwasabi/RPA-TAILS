@@ -5,19 +5,20 @@ import random
 from datetime import datetime
 import requests # Para BotNotificador
 
-# Selenium imports
+# Selenium imports - MODIFICADO PARA EDGE
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.edge.service import Service as EdgeService      # CAMBIADO
+from selenium.webdriver.edge.options import Options as EdgeOptions      # CAMBIADO
+from webdriver_manager.microsoft import EdgeChromiumDriverManager   # CAMBIADO
 from selenium.common.exceptions import WebDriverException, NoSuchElementException, TimeoutException
 
 # --- CONFIGURACIÓN GLOBAL ---
 DATA_DIR = "data"
 LOGS_DIR = "logs"
 EVENT_ID_COUNTER = 0
-CONFIG = {} # Variable para almacenar la configuración cargada
-KNOWLEDGE_BASE = {} # Se cargará desde config.json
+CONFIG = {} 
+KNOWLEDGE_BASE = {}
 
 # --- FUNCIONES DE UTILIDAD ---
 def ensure_dirs():
@@ -29,6 +30,7 @@ def logger(bot_name, message, level="INFO"):
     log_message_console = f"[{timestamp}] [{bot_name:<15}] [{level:<5}] {message}"
     print(log_message_console)
     log_file_path = os.path.join(LOGS_DIR, f"{bot_name}.log")
+    os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
     with open(log_file_path, "a", encoding="utf-8") as f:
         f.write(log_message_console + "\n")
 
@@ -36,23 +38,31 @@ def write_json_data(filename, data):
     path = os.path.join(DATA_DIR, filename)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-    logger("System", f"Archivo JSON '{filename}' escrito en '{DATA_DIR}/'.", "DEBUG")
+    logger("System", f"Archivo JSON '{filename}' escrito.", "DEBUG")
 
 def read_json_data(filename):
     path = os.path.join(DATA_DIR, filename)
     if not os.path.exists(path):
-        logger("System", f"Archivo JSON '{filename}' no encontrado en '{DATA_DIR}/'.", "ERROR")
+        logger("System", f"Archivo JSON '{filename}' no encontrado.", "ERROR")
         return None
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    logger("System", f"Archivo JSON '{filename}' leído de '{DATA_DIR}/'.", "DEBUG")
-    return data
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        logger("System", f"Archivo JSON '{filename}' leído.", "DEBUG")
+        return data
+    except json.JSONDecodeError:
+        logger("System", f"Error decodificando JSON '{filename}'.", "ERROR")
+        return None
 
 def load_config():
     global CONFIG, KNOWLEDGE_BASE
     default_config = {
         "bot_maestro": {"process_interval_seconds_min": 5, "process_interval_seconds_max": 10, "max_cycles_to_run": 0},
-        "bot_monitor": {"use_selenium_source": False, "selenium_local_html_file": "fuente_de_datos_simulada.html"},
+        "bot_monitor": {
+            "use_selenium_source": True, 
+            "selenium_local_html_file": "fuente_de_datos_simulada.html",
+            "edge_binary_path_override": "" # Para Edge, si es necesario
+            },
         "bot_notificador": {"request_timeout_seconds": 5, "endpoints": {
             "Sonic": "http://127.0.0.1:5001/alert", "Knuckles": "http://127.0.0.1:5002/alert",
             "Tails": "http://127.0.0.1:5003/alert", "LogDB": "http://127.0.0.1:5004/alert"
@@ -60,121 +70,145 @@ def load_config():
         "bot_enriquecedor": {"knowledge_base_simulated": {
             "Unknown Location": {"zone_name": "Unknown Location", "description": "Ubicación desconocida.", "nearby_heroes": [], "common_threats": []}
         }}
-    }
+    } # ... (resto de tu default_config y lógica de carga como antes) ...
     try:
         with open("config.json", "r", encoding="utf-8") as f:
             loaded_config = json.load(f)
-        
-        # Merge loaded_config into default_config to ensure all keys are present
-        CONFIG = default_config.copy() # Start with defaults
+        CONFIG = default_config.copy()
         for key, value in loaded_config.items():
             if key in CONFIG and isinstance(CONFIG[key], dict) and isinstance(value, dict):
-                CONFIG[key].update(value) # Merge dictionaries
+                CONFIG[key].update(value)
             else:
-                CONFIG[key] = value # Overwrite or add new keys
-
-        logger("BotMaestro", "Configuración cargada exitosamente desde config.json")
+                CONFIG[key] = value
+        logger("BotMaestro", "Configuración cargada desde config.json")
     except FileNotFoundError:
-        logger("BotMaestro", "config.json no encontrado. Usando configuración por defecto.", "WARN")
+        logger("BotMaestro", "config.json no encontrado. Usando config por defecto.", "WARN")
         CONFIG = default_config
     except json.JSONDecodeError:
-        logger("BotMaestro", "Error al decodificar config.json. Usando configuración por defecto.", "ERROR")
+        logger("BotMaestro", "Error decodificando config.json. Usando config por defecto.", "ERROR")
         CONFIG = default_config
     except Exception as e:
-        logger("BotMaestro", f"Error inesperado al cargar config.json: {e}. Usando configuración por defecto.", "ERROR")
+        logger("BotMaestro", f"Error cargando config.json: {e}. Usando config por defecto.", "ERROR")
         CONFIG = default_config
 
     if CONFIG.get("bot_enriquecedor", {}).get("knowledge_base_simulated"):
         KNOWLEDGE_BASE = CONFIG["bot_enriquecedor"]["knowledge_base_simulated"]
-        logger("BotMaestro", "Base de conocimiento actualizada desde config.json")
-    else: # Fallback if knowledge_base is somehow missing after merge
+    else:
         KNOWLEDGE_BASE = default_config["bot_enriquecedor"]["knowledge_base_simulated"]
-        logger("BotMaestro", "Usando base de conocimiento por defecto.", "WARN")
+    logger("BotMaestro", "Base de conocimiento (re)inicializada.")
 
+
+def find_edge_binary(): # NUEVA FUNCIÓN para Edge
+    """Intenta encontrar el ejecutable de Microsoft Edge en ubicaciones comunes."""
+    paths_to_check = [
+        "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe",
+    ]
+    # Podrías añadir más rutas si Edge se instala en AppData para el usuario
+    # if 'USERPROFILE' in os.environ:
+    # paths_to_check.append(os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Microsoft', 'Edge', 'Application', 'msedge.exe'))
+    
+    for path in paths_to_check:
+        if os.path.exists(path):
+            logger("System", f"Binario de Edge encontrado en: {path}", "DEBUG")
+            return path
+    logger("System", "No se pudo encontrar automáticamente el binario de Edge en rutas comunes.", "WARN")
+    return None
 
 # --- 🛰️ BotMonitor ---
 def bot_monitor():
     global EVENT_ID_COUNTER
     EVENT_ID_COUNTER += 1
     bot_name = "BotMonitor"
-    logger(bot_name, "Iniciando monitoreo de actividad de Badniks...")
+    logger(bot_name, "Iniciando monitoreo...")
 
     monitor_output = {}
     cfg_monitor = CONFIG.get("bot_monitor", {})
     use_selenium = cfg_monitor.get("use_selenium_source", False)
     selenium_html_file = cfg_monitor.get("selenium_local_html_file", "fuente_de_datos_simulada.html")
+    edge_binary_override = cfg_monitor.get("edge_binary_path_override", "").strip() # CAMBIADO
     
     selenium_data_extracted = False
 
     if use_selenium:
         driver = None
         try:
-            logger(bot_name, f"Intentando obtener datos de '{selenium_html_file}' con Selenium...")
+            logger(bot_name, f"Intentando obtener datos de '{selenium_html_file}' con Selenium (Microsoft Edge)...")
             
-            chrome_options = webdriver.ChromeOptions()
-            chrome_options.add_argument("--headless")
-            chrome_options.add_argument("--disable-gpu")
-            chrome_options.add_argument("--window-size=1920x1080")
-            chrome_options.add_argument("--log-level=3")
-            chrome_options.add_experimental_option('excludeSwitches', ['enable-logging']) # Quieter console
+            options = EdgeOptions() # USAR EdgeOptions
+            options.add_argument("--headless")
+            options.add_argument("--disable-gpu") # A veces necesario para headless
+            # options.use_chromium = True # Ya no es necesario para versiones recientes de Selenium con Edge
+            options.add_experimental_option('excludeSwitches', ['enable-logging']) # Consola más limpia
 
-            service = ChromeService(executable_path=ChromeDriverManager().install())
-            driver = webdriver.Chrome(service=service, options=chrome_options)
-            driver.set_page_load_timeout(10) # Timeout para carga de página
+            edge_binary_path_to_use = None
+            if edge_binary_override and os.path.exists(edge_binary_override):
+                logger(bot_name, f"Usando ruta de binario de Edge desde config: {edge_binary_override}", "INFO")
+                edge_binary_path_to_use = edge_binary_override
+            else:
+                if edge_binary_override:
+                    logger(bot_name, f"Ruta de binario de Edge en config NO VÁLIDA: {edge_binary_override}", "WARN")
+                logger(bot_name, "Intentando encontrar binario de Edge automáticamente...", "INFO")
+                edge_binary_path_to_use = find_edge_binary()
+
+            if edge_binary_path_to_use:
+                options.binary_location = edge_binary_path_to_use
+            else:
+                logger(bot_name, "No se especificó/encontró ruta para msedge.exe. Dejando que WebDriverManager intente.", "WARN")
+
+            service = EdgeService(executable_path=EdgeChromiumDriverManager().install()) # USAR EdgeChromiumDriverManager
+            driver = webdriver.Edge(service=service, options=options) # USAR webdriver.Edge
+            
+            driver.set_page_load_timeout(10)
             
             local_html_path = os.path.abspath(selenium_html_file)
             if not os.path.exists(local_html_path):
-                logger(bot_name, f"Archivo HTML '{local_html_path}' no encontrado para Selenium.", "ERROR")
-                raise FileNotFoundError(f"Archivo HTML local '{local_html_path}' no encontrado.")
+                raise FileNotFoundError(f"Archivo HTML '{local_html_path}' no encontrado.")
 
             driver.get(f"file:///{local_html_path.replace(os.sep, '/')}")
-            # No es necesario time.sleep(1) si la página es local y simple. Selenium espera a que cargue.
 
             descripcion_web = driver.find_element(By.ID, "descripcion").text
+            # ... (el resto de la extracción de datos es igual) ...
             nivel_web = driver.find_element(By.ID, "nivel").text
             ubicacion_web = driver.find_element(By.ID, "ubicacion").text
             device_id_web = driver.find_element(By.ID, "device_id").text
             reading_type_web = driver.find_element(By.ID, "reading_type").text
             value_web_str = driver.find_element(By.ID, "value").text
-            try:
-                value_web = float(value_web_str) if '.' in value_web_str else int(value_web_str)
-            except ValueError:
-                value_web = value_web_str
+            try: value_web = float(value_web_str) if '.' in value_web_str else int(value_web_str)
+            except ValueError: value_web = value_web_str
 
-            logger(bot_name, f"Datos Selenium: Desc:'{descripcion_web}', Nivel:'{nivel_web}', Ubic:'{ubicacion_web}'")
-
+            logger(bot_name, f"Datos Selenium (Edge): Desc:'{descripcion_web}', Nivel:'{nivel_web}', Ubic:'{ubicacion_web}'")
             monitor_output = {
-                "event_id": f"EVT-SEL-{datetime.now().strftime('%Y%m%d%H%M%S')}-{EVENT_ID_COUNTER:04d}",
-                "timestamp_raw": datetime.now().isoformat(),
-                "source_system": "Fuente Web Simulada (Selenium)",
-                "source_type_tag": "WEB_SELENIUM",
+                "event_id": f"EVT-SEL-EDGE-{datetime.now().strftime('%Y%m%d%H%M%S')}-{EVENT_ID_COUNTER:04d}", # Etiqueta cambiada
+                "timestamp_raw": datetime.now().isoformat(), "source_system": "Fuente Web (Selenium/Edge)", # Etiqueta cambiada
+                "source_type_tag": "WEB_SELENIUM_EDGE", # Etiqueta cambiada
+                # ... (resto de monitor_output igual) ...
                 "detected_location_raw": ubicacion_web,
-                "threat_level_raw": nivel_web,
-                "description_raw": descripcion_web,
+                "threat_level_raw": nivel_web, "description_raw": descripcion_web,
                 "raw_payload": {
                     "device_id": device_id_web, "reading_type": reading_type_web,
                     "value": value_web, "html_source_file": selenium_html_file
                 }
             }
             selenium_data_extracted = True
-        except FileNotFoundError as fnf_e:
-            logger(bot_name, str(fnf_e), "ERROR")
-        except TimeoutException:
-            logger(bot_name, f"Timeout al cargar la página '{selenium_html_file}' con Selenium.", "ERROR")
-        except WebDriverException as wde:
-            logger(bot_name, f"WebDriverException con Selenium: {str(wde)[:200]}...", "ERROR") # Log resumido
-        except NoSuchElementException as nsee:
-            logger(bot_name, f"No se encontró elemento en '{selenium_html_file}': {nsee}", "ERROR")
-        except Exception as e:
-            logger(bot_name, f"Error inesperado con Selenium: {type(e).__name__} - {e}", "ERROR")
-        finally:
-            if driver:
-                driver.quit()
-            if selenium_data_extracted:
-                logger(bot_name, "Datos obtenidos exitosamente vía Selenium.")
-            else:
-                logger(bot_name, "Fallo al obtener datos vía Selenium. Se usará generación aleatoria.")
 
+        except FileNotFoundError as fnf_e: logger(bot_name, str(fnf_e), "ERROR")
+        except TimeoutException: logger(bot_name, f"Timeout al cargar '{selenium_html_file}' con Edge.", "ERROR")
+        except WebDriverException as wde:
+            if "cannot find msedge binary" in str(wde).lower() or "edge browser was not found" in str(wde).lower(): # Mensajes comunes
+                logger(bot_name, "Error de Selenium: No se puede encontrar el binario de Microsoft Edge (msedge.exe).", "CRITICAL")
+                logger(bot_name, "Verifica que Microsoft Edge esté instalado y accesible.", "CRITICAL")
+                logger(bot_name, "Si está en una ubicación no estándar, especifica 'edge_binary_path_override' en config.json.", "CRITICAL")
+            else:
+                logger(bot_name, f"WebDriverException con Selenium (Edge): {str(wde)[:200]}...", "ERROR")
+        except NoSuchElementException as nsee: logger(bot_name, f"No se encontró elemento en '{selenium_html_file}' con Edge: {nsee}", "ERROR")
+        except Exception as e: logger(bot_name, f"Error inesperado con Selenium (Edge): {type(e).__name__} - {e}", "ERROR")
+        finally:
+            if driver: driver.quit()
+            if selenium_data_extracted: logger(bot_name, "Datos obtenidos vía Selenium (Edge).")
+            else: logger(bot_name, "Fallo al obtener datos vía Selenium (Edge). Se usará generación aleatoria.")
+    
+    # ... (el resto de la lógica de BotMonitor para generación aleatoria y fallback es la misma) ...
     if not selenium_data_extracted:
         logger(bot_name, "Procediendo con generación de datos aleatorios...")
         sources_config = [
@@ -187,9 +221,8 @@ def bot_monitor():
         source_name = selected_source["name"]
         source_type = selected_source["type"]
         
-        possible_locations = [loc for loc in KNOWLEDGE_BASE if loc != "Unknown Location"] # Excluir "Unknown" de opciones aleatorias
+        possible_locations = [loc for loc in KNOWLEDGE_BASE if loc != "Unknown Location"] 
         location = random.choice(selected_source.get("locations", possible_locations) or possible_locations or ["Unknown Location"])
-
 
         raw_data = {}
         if source_type == "SENSOR_TAILS":
@@ -215,7 +248,8 @@ def bot_monitor():
         }
         logger(bot_name, f"Datos generados aleatoriamente de '{source_name}'.")
 
-    if not monitor_output: # Fallback final
+
+    if not monitor_output: 
         monitor_output = {
             "event_id": f"EVT-FAIL-{datetime.now().strftime('%Y%m%d%H%M%S')}-{EVENT_ID_COUNTER:04d}",
             "timestamp_raw": datetime.now().isoformat(), "source_system": "Fallback", "source_type_tag": "ERROR",
@@ -229,7 +263,11 @@ def bot_monitor():
     logger(bot_name, "Monitoreo completado.")
     return monitor_output
 
-# --- 🧠 BotAnalizador ---
+# --- BotAnalizador, BotEnriquecedor, BotRouter, BotNotificador (SIN CAMBIOS IMPORTANTES) ---
+# (Pega aquí las versiones completas de estas funciones de la respuesta anterior si las necesitas de nuevo)
+# Asegúrate que usan CONFIG global si es necesario.
+
+# BotAnalizador
 def bot_analizador():
     bot_name = "BotAnalizador"
     logger(bot_name, "Iniciando análisis...")
@@ -245,8 +283,8 @@ def bot_analizador():
         "source_type": monitor_data["source_type_tag"],
         "location_reported": monitor_data["detected_location_raw"],
         "threat_assessment": {
-             "initial_level": monitor_data["threat_level_raw"].lower(),
-             "description": monitor_data["description_raw"]
+            "initial_level": monitor_data["threat_level_raw"].lower(),
+            "description": monitor_data["description_raw"]
         },
         "original_raw_data": monitor_data.get("raw_payload", {})
     }
@@ -254,14 +292,14 @@ def bot_analizador():
     if "critico" in level: score = 10
     elif "alto" in level: score = 7
     elif "medio" in level: score = 5
-    else: score = 2 # bajo o desconocido
+    else: score = 2 
     canonical_data["threat_assessment"]["priority_score"] = score
     logger(bot_name, f"Prioridad asignada: {score}")
     write_json_data("analysis_output.json", canonical_data)
     logger(bot_name, "Análisis completado.")
     return canonical_data
 
-# --- 🗺️ BotEnriquecedor ---
+# BotEnriquecedor
 def bot_enriquecedor():
     bot_name = "BotEnriquecedor"
     logger(bot_name, "Iniciando enriquecimiento...")
@@ -273,7 +311,6 @@ def bot_enriquecedor():
     enriched_data = canonical_data.copy()
     location_key = enriched_data["location_reported"]
     
-    # Usar KNOWLEDGE_BASE global que se carga desde config.json
     default_location_info = KNOWLEDGE_BASE.get("Unknown Location", 
         {"zone_name": "Unknown", "description":"Info no disponible", "nearby_heroes":[], "common_threats":[]})
     location_info = KNOWLEDGE_BASE.get(location_key, default_location_info)
@@ -299,7 +336,7 @@ def bot_enriquecedor():
     logger(bot_name, "Enriquecimiento completado.")
     return enriched_data
 
-# --- 🚦 BotRouter ---
+# BotRouter
 def bot_router():
     bot_name = "BotRouter"
     logger(bot_name, "Iniciando ruteo...")
@@ -308,7 +345,7 @@ def bot_router():
         logger(bot_name, "No hay datos enriquecidos. Abortando.", "ERROR"); return None
 
     logger(bot_name, f"Ruteando evento ID: {enriched_data['event_id']}")
-    destinations = set(["LogDB"]) # Siempre a LogDB
+    destinations = set(["LogDB"]) 
     alert_payload = enriched_data.copy()
     threat_level = alert_payload.get("threat_assessment", {}).get("initial_level", "bajo")
     source_type = alert_payload.get("source_type", "")
@@ -338,7 +375,7 @@ def bot_router():
     logger(bot_name, "Ruteo completado.")
     return routing_decision
 
-# --- 📡 BotNotificador ---
+# BotNotificador
 def bot_notificador():
     bot_name = "BotNotificador"
     logger(bot_name, "Iniciando notificaciones...")
@@ -368,46 +405,42 @@ def bot_notificador():
                 logger(bot_name, f"Enviado a {dest_name} OK. Status: {response.status_code} {response.text[:50]}")
                 sent_count += 1
             except requests.exceptions.ConnectionError:
-                logger(bot_name, f"Error de conexión con {dest_name} ({url}). ¿Servidor Flask activo?", "ERROR")
+                logger(bot_name, f"Error de conexión con {dest_name} ({url}).", "ERROR")
             except requests.exceptions.Timeout:
                 logger(bot_name, f"Timeout con {dest_name} ({url}).", "ERROR")
             except requests.exceptions.HTTPError as e:
-                logger(bot_name, f"Error HTTP con {dest_name} ({url}): {e.response.status_code} {e.response.text[:100]}", "ERROR")
+                logger(bot_name, f"Error HTTP con {dest_name} ({url}): {e.response.status_code}", "ERROR")
             except Exception as e:
-                logger(bot_name, f"Error enviando a {dest_name} ({url}): {type(e).__name__} - {e}", "ERROR")
+                logger(bot_name, f"Error enviando a {dest_name} ({url}): {type(e).__name__}", "ERROR")
         else:
-            logger(bot_name, f"Destino '{dest_name}' sin URL en config. Saltando.", "WARN")
+            logger(bot_name, f"Destino '{dest_name}' sin URL. Saltando.", "WARN")
     logger(bot_name, f"Notificaciones completadas. {sent_count}/{len(destinations)} enviadas.")
 
-# --- CICLO PRINCIPAL DE ORQUESTACIÓN (Simula el BotMaestro) ---
+# --- CICLO PRINCIPAL DE ORQUESTACIÓN ---
 def main_loop():
-    load_config() # Cargar configuración PRIMERO
-    ensure_dirs() # Asegurar que data/ y logs/ existan
-    
-    logger("BotMaestro", "Hedgehog Alert Processor - RPA Edition (Simulado) INICIADO.")
+    logger("BotMaestro", "Hedgehog Alert Processor INICIADO.")
     logger("BotMaestro", "Presiona Ctrl+C para detener.")
 
     cfg_maestro = CONFIG.get("bot_maestro", {})
     min_interval = cfg_maestro.get("process_interval_seconds_min", 3)
     max_interval = cfg_maestro.get("process_interval_seconds_max", 7)
-    # Corregir el nombre de la clave para max_cycles
     max_cycles = cfg_maestro.get("max_cycles_to_run", 0) 
     
     current_cycle = 0
     try:
         while True:
             current_cycle += 1
-            logger("BotMaestro", f"--- Iniciando Ciclo de Procesamiento #{current_cycle} ---")
+            logger("BotMaestro", f"--- Ciclo #{current_cycle} ---")
             
-            if bot_monitor() is None: time.sleep(1); continue # Si monitor falla, esperar y reintentar ciclo
+            if bot_monitor() is None: logger("BotMaestro", "BotMonitor falló, reintentando ciclo.", "WARN"); time.sleep(1); continue
             time.sleep(0.2)
-            if bot_analizador() is None: time.sleep(1); continue
+            if bot_analizador() is None: logger("BotMaestro", "BotAnalizador falló, reintentando ciclo.", "WARN"); time.sleep(1); continue
             time.sleep(0.2)
-            if bot_enriquecedor() is None: time.sleep(1); continue
+            if bot_enriquecedor() is None: logger("BotMaestro", "BotEnriquecedor falló, reintentando ciclo.", "WARN"); time.sleep(1); continue
             time.sleep(0.2)
-            if bot_router() is None: time.sleep(1); continue
+            if bot_router() is None: logger("BotMaestro", "BotRouter falló, reintentando ciclo.", "WARN"); time.sleep(1); continue
             time.sleep(0.2)
-            bot_notificador() # Notificador no retorna valor crítico para el flujo
+            bot_notificador()
 
             logger("BotMaestro", f"--- Ciclo #{current_cycle} COMPLETADO ---")
 
@@ -416,13 +449,15 @@ def main_loop():
                 break
             
             process_interval_seconds = random.randint(min_interval, max_interval)
-            logger("BotMaestro", f"Esperando {process_interval_seconds}s para el próximo ciclo...")
+            logger("BotMaestro", f"Esperando {process_interval_seconds}s...")
             time.sleep(process_interval_seconds)
             
     except KeyboardInterrupt:
-        logger("BotMaestro", "Interrupción por teclado. Deteniendo sistema...")
+        logger("BotMaestro", "Interrupción por teclado. Deteniendo...")
     finally:
-        logger("BotMaestro", "Hedgehog Alert Processor - RPA Edition (Simulado) TERMINADO.")
+        logger("BotMaestro", "Hedgehog Alert Processor TERMINADO.")
 
 if __name__ == "__main__":
+    ensure_dirs()
+    load_config()
     main_loop()

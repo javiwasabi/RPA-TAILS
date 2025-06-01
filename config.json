@@ -6,7 +6,8 @@
     },
     "bot_monitor": {
         "use_selenium_source": true,
-        "selenium_local_html_file": "fuente_de_datos_simulada.html"
+        "selenium_local_html_file": "fuente_de_datos_simulada.html",
+        "edge_binary_path_override": "" 
     },
     "bot_notificador": {
         "request_timeout_seconds": 5,
@@ -19,48 +20,13 @@
     },
     "bot_enriquecedor": {
         "knowledge_base_simulated": {
-            "Green Hill Zone": {
-                "zone_name": "Green Hill Zone",
-                "description": "Colinas verdes y exuberantes, a menudo objetivo de Eggman.",
-                "nearby_heroes": ["Sonic", "Tails"],
-                "common_threats": ["Moto Bug", "Crabmeat", "Buzz Bomber"]
-            },
-            "Chemical Plant Zone": {
-                "zone_name": "Chemical Plant Zone",
-                "description": "Una zona industrial llena de químicos peligrosos.",
-                "nearby_heroes": ["Sonic"],
-                "common_threats": ["Grabber", "Spiny"]
-            },
-            "Station Square": {
-                "zone_name": "Station Square",
-                "description": "Una metrópolis bulliciosa concurrida por humanos.",
-                "nearby_heroes": ["Sonic", "Amy"],
-                "common_threats": ["Egg Walker", "Chaos"]
-            },
-            "Angel Island": {
-                "zone_name": "Angel Island",
-                "description": "Isla flotante, hogar de la Master Emerald.",
-                "nearby_heroes": ["Knuckles"],
-                "common_threats": ["EggRobo", "Mecha Sonic"]
-            },
-            "Tails' Workshop": {
-                "zone_name": "Mystic Ruins - Tails' Workshop",
-                "description": "El taller y laboratorio de Tails.",
-                "nearby_heroes": ["Tails", "Sonic"],
-                "common_threats": ["Badniks de reconocimiento"]
-            },
-            "G.U.N. HQ": {
-                "zone_name": "Central City - G.U.N. Headquarters",
-                "description": "Cuartel General de las Guardian Units of Nations.",
-                "nearby_heroes": [],
-                "common_threats": ["Robots de G.U.N. comprometidos", "Espionaje de Eggman"]
-            },
-            "Unknown Location": {
-                "zone_name": "Unknown Location",
-                "description": "Ubicación desconocida o no registrada en la base de conocimiento.",
-                "nearby_heroes": [],
-                "common_threats": []
-            }
+            "Green Hill Zone": {"zone_name": "Green Hill Zone", "description": "Colinas verdes.", "nearby_heroes": ["Sonic", "Tails"], "common_threats": ["Moto Bug"]},
+            "Chemical Plant Zone": {"zone_name": "Chemical Plant Zone", "description": "Zona industrial.", "nearby_heroes": ["Sonic"], "common_threats": ["Grabber"]},
+            "Station Square": {"zone_name": "Station Square", "description": "Metrópolis.", "nearby_heroes": ["Sonic", "Amy"], "common_threats": ["Egg Walker"]},
+            "Angel Island": {"zone_name": "Angel Island", "description": "Isla flotante.", "nearby_heroes": ["Knuckles"], "common_threats": ["EggRobo"]},
+            "Tails' Workshop": {"zone_name": "Mystic Ruins - Tails' Workshop", "description": "Taller de Tails.", "nearby_heroes": ["Tails", "Sonic"], "common_threats": ["Badniks"]},
+            "G.U.N. HQ": {"zone_name": "Central City - G.U.N. HQ", "description": "Cuartel G.U.N.", "nearby_heroes": [], "common_threats": ["Robots G.U.N."]},
+            "Unknown Location": {"zone_name": "Unknown Location", "description": "Ubicación desconocida.", "nearby_heroes": [], "common_threats": []}
         }
     }
 }

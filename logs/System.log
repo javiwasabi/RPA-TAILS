@@ -38,3 +38,93 @@
 [2025-05-31 21:52:37.863] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído de 'data/'.
 [2025-05-31 21:52:37.868] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito en 'data/'.
 [2025-05-31 21:52:38.144] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído de 'data/'.
+[2025-05-31 22:06:49.400] [System         ] [WARN ] No se pudo encontrar automáticamente el binario de Chrome en rutas comunes.
+[2025-05-31 22:07:02.438] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' escrito en 'data/'.
+[2025-05-31 22:07:02.665] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' leído.
+[2025-05-31 22:07:02.672] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' escrito en 'data/'.
+[2025-05-31 22:07:02.922] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' leído.
+[2025-05-31 22:07:02.926] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' escrito en 'data/'.
+[2025-05-31 22:07:03.152] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
+[2025-05-31 22:07:03.156] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito en 'data/'.
+[2025-05-31 22:07:03.398] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.
+[2025-05-31 22:07:10.532] [System         ] [WARN ] No se pudo encontrar automáticamente el binario de Chrome en rutas comunes.
+[2025-05-31 22:07:23.288] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' escrito en 'data/'.
+[2025-05-31 22:07:23.532] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' leído.
+[2025-05-31 22:07:23.540] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' escrito en 'data/'.
+[2025-05-31 22:07:23.779] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' leído.
+[2025-05-31 22:07:23.783] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' escrito en 'data/'.
+[2025-05-31 22:07:24.018] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
+[2025-05-31 22:07:24.022] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito en 'data/'.
+[2025-05-31 22:07:24.244] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.
+[2025-05-31 22:07:29.322] [System         ] [WARN ] No se pudo encontrar automáticamente el binario de Chrome en rutas comunes.
+[2025-05-31 22:07:45.173] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' escrito en 'data/'.
+[2025-05-31 22:07:45.403] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' leído.
+[2025-05-31 22:07:45.409] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' escrito en 'data/'.
+[2025-05-31 22:07:45.634] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' leído.
+[2025-05-31 22:07:45.640] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' escrito en 'data/'.
+[2025-05-31 22:07:45.866] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
+[2025-05-31 22:07:45.871] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito en 'data/'.
+[2025-05-31 22:07:46.100] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.
+[2025-05-31 22:07:56.140] [System         ] [WARN ] No se pudo encontrar automáticamente el binario de Chrome en rutas comunes.
+[2025-05-31 22:08:10.259] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' escrito en 'data/'.
+[2025-05-31 22:08:10.490] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' leído.
+[2025-05-31 22:08:10.495] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' escrito en 'data/'.
+[2025-05-31 22:08:10.719] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' leído.
+[2025-05-31 22:08:10.733] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' escrito en 'data/'.
+[2025-05-31 22:08:10.999] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
+[2025-05-31 22:08:11.004] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito en 'data/'.
+[2025-05-31 22:08:11.243] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.
+[2025-05-31 22:08:20.309] [System         ] [WARN ] No se pudo encontrar automáticamente el binario de Chrome en rutas comunes.
+[2025-05-31 22:08:33.879] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' escrito en 'data/'.
+[2025-05-31 22:08:34.120] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' leído.
+[2025-05-31 22:08:34.126] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' escrito en 'data/'.
+[2025-05-31 22:08:34.350] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' leído.
+[2025-05-31 22:08:34.356] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' escrito en 'data/'.
+[2025-05-31 22:08:34.587] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
+[2025-05-31 22:08:34.596] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito en 'data/'.
+[2025-05-31 22:08:34.826] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.
+[2025-05-31 22:08:40.882] [System         ] [WARN ] No se pudo encontrar automáticamente el binario de Chrome en rutas comunes.
+[2025-05-31 22:08:55.551] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' escrito en 'data/'.
+[2025-05-31 22:08:55.788] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' leído.
+[2025-05-31 22:08:55.796] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' escrito en 'data/'.
+[2025-05-31 22:08:56.029] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' leído.
+[2025-05-31 22:08:56.038] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' escrito en 'data/'.
+[2025-05-31 22:08:56.268] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
+[2025-05-31 22:08:56.273] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito en 'data/'.
+[2025-05-31 22:08:56.501] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.
+[2025-05-31 22:09:01.550] [System         ] [WARN ] No se pudo encontrar automáticamente el binario de Chrome en rutas comunes.
+[2025-05-31 22:09:15.251] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' escrito en 'data/'.
+[2025-05-31 22:09:15.487] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' leído.
+[2025-05-31 22:09:15.494] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' escrito en 'data/'.
+[2025-05-31 22:09:15.742] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' leído.
+[2025-05-31 22:09:15.747] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' escrito en 'data/'.
+[2025-05-31 22:09:15.970] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
+[2025-05-31 22:09:15.979] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito en 'data/'.
+[2025-05-31 22:09:16.202] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.
+[2025-05-31 22:09:22.260] [System         ] [WARN ] No se pudo encontrar automáticamente el binario de Chrome en rutas comunes.
+[2025-05-31 22:09:36.955] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' escrito en 'data/'.
+[2025-05-31 22:09:37.265] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' leído.
+[2025-05-31 22:09:37.270] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' escrito en 'data/'.
+[2025-05-31 22:09:37.496] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' leído.
+[2025-05-31 22:09:37.505] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' escrito en 'data/'.
+[2025-05-31 22:09:37.742] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
+[2025-05-31 22:09:37.752] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito en 'data/'.
+[2025-05-31 22:09:38.049] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.
+[2025-05-31 22:09:47.195] [System         ] [WARN ] No se pudo encontrar automáticamente el binario de Chrome en rutas comunes.
+[2025-05-31 22:10:00.996] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' escrito en 'data/'.
+[2025-05-31 22:10:01.253] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' leído.
+[2025-05-31 22:10:01.259] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' escrito en 'data/'.
+[2025-05-31 22:10:01.492] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' leído.
+[2025-05-31 22:10:01.502] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' escrito en 'data/'.
+[2025-05-31 22:10:01.728] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
+[2025-05-31 22:10:01.735] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito en 'data/'.
+[2025-05-31 22:10:01.964] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.
+[2025-05-31 22:11:26.157] [System         ] [DEBUG] Binario de Edge encontrado en: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-05-31 22:11:38.065] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' escrito.
+[2025-05-31 22:11:38.302] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' leído.
+[2025-05-31 22:11:38.313] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' escrito.
+[2025-05-31 22:11:38.557] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' leído.
+[2025-05-31 22:11:38.566] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' escrito.
+[2025-05-31 22:11:38.819] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
+[2025-05-31 22:11:38.824] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito.
+[2025-05-31 22:11:39.066] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.

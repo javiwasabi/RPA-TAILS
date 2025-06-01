@@ -1,28 +1,28 @@
 {
-    "event_id": "EVT-RND-20250531215237-0005",
-    "timestamp_event": "2025-05-31T21:52:37.121238",
-    "source_system_name": "Radar G.U.N.",
-    "source_type": "RADAR_GUN",
-    "location_reported": "Station Square",
+    "event_id": "EVT-SEL-EDGE-20250531221135-0001",
+    "timestamp_event": "2025-05-31T22:11:35.847327",
+    "source_system_name": "Fuente Web (Selenium/Edge)",
+    "source_type": "WEB_SELENIUM_EDGE",
+    "location_reported": "Chemical Plant Zone",
     "threat_assessment": {
         "initial_level": "medio",
-        "description": "Contacto sospechoso en Station Square (Radar G.U.N.)",
+        "description": "Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.",
         "priority_score": 5
     },
     "original_raw_data": {
-        "contacts": 5,
-        "signature": "UNKNOWN"
+        "device_id": "WEB_SENSOR_001",
+        "reading_type": "visual_confirmation",
+        "value": 1,
+        "html_source_file": "fuente_de_datos_simulada.html"
     },
     "location_details": {
-        "zone_name": "Station Square",
-        "description": "Una metrópolis bulliciosa concurrida por humanos.",
+        "zone_name": "Chemical Plant Zone",
+        "description": "Zona industrial.",
         "known_nearby_heroes": [
-            "Sonic",
-            "Amy"
+            "Sonic"
         ],
         "common_threats_in_zone": [
-            "Egg Walker",
-            "Chaos"
+            "Grabber"
         ]
     },
     "urgency_level": "URGENCIA_MEDIA"
