@@ -15,17 +15,17 @@ from selenium.common.exceptions import WebDriverException, NoSuchElementExceptio
 # --- CONFIGURACIÓN GLOBAL ---
 DATA_DIR = "data"
 LOGS_DIR = "logs"
-REPORTS_DIR = "reports" # Nueva carpeta para reportes HTML
+REPORTS_DIR = "reports"
 EVENT_ID_COUNTER = 0
 CONFIG = {}
 KNOWLEDGE_BASE = {}
-CURRENT_EVENT_HTML_REPORT = "" # Para el reporte HTML del evento actual
+CURRENT_EVENT_HTML_REPORT = ""
 
 # --- FUNCIONES DE UTILIDAD ---
 def ensure_dirs():
     os.makedirs(DATA_DIR, exist_ok=True)
     os.makedirs(LOGS_DIR, exist_ok=True)
-    os.makedirs(REPORTS_DIR, exist_ok=True) # Asegurar carpeta de reportes
+    os.makedirs(REPORTS_DIR, exist_ok=True)
 
 def logger(bot_name, message, level="INFO"):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
@@ -37,14 +37,12 @@ def logger(bot_name, message, level="INFO"):
         f.write(log_message_console + "\n")
 
 def write_json_data(filename, data):
-    # ... (sin cambios)
     path = os.path.join(DATA_DIR, filename)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
     logger("System", f"Archivo JSON '{filename}' escrito.", "DEBUG")
 
 def read_json_data(filename):
-    # ... (sin cambios)
     path = os.path.join(DATA_DIR, filename)
     if not os.path.exists(path):
         logger("System", f"Archivo JSON '{filename}' no encontrado.", "ERROR")
@@ -59,30 +57,31 @@ def read_json_data(filename):
         return None
 
 def load_config():
-    # ... (sin cambios respecto a la última versión)
     global CONFIG, KNOWLEDGE_BASE
     default_config = {
         "bot_maestro": {"process_interval_seconds_min": 5, "process_interval_seconds_max": 10, "max_cycles_to_run": 0},
         "bot_monitor": {
-            "use_selenium_source": True, 
-            "selenium_local_html_file": "fuente_de_datos_simulada.html",
-            "edge_binary_path_override": "" 
+            "use_selenium_source": False, # Por defecto False si no se especifica
+            "selenium_html_sources": ["fuente_de_datos_simulada.html"], # Lista con al menos un default
+            "edge_binary_path_override": "",
+            "selenium_view_time_seconds": 5
             },
         "bot_notificador": {"request_timeout_seconds": 5, "endpoints": {
-            "Sonic": "http://127.0.0.1:5001/alert", "Knuckles": "http://127.0.0.1:5002/alert",
-            "Tails": "http://127.0.0.1:5003/alert", "LogDB": "http://127.0.0.1:5004/alert"
+            "Sonic": "[http://127.0.0.1:5001/alert](http://127.0.0.1:5001/alert)", "Knuckles": "[http://127.0.0.1:5002/alert](http://127.0.0.1:5002/alert)",
+            "Tails": "[http://127.0.0.1:5003/alert](http://127.0.0.1:5003/alert)", "LogDB": "[http://127.0.0.1:5004/alert](http://127.0.0.1:5004/alert)"
         }},
         "bot_enriquecedor": {"knowledge_base_simulated": {
             "Unknown Location": {"zone_name": "Unknown Location", "description": "Ubicación desconocida.", "nearby_heroes": [], "common_threats": []}
         }}
-    } 
+    }
     try:
         with open("config.json", "r", encoding="utf-8") as f:
             loaded_config = json.load(f)
+        # Fusionar de forma más robusta, especialmente para diccionarios anidados como bot_monitor
         CONFIG = default_config.copy()
         for key, value in loaded_config.items():
             if key in CONFIG and isinstance(CONFIG[key], dict) and isinstance(value, dict):
-                CONFIG[key].update(value)
+                CONFIG[key].update(value) # Actualiza el diccionario de primer nivel
             else:
                 CONFIG[key] = value
         logger("BotMaestro", "Configuración cargada desde config.json")
@@ -96,15 +95,16 @@ def load_config():
         logger("BotMaestro", f"Error cargando config.json: {e}. Usando config por defecto.", "ERROR")
         CONFIG = default_config
 
-    if CONFIG.get("bot_enriquecedor", {}).get("knowledge_base_simulated"):
-        KNOWLEDGE_BASE = CONFIG["bot_enriquecedor"]["knowledge_base_simulated"]
+    # Asegurar que KNOWLEDGE_BASE se inicializa desde la configuración cargada o la por defecto
+    kb_config = CONFIG.get("bot_enriquecedor", {}).get("knowledge_base_simulated")
+    if kb_config:
+        KNOWLEDGE_BASE = kb_config
     else:
         KNOWLEDGE_BASE = default_config["bot_enriquecedor"]["knowledge_base_simulated"]
     logger("BotMaestro", "Base de conocimiento (re)inicializada.")
 
 
 def find_edge_binary():
-    # ... (sin cambios)
     paths_to_check = [
         "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
         "C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe",
@@ -116,11 +116,10 @@ def find_edge_binary():
     logger("System", "No se pudo encontrar automáticamente el binario de Edge.", "WARN")
     return None
 
-
 # --- Funciones para el Reporte HTML del Flujo ---
 def start_html_report(event_id):
     global CURRENT_EVENT_HTML_REPORT
-    CURRENT_EVENT_HTML_REPORT = os.path.join(REPORTS_DIR, f"evento_{event_id.replace(':', '-')}.html") # Nombre de archivo seguro
+    CURRENT_EVENT_HTML_REPORT = os.path.join(REPORTS_DIR, f"evento_{event_id.replace(':', '-')}.html")
     html_content = f"""
     <!DOCTYPE html>
     <html lang="es">
@@ -131,11 +130,11 @@ def start_html_report(event_id):
             body {{ font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }}
             .container {{ background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }}
             .bot-step {{ margin-bottom: 20px; padding: 15px; border-left: 5px solid; border-radius: 5px; }}
-            .bot-monitor {{ border-color: #3498db; background-color: #eaf5ff; }} /* Azul */
-            .bot-analizador {{ border-color: #f1c40f; background-color: #fff9e6; }} /* Amarillo */
-            .bot-enriquecedor {{ border-color: #2ecc71; background-color: #e9f7ef; }} /* Verde */
-            .bot-router {{ border-color: #e74c3c; background-color: #fdedec; }} /* Rojo */
-            .bot-notificador {{ border-color: #9b59b6; background-color: #f5eff7; }} /* Morado */
+            .bot-monitor {{ border-color: #3498db; background-color: #eaf5ff; }}
+            .bot-analizador {{ border-color: #f1c40f; background-color: #fff9e6; }}
+            .bot-enriquecedor {{ border-color: #2ecc71; background-color: #e9f7ef; }}
+            .bot-router {{ border-color: #e74c3c; background-color: #fdedec; }}
+            .bot-notificador {{ border-color: #9b59b6; background-color: #f5eff7; }}
             h1 {{ color: #2c3e50; text-align: center; }}
             h2 {{ color: #34495e; border-bottom: 2px solid #eee; padding-bottom: 5px;}}
             pre {{ background-color: #ecf0f1; padding: 10px; border-radius: 4px; white-space: pre-wrap; word-wrap: break-word; font-size: 0.9em; }}
@@ -144,7 +143,7 @@ def start_html_report(event_id):
             .sonic {{ color: #007bff; }}
             .tails {{ color: #ffaa00; }}
             .knuckles {{ color: #d90000; }}
-            .eggman {{ color: #c0c0c0; }} /* Para representar amenaza */
+            .eggman {{ color: #c0c0c0; }}
         </style>
     </head>
     <body>
@@ -156,13 +155,12 @@ def start_html_report(event_id):
 
 def add_to_html_report(bot_name, data_processed, details=""):
     if not CURRENT_EVENT_HTML_REPORT: return
-
     bot_class_map = {
         "BotMonitor": "bot-monitor", "BotAnalizador": "bot-analizador",
         "BotEnriquecedor": "bot-enriquecedor", "BotRouter": "bot-router",
         "BotNotificador": "bot-notificador"
     }
-    bot_icon_map = { # Iconos simples para los bots
+    bot_icon_map = {
         "BotMonitor": "🛰️", "BotAnalizador": "🧠",
         "BotEnriquecedor": "🗺️", "BotRouter": "🚦",
         "BotNotificador": "📡"
@@ -170,23 +168,19 @@ def add_to_html_report(bot_name, data_processed, details=""):
     bot_class = bot_class_map.get(bot_name, "")
     bot_icon = bot_icon_map.get(bot_name, "⚙️")
     timestamp_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-    # Simular qué personaje podría estar asociado con la acción
     character_html = ""
     if bot_name == "BotMonitor":
         source = data_processed.get("source_system_name", data_processed.get("source_system", ""))
-        if "Tails" in source: character_html = '<span class="character tails">Tails:</span>'
-        elif "G.U.N." in source: character_html = '<span class="character eggman">G.U.N.:</span>' # G.U.N. no es un héroe, pero es una fuente
+        if "Tails" in source or "TAILS_SENSOR" in data_processed.get("source_type_tag",""): character_html = '<span class="character tails">Tails:</span>' # Ajustado para fuente de Tails
+        elif "G.U.N." in source: character_html = '<span class="character eggman">G.U.N.:</span>'
         elif "Campo" in source: character_html = '<span class="character sonic">Freedom Fighter:</span>'
-        elif "ME" in source: character_html = '<span class="character knuckles">Alerta Esmeralda:</span>'
+        elif "ME" in source or "Angel Island" in source: character_html = '<span class="character knuckles">Alerta Esmeralda:</span>' # Ajustado para fuente de Angel Island
     elif bot_name == "BotRouter":
         targets = data_processed.get("target_destinations", [])
         if "Sonic" in targets: character_html += '<span class="character sonic">Sonic</span> '
         if "Tails" in targets: character_html += '<span class="character tails">Tails</span> '
         if "Knuckles" in targets: character_html += '<span class="character knuckles">Knuckles</span> '
         if character_html: character_html = f"Ruteado a: {character_html}"
-
-
     html_content = f"""
         <div class="bot-step {bot_class}">
             <span class="timestamp">{timestamp_now}</span>
@@ -210,11 +204,8 @@ def end_html_report():
         f.write(html_content)
     logger("System", f"Reporte HTML generado: {CURRENT_EVENT_HTML_REPORT}")
 
-
 # --- 🛰️ BotMonitor ---
 def bot_monitor():
-    # ... (MISMO CÓDIGO DE BotMonitor de la respuesta anterior, usando Edge)
-    # ... (ASEGÚRATE DE TENER LA LÓGICA DE `use_selenium` Y `edge_binary_override`)
     global EVENT_ID_COUNTER
     EVENT_ID_COUNTER += 1
     bot_name = "BotMonitor"
@@ -223,17 +214,24 @@ def bot_monitor():
     monitor_output = {}
     cfg_monitor = CONFIG.get("bot_monitor", {})
     use_selenium = cfg_monitor.get("use_selenium_source", False)
-    selenium_html_file = cfg_monitor.get("selenium_local_html_file", "fuente_de_datos_simulada.html")
-    edge_binary_override = cfg_monitor.get("edge_binary_path_override", "").strip() 
     
     selenium_data_extracted = False
 
     if use_selenium:
+        selenium_html_sources = cfg_monitor.get("selenium_html_sources", ["fuente_de_datos_simulada.html"])
+        if not selenium_html_sources: # Asegurar que hay al menos un archivo por defecto
+            selenium_html_sources = ["fuente_de_datos_simulada.html"]
+            logger(bot_name, "No se especificaron selenium_html_sources en config, usando default.", "WARN")
+
+        selected_html_file = random.choice(selenium_html_sources)
+        logger(bot_name, f"Selenium: Fuente HTML seleccionada aleatoriamente: '{selected_html_file}'")
+        
+        edge_binary_override = cfg_monitor.get("edge_binary_path_override", "").strip()
         driver = None
         try:
-            logger(bot_name, f"Intentando obtener datos de '{selenium_html_file}' con Selenium (Microsoft Edge)...")
+            logger(bot_name, f"Intentando obtener datos de '{selected_html_file}' con Selenium (Microsoft Edge)...")
             
-            options = EdgeOptions() 
+            options = EdgeOptions()
             # options.add_argument("--headless") # Comentado para ver la ventana
             options.add_experimental_option('excludeSwitches', ['enable-logging'])
             options.add_argument('log-level=3')
@@ -253,65 +251,79 @@ def bot_monitor():
             else:
                 logger(bot_name, "No se especificó/encontró ruta para msedge.exe. Dejando que WebDriverManager intente.", "WARN")
 
-            service = EdgeService(executable_path=EdgeChromiumDriverManager().install()) 
-            driver = webdriver.Edge(service=service, options=options) 
+            service = EdgeService(executable_path=EdgeChromiumDriverManager().install())
+            driver = webdriver.Edge(service=service, options=options)
             
-            driver.set_page_load_timeout(10)
+            driver.set_page_load_timeout(10) # Timeout para la carga de la página
             
-            local_html_path = os.path.abspath(selenium_html_file)
+            local_html_path = os.path.abspath(selected_html_file)
             if not os.path.exists(local_html_path):
                 raise FileNotFoundError(f"Archivo HTML '{local_html_path}' no encontrado.")
 
             driver.get(f"file:///{local_html_path.replace(os.sep, '/')}")
 
-            # Para que tengas tiempo de ver el HTML abierto por Selenium:
             logger(bot_name, "HTML abierto por Selenium. Observa la ventana del navegador. Se cerrará en unos segundos...")
-            time.sleep(cfg_monitor.get("selenium_view_time_seconds", 5)) # configurable desde config.json
+            time.sleep(cfg_monitor.get("selenium_view_time_seconds", 5))
 
+            # Extraer datos (asumiendo que los IDs son consistentes en todos los HTML)
             descripcion_web = driver.find_element(By.ID, "descripcion").text
             nivel_web = driver.find_element(By.ID, "nivel").text
             ubicacion_web = driver.find_element(By.ID, "ubicacion").text
             device_id_web = driver.find_element(By.ID, "device_id").text
             reading_type_web = driver.find_element(By.ID, "reading_type").text
             value_web_str = driver.find_element(By.ID, "value").text
-            try: value_web = float(value_web_str) if '.' in value_web_str else int(value_web_str)
-            except ValueError: value_web = value_web_str
+            try:
+                value_web = float(value_web_str) if '.' in value_web_str else int(value_web_str)
+            except ValueError:
+                value_web = value_web_str # Mantener como string si no es numérico
 
-            logger(bot_name, f"Datos Selenium (Edge): Desc:'{descripcion_web}', Nivel:'{nivel_web}', Ubic:'{ubicacion_web}'")
+            logger(bot_name, f"Datos Selenium (Edge) de '{selected_html_file}': Desc:'{descripcion_web}', Nivel:'{nivel_web}', Ubic:'{ubicacion_web}'")
+            
+            # Determinar un source_type_tag más específico basado en el nombre del archivo o contenido
+            source_type_tag_sel = "WEB_SELENIUM_EDGE_GENERIC"
+            source_system_sel = f"Fuente Web: {selected_html_file}"
+            if "angel_island" in selected_html_file.lower():
+                source_type_tag_sel = "WEB_SELENIUM_ANGEL_ISLAND"
+                source_system_sel = "Fuente Web: Alerta Angel Island"
+            elif "tails" in selected_html_file.lower():
+                source_type_tag_sel = "WEB_SELENIUM_TAILS_REPORT"
+                source_system_sel = "Fuente Web: Reporte Taller de Tails"
+
             monitor_output = {
-                "event_id": f"EVT-SEL-EDGE-{datetime.now().strftime('%Y%m%d%H%M%S')}-{EVENT_ID_COUNTER:04d}", 
-                "timestamp_raw": datetime.now().isoformat(), "source_system": "Fuente Web (Selenium/Edge)", 
-                "source_type_tag": "WEB_SELENIUM_EDGE", 
+                "event_id": f"EVT-SEL-{datetime.now().strftime('%Y%m%d%H%M%S')}-{EVENT_ID_COUNTER:04d}",
+                "timestamp_raw": datetime.now().isoformat(),
+                "source_system": source_system_sel, 
+                "source_type_tag": source_type_tag_sel,
                 "detected_location_raw": ubicacion_web,
-                "threat_level_raw": nivel_web, "description_raw": descripcion_web,
+                "threat_level_raw": nivel_web.lower(), # Normalizar a minúsculas
+                "description_raw": descripcion_web,
                 "raw_payload": {
                     "device_id": device_id_web, "reading_type": reading_type_web,
-                    "value": value_web, "html_source_file": selenium_html_file
+                    "value": value_web, "html_source_file": selected_html_file
                 }
             }
             selenium_data_extracted = True
 
         except FileNotFoundError as fnf_e: logger(bot_name, str(fnf_e), "ERROR")
-        except TimeoutException: logger(bot_name, f"Timeout al cargar '{selenium_html_file}' con Edge.", "ERROR")
+        except TimeoutException: logger(bot_name, f"Timeout al cargar '{selected_html_file}' con Edge.", "ERROR")
         except WebDriverException as wde:
-            if "cannot find msedge binary" in str(wde).lower() or "edge browser was not found" in str(wde).lower(): 
+            if "cannot find msedge binary" in str(wde).lower() or "edge browser was not found" in str(wde).lower():
                 logger(bot_name, "Error de Selenium: No se puede encontrar el binario de Microsoft Edge (msedge.exe).", "CRITICAL")
             else:
                 logger(bot_name, f"WebDriverException con Selenium (Edge): {str(wde)[:200]}...", "ERROR")
-        except NoSuchElementException as nsee: logger(bot_name, f"No se encontró elemento en '{selenium_html_file}' con Edge: {nsee}", "ERROR")
-        except Exception as e: logger(bot_name, f"Error inesperado con Selenium (Edge): {type(e).__name__} - {e}", "ERROR")
+        except NoSuchElementException as nsee: logger(bot_name, f"No se encontró elemento en '{selected_html_file}' con Edge: {nsee}", "ERROR")
+        except Exception as e: logger(bot_name, f"Error inesperado con Selenium (Edge) en '{selected_html_file}': {type(e).__name__} - {e}", "ERROR")
         finally:
             if driver: driver.quit()
-            if selenium_data_extracted: logger(bot_name, "Datos obtenidos vía Selenium (Edge).")
-            else: logger(bot_name, "Fallo al obtener datos vía Selenium (Edge). Se usará generación aleatoria.")
+            if selenium_data_extracted: logger(bot_name, f"Datos obtenidos vía Selenium (Edge) de '{selected_html_file}'.")
+            else: logger(bot_name, f"Fallo al obtener datos vía Selenium (Edge) de '{selected_html_file}'. Se usará generación aleatoria si está configurado o fallback.")
     
-    if not selenium_data_extracted:
-        # ... (código de generación aleatoria igual) ...
+    if not selenium_data_extracted: # Si Selenium falló o no estaba activo
         logger(bot_name, "Procediendo con generación de datos aleatorios...")
         sources_config = [
-            {"name": "Sensor Tails", "type": "SENSOR_TAILS", "locations": ["Tails' Workshop"]},
+            {"name": "Sensor Tails", "type": "SENSOR_TAILS", "locations": ["Tails' Workshop", "Mystic Ruins"]},
             {"name": "Radar G.U.N.", "type": "RADAR_GUN", "locations": ["Station Square", "G.U.N. HQ"]},
-            {"name": "Reporte Campo", "type": "FIELD_REPORT", "locations": ["Green Hill Zone", "Angel Island"]},
+            {"name": "Reporte Campo", "type": "FIELD_REPORT", "locations": ["Green Hill Zone", "Chemical Plant Zone"]},
             {"name": "Alerta ME", "type": "MASTER_EMERALD_ALERT", "locations": ["Angel Island"]}
         ]
         selected_source = random.choice(sources_config)
@@ -322,20 +334,21 @@ def bot_monitor():
         location = random.choice(selected_source.get("locations", possible_locations) or possible_locations or ["Unknown Location"])
 
         raw_data = {}
+        threat_level, desc = "bajo", "Actividad menor detectada" # Default
         if source_type == "SENSOR_TAILS":
             raw_data = {"device_id":f"TS_{random.randint(100,999)}","reading":round(random.uniform(1.0,100.0),2)}
-            threat_level, desc = random.choice([("bajo","Vibración menor"), ("medio","Pico de energía")])
+            threat_level, desc = random.choice([("bajo","Vibración menor"), ("medio","Pico de energía sospechoso")])
         elif source_type == "RADAR_GUN":
-            raw_data = {"contacts":random.randint(1,5),"signature":random.choice(["EGGMAN_ROBOT","UNKNOWN"])}
-            threat_level, desc = random.choice([("medio","Contacto sospechoso"), ("alto","Múltiples robots de Eggman")])
+            raw_data = {"contacts":random.randint(1,5),"signature":random.choice(["EGGMAN_ROBOT","UNKNOWN_AERIAL"])}
+            threat_level, desc = random.choice([("medio","Contacto sospechoso detectado"), ("alto","Múltiples robots de Eggman confirmados")])
         elif source_type == "FIELD_REPORT":
-            raw_data = {"agent":f"Agent_{random.randint(1,10)}","badniks_seen":random.randint(1,20)}
-            threat_level, desc = random.choice([("medio","Badniks avistados"), ("alto","Ataque a gran escala")])
-        else: # MASTER_EMERALD_ALERT
-            raw_data = {"energy_flux":"HIGH","stability":"UNSTABLE"}
-            threat_level, desc = "critico", "Fluctuación crítica en la Master Emerald"
+            raw_data = {"agent":f"Agent_{random.choice(['Sonic', 'Amy', 'Espio'])}","badniks_seen":random.randint(1,20)}
+            threat_level, desc = random.choice([("medio","Badniks avistados en patrulla"), ("alto","Ataque a pequeña escala en progreso")])
+        elif source_type == "MASTER_EMERALD_ALERT":
+            raw_data = {"energy_flux":"HIGH","stability":"UNSTABLE", "guardian_status": "ENGAGED"}
+            threat_level, desc = "critico", "Fluctuación crítica en la Master Emerald. ¡Alerta máxima!"
         
-        description = f"{desc} en {location} ({source_name})"
+        description = f"{desc} en {location} (Fuente: {source_name})"
 
         monitor_output = {
             "event_id": f"EVT-RND-{datetime.now().strftime('%Y%m%d%H%M%S')}-{EVENT_ID_COUNTER:04d}",
@@ -345,21 +358,19 @@ def bot_monitor():
         }
         logger(bot_name, f"Datos generados aleatoriamente de '{source_name}'.")
 
-
     if not monitor_output: 
         monitor_output = {
             "event_id": f"EVT-FAIL-{datetime.now().strftime('%Y%m%d%H%M%S')}-{EVENT_ID_COUNTER:04d}",
-            "timestamp_raw": datetime.now().isoformat(), "source_system": "Fallback", "source_type_tag": "ERROR",
-            "detected_location_raw": "Unknown", "threat_level_raw": "bajo", "description_raw": "Error crítico en generación de evento.",
+            "timestamp_raw": datetime.now().isoformat(), "source_system": "FallbackSystem", "source_type_tag": "ERROR_MONITOR",
+            "detected_location_raw": "Unknown", "threat_level_raw": "bajo", "description_raw": "Error crítico en BotMonitor, no se pudo generar/capturar evento.",
             "raw_payload": {}
         }
         logger(bot_name, "Fallo crítico en BotMonitor, usando evento por defecto.", "CRITICAL")
 
-    # AÑADIR AL REPORTE HTML
-    start_html_report(monitor_output['event_id']) # Inicia un nuevo reporte para este evento
+    start_html_report(monitor_output['event_id'])
     add_to_html_report(bot_name, monitor_output, "Datos iniciales capturados/generados.")
     
-    logger(bot_name, f"Datos finales: ID {monitor_output['event_id']}, Fuente: {monitor_output['source_system']}")
+    logger(bot_name, f"Datos finales: ID {monitor_output['event_id']}, Fuente: {monitor_output['source_system']}, Tipo: {monitor_output['source_type_tag']}")
     write_json_data("monitor_output.json", monitor_output)
     logger(bot_name, "Monitoreo completado.")
     return monitor_output
@@ -367,7 +378,6 @@ def bot_monitor():
 # --- BotAnalizador ---
 def bot_analizador():
     bot_name = "BotAnalizador"
-    # ... (código igual, pero añadimos llamada a add_to_html_report)
     logger(bot_name, "Iniciando análisis...")
     monitor_data = read_json_data("monitor_output.json")
     if not monitor_data:
@@ -378,10 +388,10 @@ def bot_analizador():
         "event_id": monitor_data["event_id"],
         "timestamp_event": monitor_data["timestamp_raw"],
         "source_system_name": monitor_data["source_system"],
-        "source_type": monitor_data["source_type_tag"],
+        "source_type": monitor_data["source_type_tag"], # Usar el source_type_tag del monitor
         "location_reported": monitor_data["detected_location_raw"],
         "threat_assessment": {
-             "initial_level": monitor_data["threat_level_raw"].lower(),
+             "initial_level": monitor_data["threat_level_raw"].lower(), # Asegurar minúsculas
              "description": monitor_data["description_raw"]
         },
         "original_raw_data": monitor_data.get("raw_payload", {})
@@ -403,7 +413,6 @@ def bot_analizador():
 # --- BotEnriquecedor ---
 def bot_enriquecedor():
     bot_name = "BotEnriquecedor"
-    # ... (código igual, pero añadimos llamada a add_to_html_report)
     logger(bot_name, "Iniciando enriquecimiento...")
     canonical_data = read_json_data("analysis_output.json")
     if not canonical_data:
@@ -428,12 +437,24 @@ def bot_enriquecedor():
     
     priority_score = enriched_data.get("threat_assessment", {}).get("priority_score", 0)
     num_heroes = len(enriched_data.get("location_details", {}).get("known_nearby_heroes", []))
-    if priority_score >= 7 and num_heroes == 0: urgency = "MAXIMA_URGENCIA"
-    elif priority_score >= 7: urgency = "ALTA_URGENCIA"
-    elif priority_score >= 5: urgency = "URGENCIA_MEDIA"
-    else: urgency = "URGENCIA_BAJA"
+    
+    # Lógica de urgencia revisada
+    if priority_score >= 9: # critico
+        urgency = "MAXIMA_URGENCIA"
+    elif priority_score >= 7: # alto
+        urgency = "ALTA_URGENCIA"
+    elif priority_score >= 5: # medio
+        urgency = "URGENCIA_MEDIA"
+    else: # bajo
+        urgency = "URGENCIA_BAJA"
+
+    # Ajuste de urgencia si no hay héroes cercanos para amenazas altas/máximas
+    if priority_score >= 7 and num_heroes == 0 and urgency != "MAXIMA_URGENCIA":
+        logger(bot_name, f"Escalando urgencia a MAXIMA_URGENCIA para score {priority_score} sin héroes cercanos.")
+        urgency = "MAXIMA_URGENCIA"
+        
     enriched_data["urgency_level"] = urgency
-    logger(bot_name, f"Nivel de urgencia: {urgency}")
+    logger(bot_name, f"Nivel de urgencia asignado: {urgency}")
 
     add_to_html_report(bot_name, enriched_data, "Datos contextualizados y enriquecidos.")
 
@@ -444,45 +465,70 @@ def bot_enriquecedor():
 # --- BotRouter ---
 def bot_router():
     bot_name = "BotRouter"
-    # ... (código igual, pero añadimos llamada a add_to_html_report)
+    logger(bot_name, "--- EJECUTANDO NUEVA VERSIÓN REVISADA DE BOT_ROUTER ---")
     logger(bot_name, "Iniciando ruteo...")
     enriched_data = read_json_data("enriched_output.json")
     if not enriched_data:
         logger(bot_name, "No hay datos enriquecidos. Abortando.", "ERROR"); return None
 
     logger(bot_name, f"Ruteando evento ID: {enriched_data['event_id']}")
-    destinations = set(["LogDB"]) 
-    alert_payload = enriched_data.copy() # Usamos una copia por si modificamos el payload aquí
+    
+    alert_payload = enriched_data.copy() 
+    source_type = alert_payload.get("source_type", "").upper() 
     threat_level = alert_payload.get("threat_assessment", {}).get("initial_level", "bajo")
-    source_type = alert_payload.get("source_type", "")
     location_details = alert_payload.get("location_details", {})
     nearby_heroes = location_details.get("known_nearby_heroes", [])
     zone_name = location_details.get("zone_name", "")
+    urgency_level = alert_payload.get("urgency_level", "")
 
-    # Lógica de ruteo (la misma que antes)
-    if source_type == "MASTER_EMERALD_ALERT": destinations.add("Knuckles")
-    if source_type == "SENSOR_TAILS":
+    destinations = set(["LogDB"]) 
+
+    # Reglas específicas de fuente (prioridad alta)
+    if source_type == "MASTER_EMERALD_ALERT" or source_type == "WEB_SELENIUM_ANGEL_ISLAND":
+        destinations.add("Knuckles")
+        if threat_level in ["alto", "critico"]:
+            destinations.add("Sonic")
+        logger(bot_name, f"Fuente {source_type} ({threat_level}): Añadido Knuckles (y Sonic si aplica).")
+    elif source_type == "SENSOR_TAILS" or source_type == "WEB_SELENIUM_TAILS_REPORT":
         destinations.add("Tails")
-        if threat_level in ["alto", "critico"]: destinations.add("Sonic")
-    if source_type == "RADAR_GUN" or source_type == "FIELD_REPORT":
-        if threat_level in ["alto", "critico"]: destinations.add("Sonic")
-        if "Tails" in nearby_heroes and threat_level in ["medio","alto","critico"]: destinations.add("Tails")
-        if "Knuckles" in nearby_heroes and threat_level in ["alto","critico"] and "Angel Island" in zone_name:
-            destinations.add("Knuckles")
-    if alert_payload.get("urgency_level") == "MAXIMA_URGENCIA" and "Sonic" not in destinations:
-        destinations.add("Sonic")
+        logger(bot_name, f"Fuente {source_type}: Añadido Tails.")
 
-    routing_decision = { # Este es el objeto que se guarda y se pasa al notificador
+    # Reglas generales basadas en amenaza
+    if threat_level == "critico":
+        logger(bot_name, "Amenaza CRITICA detectada.")
+        destinations.add("Sonic")
+        destinations.add("Tails") 
+        if "Angel Island" in zone_name:
+            destinations.add("Knuckles")
+    
+    elif threat_level == "alto":
+        logger(bot_name, "Amenaza ALTA detectada.")
+        destinations.add("Sonic")
+        if "Tails" in nearby_heroes:
+            destinations.add("Tails")
+        if "Knuckles" in nearby_heroes and "Angel Island" in zone_name:
+            destinations.add("Knuckles")
+
+    elif threat_level == "medio":
+        logger(bot_name, "Amenaza MEDIA detectada.")
+        if "Sonic" in nearby_heroes:
+            destinations.add("Sonic")
+        if "Tails" in nearby_heroes:
+            destinations.add("Tails")
+            
+    # Regla de Urgencia Máxima
+    if urgency_level == "MAXIMA_URGENCIA" and "Sonic" not in destinations:
+        logger(bot_name, "MAXIMA URGENCIA: Asegurando notificación a Sonic.")
+        destinations.add("Sonic")
+    
+    routing_decision = {
         "event_id": alert_payload["event_id"],
         "target_destinations": list(destinations),
-        "alert_payload_to_send": alert_payload # El payload completo enriquecido
+        "alert_payload_to_send": alert_payload
     }
-    logger(bot_name, f"Destinos: {', '.join(list(destinations))}")
     
-    # Para el reporte HTML, mostramos la decisión de ruteo.
-    # El 'data_processed' para add_to_html_report puede ser el mismo routing_decision.
+    logger(bot_name, f"Destinos finales determinados: {', '.join(list(destinations))}")
     add_to_html_report(bot_name, routing_decision, f"Decisión de ruteo: enviar a {', '.join(list(destinations))}.")
-    
     write_json_data("routing_output.json", routing_decision)
     logger(bot_name, "Ruteo completado.")
     return routing_decision
@@ -490,15 +536,14 @@ def bot_router():
 # --- BotNotificador ---
 def bot_notificador():
     bot_name = "BotNotificador"
-    # ... (código igual, pero añadimos llamada a add_to_html_report)
     logger(bot_name, "Iniciando notificaciones...")
     routing_data = read_json_data("routing_output.json")
     if not routing_data:
         logger(bot_name, "No hay decisiones de ruteo. Abortando.", "ERROR"); return
 
     logger(bot_name, f"Notificando para evento ID: {routing_data['event_id']}")
-    destinations_to_notify = routing_data["target_destinations"] # Renombrado para claridad
-    payload_to_send = routing_data["alert_payload_to_send"] # Renombrado para claridad
+    destinations_to_notify = routing_data["target_destinations"]
+    payload_to_send = routing_data["alert_payload_to_send"]
     
     cfg_notifier = CONFIG.get("bot_notificador", {})
     endpoint_map = cfg_notifier.get("endpoints", {})
@@ -508,7 +553,7 @@ def bot_notificador():
         logger(bot_name, "No hay endpoints configurados en config.json.", "ERROR"); return
 
     sent_count = 0
-    notifications_summary = [] # Para el reporte HTML
+    notifications_summary = []
     for dest_name in destinations_to_notify:
         url = endpoint_map.get(dest_name)
         status_message = ""
@@ -516,14 +561,13 @@ def bot_notificador():
             try:
                 logger(bot_name, f"Enviando a {dest_name} en {url}...")
                 response = requests.post(url, json=payload_to_send, timeout=request_timeout)
-                response.raise_for_status()
+                response.raise_for_status() 
                 status_message = f"Enviado a {dest_name} OK (Status: {response.status_code})"
                 logger(bot_name, status_message)
                 sent_count += 1
             except requests.exceptions.ConnectionError:
                 status_message = f"Error de conexión con {dest_name} ({url})"
                 logger(bot_name, status_message, "ERROR")
-            # ... (otras excepciones como antes) ...
             except requests.exceptions.Timeout:
                 status_message = f"Timeout con {dest_name} ({url})"
                 logger(bot_name, status_message, "ERROR")
@@ -538,14 +582,10 @@ def bot_notificador():
             logger(bot_name, status_message, "WARN")
         notifications_summary.append(status_message)
 
-    # Para el reporte HTML, pasamos un resumen de las notificaciones.
-    # El 'data_processed' podría ser el payload original o un resumen.
-    # Usaremos el payload original y el resumen en los detalles.
     report_details = "Resumen de Notificaciones:<br>" + "<br>".join(notifications_summary)
     add_to_html_report(bot_name, {"payload_sent": payload_to_send, "destinations": destinations_to_notify, "summary": notifications_summary}, report_details)
     
     logger(bot_name, f"Notificaciones completadas. {sent_count}/{len(destinations_to_notify)} enviadas.")
-
 
 # --- CICLO PRINCIPAL DE ORQUESTACIÓN ---
 def main_loop():
@@ -561,20 +601,21 @@ def main_loop():
     try:
         while True:
             current_cycle += 1
-            global CURRENT_EVENT_HTML_REPORT # Asegurar que se resetea para cada ciclo
-            CURRENT_EVENT_HTML_REPORT = ""
+            global CURRENT_EVENT_HTML_REPORT 
+            CURRENT_EVENT_HTML_REPORT = "" 
             logger("BotMaestro", f"--- Ciclo #{current_cycle} ---")
             
-            # BotMonitor es el primero y potencialmente inicia el reporte
             monitor_result = bot_monitor()
             if monitor_result is None: 
                 logger("BotMaestro", "BotMonitor falló críticamente, saltando ciclo.", "ERROR")
-                time.sleep(max_interval) # Esperar antes de reintentar
+                time.sleep(max_interval) 
                 continue 
             
             time.sleep(0.2)
             analysis_result = bot_analizador()
-            if analysis_result is None: logger("BotMaestro", "BotAnalizador falló."); # No continuar sin análisis
+            if analysis_result is None: 
+                logger("BotMaestro", "BotAnalizador falló. El ciclo podría no completarse correctamente.");
+                # Decidir si continuar o no. Por ahora, continuamos para que el reporte HTML se genere.
             
             time.sleep(0.2)
             enriched_result = bot_enriquecedor()
@@ -587,7 +628,7 @@ def main_loop():
             time.sleep(0.2)
             bot_notificador()
 
-            end_html_report() # Finaliza el reporte HTML del evento actual
+            end_html_report() 
 
             logger("BotMaestro", f"--- Ciclo #{current_cycle} COMPLETADO ---")
 
@@ -602,10 +643,15 @@ def main_loop():
     except KeyboardInterrupt:
         logger("BotMaestro", "Interrupción por teclado. Deteniendo...")
     finally:
-        if CURRENT_EVENT_HTML_REPORT and os.path.exists(CURRENT_EVENT_HTML_REPORT): # Asegurar que el último reporte se cierre si se interrumpe
-            with open(CURRENT_EVENT_HTML_REPORT, "a", encoding="utf-8") as f:
-                if not f.read().strip().endswith("</html>"): # Evitar doble cierre
-                     f.write("\n        </div>\n    </body>\n    </html>\n")
+        if CURRENT_EVENT_HTML_REPORT and os.path.exists(CURRENT_EVENT_HTML_REPORT):
+            try:
+                with open(CURRENT_EVENT_HTML_REPORT, "r+", encoding="utf-8") as f: # r+ para leer y escribir
+                    content = f.read()
+                    if not content.strip().endswith("</html>"):
+                        f.seek(0, os.SEEK_END) # Ir al final del archivo
+                        f.write("\n        </div>\n    </body>\n    </html>\n")
+            except Exception as e_file:
+                logger("BotMaestro", f"Error al intentar cerrar HTML en finally: {e_file}", "ERROR")
         logger("BotMaestro", "Hedgehog Alert Processor TERMINADO.")
 
 if __name__ == "__main__":

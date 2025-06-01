@@ -1,0 +1,218 @@
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Reporte de Flujo - Evento EVT-SEL-20250601000117-0001</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+            .container { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+            .bot-step { margin-bottom: 20px; padding: 15px; border-left: 5px solid; border-radius: 5px; }
+            .bot-monitor { border-color: #3498db; background-color: #eaf5ff; }
+            .bot-analizador { border-color: #f1c40f; background-color: #fff9e6; }
+            .bot-enriquecedor { border-color: #2ecc71; background-color: #e9f7ef; }
+            .bot-router { border-color: #e74c3c; background-color: #fdedec; }
+            .bot-notificador { border-color: #9b59b6; background-color: #f5eff7; }
+            h1 { color: #2c3e50; text-align: center; }
+            h2 { color: #34495e; border-bottom: 2px solid #eee; padding-bottom: 5px;}
+            pre { background-color: #ecf0f1; padding: 10px; border-radius: 4px; white-space: pre-wrap; word-wrap: break-word; font-size: 0.9em; }
+            .timestamp { font-size: 0.8em; color: #7f8c8d; float: right; }
+            .character { font-weight: bold; font-size: 1.2em; margin-right: 10px;}
+            .sonic { color: #007bff; }
+            .tails { color: #ffaa00; }
+            .knuckles { color: #d90000; }
+            .eggman { color: #c0c0c0; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1><span class="eggman">🤖</span> Reporte de Flujo del Evento: EVT-SEL-20250601000117-0001 <span class="eggman">🚨</span></h1>
+    
+        <div class="bot-step bot-monitor">
+            <span class="timestamp">2025-06-01 00:01:20</span>
+            <h2>🛰️ BotMonitor</h2>
+            <span class="character knuckles">Alerta Esmeralda:</span>
+            <p>Datos iniciales capturados/generados.</p>
+            <pre>{
+  "event_id": "EVT-SEL-20250601000117-0001",
+  "timestamp_raw": "2025-06-01T00:01:17.959631",
+  "source_system": "Fuente Web: Alerta Angel Island",
+  "source_type_tag": "WEB_SELENIUM_ANGEL_ISLAND",
+  "detected_location_raw": "Angel Island",
+  "threat_level_raw": "critico",
+  "description_raw": "Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!",
+  "raw_payload": {
+    "device_id": "ME_GUARDIAN_SYSTEM_01",
+    "reading_type": "energy_signature_alert",
+    "value": 99.9,
+    "html_source_file": "fuente_alerta_angel_island.html"
+  }
+}</pre>
+        </div>
+    
+        <div class="bot-step bot-analizador">
+            <span class="timestamp">2025-06-01 00:01:20</span>
+            <h2>🧠 BotAnalizador</h2>
+            
+            <p>Datos normalizados y priorizados.</p>
+            <pre>{
+  "event_id": "EVT-SEL-20250601000117-0001",
+  "timestamp_event": "2025-06-01T00:01:17.959631",
+  "source_system_name": "Fuente Web: Alerta Angel Island",
+  "source_type": "WEB_SELENIUM_ANGEL_ISLAND",
+  "location_reported": "Angel Island",
+  "threat_assessment": {
+    "initial_level": "critico",
+    "description": "Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!",
+    "priority_score": 10
+  },
+  "original_raw_data": {
+    "device_id": "ME_GUARDIAN_SYSTEM_01",
+    "reading_type": "energy_signature_alert",
+    "value": 99.9,
+    "html_source_file": "fuente_alerta_angel_island.html"
+  }
+}</pre>
+        </div>
+    
+        <div class="bot-step bot-enriquecedor">
+            <span class="timestamp">2025-06-01 00:01:20</span>
+            <h2>🗺️ BotEnriquecedor</h2>
+            
+            <p>Datos contextualizados y enriquecidos.</p>
+            <pre>{
+  "event_id": "EVT-SEL-20250601000117-0001",
+  "timestamp_event": "2025-06-01T00:01:17.959631",
+  "source_system_name": "Fuente Web: Alerta Angel Island",
+  "source_type": "WEB_SELENIUM_ANGEL_ISLAND",
+  "location_reported": "Angel Island",
+  "threat_assessment": {
+    "initial_level": "critico",
+    "description": "Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!",
+    "priority_score": 10
+  },
+  "original_raw_data": {
+    "device_id": "ME_GUARDIAN_SYSTEM_01",
+    "reading_type": "energy_signature_alert",
+    "value": 99.9,
+    "html_source_file": "fuente_alerta_angel_island.html"
+  },
+  "location_details": {
+    "zone_name": "Angel Island",
+    "description": "Isla flotante.",
+    "known_nearby_heroes": [
+      "Knuckles",
+      "Sonic"
+    ],
+    "common_threats_in_zone": [
+      "EggRobo",
+      "Master Emerald Threats"
+    ]
+  },
+  "urgency_level": "MAXIMA_URGENCIA"
+}</pre>
+        </div>
+    
+        <div class="bot-step bot-router">
+            <span class="timestamp">2025-06-01 00:01:20</span>
+            <h2>🚦 BotRouter</h2>
+            Ruteado a: <span class="character sonic">Sonic</span> <span class="character tails">Tails</span> <span class="character knuckles">Knuckles</span> 
+            <p>Decisión de ruteo: enviar a LogDB, Tails, Sonic, Knuckles.</p>
+            <pre>{
+  "event_id": "EVT-SEL-20250601000117-0001",
+  "target_destinations": [
+    "LogDB",
+    "Tails",
+    "Sonic",
+    "Knuckles"
+  ],
+  "alert_payload_to_send": {
+    "event_id": "EVT-SEL-20250601000117-0001",
+    "timestamp_event": "2025-06-01T00:01:17.959631",
+    "source_system_name": "Fuente Web: Alerta Angel Island",
+    "source_type": "WEB_SELENIUM_ANGEL_ISLAND",
+    "location_reported": "Angel Island",
+    "threat_assessment": {
+      "initial_level": "critico",
+      "description": "Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!",
+      "priority_score": 10
+    },
+    "original_raw_data": {
+      "device_id": "ME_GUARDIAN_SYSTEM_01",
+      "reading_type": "energy_signature_alert",
+      "value": 99.9,
+      "html_source_file": "fuente_alerta_angel_island.html"
+    },
+    "location_details": {
+      "zone_name": "Angel Island",
+      "description": "Isla flotante.",
+      "known_nearby_heroes": [
+        "Knuckles",
+        "Sonic"
+      ],
+      "common_threats_in_zone": [
+        "EggRobo",
+        "Master Emerald Threats"
+      ]
+    },
+    "urgency_level": "MAXIMA_URGENCIA"
+  }
+}</pre>
+        </div>
+    
+        <div class="bot-step bot-notificador">
+            <span class="timestamp">2025-06-01 00:01:20</span>
+            <h2>📡 BotNotificador</h2>
+            
+            <p>Resumen de Notificaciones:<br>Error enviando a LogDB ([http://127.0.0.1:5004/alert](http://127.0.0.1:5004/alert)): InvalidSchema<br>Error enviando a Tails ([http://127.0.0.1:5003/alert](http://127.0.0.1:5003/alert)): InvalidSchema<br>Error enviando a Sonic ([http://127.0.0.1:5001/alert](http://127.0.0.1:5001/alert)): InvalidSchema<br>Error enviando a Knuckles ([http://127.0.0.1:5002/alert](http://127.0.0.1:5002/alert)): InvalidSchema</p>
+            <pre>{
+  "payload_sent": {
+    "event_id": "EVT-SEL-20250601000117-0001",
+    "timestamp_event": "2025-06-01T00:01:17.959631",
+    "source_system_name": "Fuente Web: Alerta Angel Island",
+    "source_type": "WEB_SELENIUM_ANGEL_ISLAND",
+    "location_reported": "Angel Island",
+    "threat_assessment": {
+      "initial_level": "critico",
+      "description": "Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!",
+      "priority_score": 10
+    },
+    "original_raw_data": {
+      "device_id": "ME_GUARDIAN_SYSTEM_01",
+      "reading_type": "energy_signature_alert",
+      "value": 99.9,
+      "html_source_file": "fuente_alerta_angel_island.html"
+    },
+    "location_details": {
+      "zone_name": "Angel Island",
+      "description": "Isla flotante.",
+      "known_nearby_heroes": [
+        "Knuckles",
+        "Sonic"
+      ],
+      "common_threats_in_zone": [
+        "EggRobo",
+        "Master Emerald Threats"
+      ]
+    },
+    "urgency_level": "MAXIMA_URGENCIA"
+  },
+  "destinations": [
+    "LogDB",
+    "Tails",
+    "Sonic",
+    "Knuckles"
+  ],
+  "summary": [
+    "Error enviando a LogDB ([http://127.0.0.1:5004/alert](http://127.0.0.1:5004/alert)): InvalidSchema",
+    "Error enviando a Tails ([http://127.0.0.1:5003/alert](http://127.0.0.1:5003/alert)): InvalidSchema",
+    "Error enviando a Sonic ([http://127.0.0.1:5001/alert](http://127.0.0.1:5001/alert)): InvalidSchema",
+    "Error enviando a Knuckles ([http://127.0.0.1:5002/alert](http://127.0.0.1:5002/alert)): InvalidSchema"
+  ]
+}</pre>
+        </div>
+    
+        </div>
+    </body>
+    </html>
+    

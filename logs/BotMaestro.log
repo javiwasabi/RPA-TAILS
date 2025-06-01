@@ -1,74 +1,53 @@
-[2025-05-31 21:50:59.531] [BotMaestro     ] [INFO ] Configuración cargada exitosamente desde config.json
-[2025-05-31 21:50:59.532] [BotMaestro     ] [INFO ] Base de conocimiento actualizada desde config.json
-[2025-05-31 21:50:59.535] [BotMaestro     ] [INFO ] Hedgehog Alert Processor - RPA Edition (Simulado) INICIADO.
-[2025-05-31 21:50:59.536] [BotMaestro     ] [INFO ] Presiona Ctrl+C para detener.
-[2025-05-31 21:50:59.547] [BotMaestro     ] [INFO ] --- Iniciando Ciclo de Procesamiento #1 ---
-[2025-05-31 21:51:12.780] [BotMaestro     ] [INFO ] --- Ciclo #1 COMPLETADO ---
-[2025-05-31 21:51:12.781] [BotMaestro     ] [INFO ] Esperando 5s para el próximo ciclo...
-[2025-05-31 21:51:17.782] [BotMaestro     ] [INFO ] --- Iniciando Ciclo de Procesamiento #2 ---
-[2025-05-31 21:51:31.023] [BotMaestro     ] [INFO ] --- Ciclo #2 COMPLETADO ---
-[2025-05-31 21:51:31.024] [BotMaestro     ] [INFO ] Esperando 10s para el próximo ciclo...
-[2025-05-31 21:51:41.025] [BotMaestro     ] [INFO ] --- Iniciando Ciclo de Procesamiento #3 ---
-[2025-05-31 21:51:54.491] [BotMaestro     ] [INFO ] --- Ciclo #3 COMPLETADO ---
-[2025-05-31 21:51:54.491] [BotMaestro     ] [INFO ] Esperando 7s para el próximo ciclo...
-[2025-05-31 21:52:01.493] [BotMaestro     ] [INFO ] --- Iniciando Ciclo de Procesamiento #4 ---
-[2025-05-31 21:52:16.672] [BotMaestro     ] [INFO ] --- Ciclo #4 COMPLETADO ---
-[2025-05-31 21:52:16.673] [BotMaestro     ] [INFO ] Esperando 7s para el próximo ciclo...
-[2025-05-31 21:52:23.675] [BotMaestro     ] [INFO ] --- Iniciando Ciclo de Procesamiento #5 ---
-[2025-05-31 21:52:38.191] [BotMaestro     ] [INFO ] --- Ciclo #5 COMPLETADO ---
-[2025-05-31 21:52:38.194] [BotMaestro     ] [INFO ] Esperando 9s para el próximo ciclo...
-[2025-05-31 21:52:47.197] [BotMaestro     ] [INFO ] --- Iniciando Ciclo de Procesamiento #6 ---
-[2025-05-31 21:52:49.099] [BotMaestro     ] [INFO ] Interrupción por teclado. Deteniendo sistema...
-[2025-05-31 21:52:49.100] [BotMaestro     ] [INFO ] Hedgehog Alert Processor - RPA Edition (Simulado) TERMINADO.
-[2025-05-31 22:06:49.379] [BotMaestro     ] [INFO ] Configuración cargada desde config.json
-[2025-05-31 22:06:49.380] [BotMaestro     ] [INFO ] Base de conocimiento (re)inicializada.
-[2025-05-31 22:06:49.381] [BotMaestro     ] [INFO ] Hedgehog Alert Processor INICIADO.
-[2025-05-31 22:06:49.383] [BotMaestro     ] [INFO ] Presiona Ctrl+C para detener.
-[2025-05-31 22:06:49.384] [BotMaestro     ] [INFO ] --- Ciclo #1 ---
-[2025-05-31 22:07:03.467] [BotMaestro     ] [INFO ] --- Ciclo #1 COMPLETADO ---
-[2025-05-31 22:07:03.468] [BotMaestro     ] [INFO ] Esperando 7s...
-[2025-05-31 22:07:10.470] [BotMaestro     ] [INFO ] --- Ciclo #2 ---
-[2025-05-31 22:07:24.284] [BotMaestro     ] [INFO ] --- Ciclo #2 COMPLETADO ---
-[2025-05-31 22:07:24.286] [BotMaestro     ] [INFO ] Esperando 5s...
-[2025-05-31 22:07:29.288] [BotMaestro     ] [INFO ] --- Ciclo #3 ---
-[2025-05-31 22:07:46.115] [BotMaestro     ] [INFO ] --- Ciclo #3 COMPLETADO ---
-[2025-05-31 22:07:46.123] [BotMaestro     ] [INFO ] Esperando 10s...
-[2025-05-31 22:07:56.128] [BotMaestro     ] [INFO ] --- Ciclo #4 ---
-[2025-05-31 22:08:11.291] [BotMaestro     ] [INFO ] --- Ciclo #4 COMPLETADO ---
-[2025-05-31 22:08:11.293] [BotMaestro     ] [INFO ] Esperando 9s...
-[2025-05-31 22:08:20.295] [BotMaestro     ] [INFO ] --- Ciclo #5 ---
-[2025-05-31 22:08:34.855] [BotMaestro     ] [INFO ] --- Ciclo #5 COMPLETADO ---
-[2025-05-31 22:08:34.857] [BotMaestro     ] [INFO ] Esperando 6s...
-[2025-05-31 22:08:40.858] [BotMaestro     ] [INFO ] --- Ciclo #6 ---
-[2025-05-31 22:08:56.531] [BotMaestro     ] [INFO ] --- Ciclo #6 COMPLETADO ---
-[2025-05-31 22:08:56.534] [BotMaestro     ] [INFO ] Esperando 5s...
-[2025-05-31 22:09:01.540] [BotMaestro     ] [INFO ] --- Ciclo #7 ---
-[2025-05-31 22:09:16.233] [BotMaestro     ] [INFO ] --- Ciclo #7 COMPLETADO ---
-[2025-05-31 22:09:16.235] [BotMaestro     ] [INFO ] Esperando 6s...
-[2025-05-31 22:09:22.237] [BotMaestro     ] [INFO ] --- Ciclo #8 ---
-[2025-05-31 22:09:38.117] [BotMaestro     ] [INFO ] --- Ciclo #8 COMPLETADO ---
-[2025-05-31 22:09:38.118] [BotMaestro     ] [INFO ] Esperando 9s...
-[2025-05-31 22:09:47.184] [BotMaestro     ] [INFO ] --- Ciclo #9 ---
-[2025-05-31 22:10:02.030] [BotMaestro     ] [INFO ] --- Ciclo #9 COMPLETADO ---
-[2025-05-31 22:10:02.032] [BotMaestro     ] [INFO ] Esperando 5s...
-[2025-05-31 22:10:02.695] [BotMaestro     ] [INFO ] Interrupción por teclado. Deteniendo...
-[2025-05-31 22:10:02.696] [BotMaestro     ] [INFO ] Hedgehog Alert Processor TERMINADO.
-[2025-05-31 22:11:26.147] [BotMaestro     ] [INFO ] Configuración cargada desde config.json
-[2025-05-31 22:11:26.148] [BotMaestro     ] [INFO ] Base de conocimiento (re)inicializada.
-[2025-05-31 22:11:26.150] [BotMaestro     ] [INFO ] Hedgehog Alert Processor INICIADO.
-[2025-05-31 22:11:26.150] [BotMaestro     ] [INFO ] Presiona Ctrl+C para detener.
-[2025-05-31 22:11:26.151] [BotMaestro     ] [INFO ] --- Ciclo #1 ---
-[2025-05-31 22:11:39.088] [BotMaestro     ] [INFO ] --- Ciclo #1 COMPLETADO ---
-[2025-05-31 22:11:39.090] [BotMaestro     ] [INFO ] Esperando 10s...
-[2025-05-31 22:11:48.687] [BotMaestro     ] [INFO ] Interrupción por teclado. Deteniendo...
-[2025-05-31 22:11:48.689] [BotMaestro     ] [INFO ] Hedgehog Alert Processor TERMINADO.
-[2025-05-31 22:16:50.925] [BotMaestro     ] [INFO ] Configuración cargada desde config.json
-[2025-05-31 22:16:50.926] [BotMaestro     ] [INFO ] Base de conocimiento (re)inicializada.
-[2025-05-31 22:16:50.927] [BotMaestro     ] [INFO ] Hedgehog Alert Processor INICIADO.
-[2025-05-31 22:16:50.928] [BotMaestro     ] [INFO ] Presiona Ctrl+C para detener.
-[2025-05-31 22:16:50.928] [BotMaestro     ] [INFO ] --- Ciclo #1 ---
-[2025-05-31 22:17:06.718] [BotMaestro     ] [INFO ] --- Ciclo #1 COMPLETADO ---
-[2025-05-31 22:17:06.720] [BotMaestro     ] [INFO ] Esperando 10s...
-[2025-05-31 22:17:16.722] [BotMaestro     ] [INFO ] --- Ciclo #2 ---
-[2025-05-31 22:17:31.747] [BotMaestro     ] [INFO ] Interrupción por teclado. Deteniendo...
-[2025-05-31 22:17:31.757] [BotMaestro     ] [INFO ] Hedgehog Alert Processor TERMINADO.
+[2025-05-31 23:46:57.857] [BotMaestro     ] [INFO ] Configuración cargada desde config.json
+[2025-05-31 23:46:57.858] [BotMaestro     ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-05-31 23:46:57.858] [BotMaestro     ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-05-31 23:46:57.859] [BotMaestro     ] [INFO ] Presiona Ctrl+C para detener.
+[2025-05-31 23:46:57.859] [BotMaestro     ] [INFO ] --- Ciclo #1 ---
+[2025-05-31 23:47:09.897] [BotMaestro     ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-05-31 23:47:09.898] [BotMaestro     ] [INFO ] Esperando 7s...
+[2025-05-31 23:47:12.176] [BotMaestro     ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-05-31 23:48:43.379] [BotMaestro     ] [INFO ] Configuración cargada desde config.json
+[2025-05-31 23:48:43.380] [BotMaestro     ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-05-31 23:48:43.380] [BotMaestro     ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-05-31 23:48:43.381] [BotMaestro     ] [INFO ] Presiona Ctrl+C para detener.
+[2025-05-31 23:48:43.381] [BotMaestro     ] [INFO ] --- Ciclo #1 ---
+[2025-05-31 23:48:44.308] [BotMaestro     ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-05-31 23:48:44.309] [BotMaestro     ] [INFO ] Esperando 6s...
+[2025-05-31 23:48:50.309] [BotMaestro     ] [INFO ] --- Ciclo #2 ---
+[2025-05-31 23:48:51.205] [BotMaestro     ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-05-31 23:48:51.205] [BotMaestro     ] [INFO ] Esperando 10s...
+[2025-05-31 23:48:52.474] [BotMaestro     ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-05-31 23:58:34.012] [BotMaestro     ] [INFO ] Configuración cargada desde config.json
+[2025-05-31 23:58:34.012] [BotMaestro     ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-05-31 23:58:34.013] [BotMaestro     ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-05-31 23:58:34.013] [BotMaestro     ] [INFO ] Presiona Ctrl+C para detener.
+[2025-05-31 23:58:34.013] [BotMaestro     ] [INFO ] --- Ciclo #1 ---
+[2025-05-31 23:58:45.973] [BotMaestro     ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-05-31 23:58:45.973] [BotMaestro     ] [INFO ] Esperando 8s...
+[2025-05-31 23:58:53.974] [BotMaestro     ] [INFO ] --- Ciclo #2 ---
+[2025-05-31 23:59:05.911] [BotMaestro     ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-05-31 23:59:05.912] [BotMaestro     ] [INFO ] Esperando 8s...
+[2025-05-31 23:59:13.912] [BotMaestro     ] [INFO ] --- Ciclo #3 ---
+[2025-05-31 23:59:25.870] [BotMaestro     ] [INFO ] --- Ciclo #3 COMPLETADO ---
+[2025-05-31 23:59:25.870] [BotMaestro     ] [INFO ] Esperando 12s...
+[2025-05-31 23:59:37.871] [BotMaestro     ] [INFO ] --- Ciclo #4 ---
+[2025-05-31 23:59:49.800] [BotMaestro     ] [INFO ] --- Ciclo #4 COMPLETADO ---
+[2025-05-31 23:59:49.801] [BotMaestro     ] [INFO ] Esperando 8s...
+[2025-05-31 23:59:52.446] [BotMaestro     ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-05-31 23:59:52.457] [BotMaestro     ] [INFO ] Hedgehog Alert Processor TERMINADO.
+[2025-06-01 00:01:07.604] [BotMaestro     ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 00:01:07.604] [BotMaestro     ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 00:01:07.605] [BotMaestro     ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 00:01:07.605] [BotMaestro     ] [INFO ] Presiona Ctrl+C para detener.
+[2025-06-01 00:01:07.605] [BotMaestro     ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 00:01:20.950] [BotMaestro     ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-06-01 00:01:20.951] [BotMaestro     ] [INFO ] Esperando 9s...
+[2025-06-01 00:01:29.952] [BotMaestro     ] [INFO ] --- Ciclo #2 ---
+[2025-06-01 00:01:41.945] [BotMaestro     ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-06-01 00:01:41.946] [BotMaestro     ] [INFO ] Esperando 8s...
+[2025-06-01 00:01:49.946] [BotMaestro     ] [INFO ] --- Ciclo #3 ---
+[2025-06-01 00:02:01.927] [BotMaestro     ] [INFO ] --- Ciclo #3 COMPLETADO ---
+[2025-06-01 00:02:01.928] [BotMaestro     ] [INFO ] Esperando 11s...
+[2025-06-01 00:02:12.928] [BotMaestro     ] [INFO ] --- Ciclo #4 ---
+[2025-06-01 00:02:23.011] [BotMaestro     ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-06-01 00:02:23.011] [BotMaestro     ] [INFO ] Hedgehog Alert Processor TERMINADO.

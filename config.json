@@ -1,22 +1,26 @@
 {
     "bot_maestro": {
-        "process_interval_seconds_min": 5,
-        "process_interval_seconds_max": 10,
+        "process_interval_seconds_min": 8,
+        "process_interval_seconds_max": 15,
         "max_cycles_to_run": 0
     },
-   "bot_monitor": {
-    "use_selenium_source": true,
-    "selenium_local_html_file": "fuente_de_datos_simulada.html",
-    "edge_binary_path_override": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe", 
-    "selenium_view_time_seconds": 7 
-},
+    "bot_monitor": {
+        "use_selenium_source": true,
+        "selenium_html_sources": [
+            "fuente_de_datos_simulada.html",
+            "fuente_alerta_angel_island.html",
+            "fuente_reporte_tails.html"
+        ],
+        "edge_binary_path_override": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "selenium_view_time_seconds": 7
+    },
     "bot_notificador": {
         "request_timeout_seconds": 5,
         "endpoints": {
-            "Sonic": "http://127.0.0.1:5001/alert",
-            "Knuckles": "http://127.0.0.1:5002/alert",
-            "Tails": "http://127.0.0.1:5003/alert",
-            "LogDB": "http://127.0.0.1:5004/alert"
+            "Sonic": "[http://127.0.0.1:5001/alert](http://127.0.0.1:5001/alert)",
+            "Knuckles": "[http://127.0.0.1:5002/alert](http://127.0.0.1:5002/alert)",
+            "Tails": "[http://127.0.0.1:5003/alert](http://127.0.0.1:5003/alert)",
+            "LogDB": "[http://127.0.0.1:5004/alert](http://127.0.0.1:5004/alert)"
         }
     },
     "bot_enriquecedor": {
@@ -24,8 +28,9 @@
             "Green Hill Zone": {"zone_name": "Green Hill Zone", "description": "Colinas verdes.", "nearby_heroes": ["Sonic", "Tails"], "common_threats": ["Moto Bug"]},
             "Chemical Plant Zone": {"zone_name": "Chemical Plant Zone", "description": "Zona industrial.", "nearby_heroes": ["Sonic"], "common_threats": ["Grabber"]},
             "Station Square": {"zone_name": "Station Square", "description": "Metrópolis.", "nearby_heroes": ["Sonic", "Amy"], "common_threats": ["Egg Walker"]},
-            "Angel Island": {"zone_name": "Angel Island", "description": "Isla flotante.", "nearby_heroes": ["Knuckles"], "common_threats": ["EggRobo"]},
-            "Tails' Workshop": {"zone_name": "Mystic Ruins - Tails' Workshop", "description": "Taller de Tails.", "nearby_heroes": ["Tails", "Sonic"], "common_threats": ["Badniks"]},
+            "Angel Island": {"zone_name": "Angel Island", "description": "Isla flotante.", "nearby_heroes": ["Knuckles", "Sonic"], "common_threats": ["EggRobo", "Master Emerald Threats"]},
+            "Tails' Workshop": {"zone_name": "Tails' Workshop", "description": "Taller de Tails en Mystic Ruins.", "nearby_heroes": ["Tails", "Sonic"], "common_threats": ["Badniks exploradores", "Espionaje"]},
+            "Mystic Ruins": {"zone_name": "Mystic Ruins", "description": "Área antigua con ruinas y una jungla.", "nearby_heroes": ["Tails", "Knuckles", "Sonic"], "common_threats": ["Egg Hornet", "Chaos Gamma"]},
             "G.U.N. HQ": {"zone_name": "Central City - G.U.N. HQ", "description": "Cuartel G.U.N.", "nearby_heroes": [], "common_threats": ["Robots G.U.N."]},
             "Unknown Location": {"zone_name": "Unknown Location", "description": "Ubicación desconocida.", "nearby_heroes": [], "common_threats": []}
         }

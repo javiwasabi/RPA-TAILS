@@ -1,15 +1,15 @@
 {
-    "event_id": "EVT-SEL-EDGE-20250531221703-0001",
-    "timestamp_raw": "2025-05-31T22:17:03.231277",
-    "source_system": "Fuente Web (Selenium/Edge)",
-    "source_type_tag": "WEB_SELENIUM_EDGE",
-    "detected_location_raw": "Chemical Plant Zone",
+    "event_id": "EVT-SEL-20250601000158-0003",
+    "timestamp_raw": "2025-06-01T00:01:58.952222",
+    "source_system": "Fuente Web: Reporte Taller de Tails",
+    "source_type_tag": "WEB_SELENIUM_TAILS_REPORT",
+    "detected_location_raw": "Tails' Workshop",
     "threat_level_raw": "medio",
-    "description_raw": "Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.",
+    "description_raw": "Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.",
     "raw_payload": {
-        "device_id": "WEB_SENSOR_001",
-        "reading_type": "visual_confirmation",
-        "value": 1,
-        "html_source_file": "fuente_de_datos_simulada.html"
+        "device_id": "TAILS_SENSOR_ARRAY_003",
+        "reading_type": "multi_badnik_signature",
+        "value": 15,
+        "html_source_file": "fuente_reporte_tails.html"
     }
 }
