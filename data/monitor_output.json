@@ -1,6 +1,6 @@
 {
-    "event_id": "EVT-SEL-EDGE-20250531221135-0001",
-    "timestamp_raw": "2025-05-31T22:11:35.847327",
+    "event_id": "EVT-SEL-EDGE-20250531221703-0001",
+    "timestamp_raw": "2025-05-31T22:17:03.231277",
     "source_system": "Fuente Web (Selenium/Edge)",
     "source_type_tag": "WEB_SELENIUM_EDGE",
     "detected_location_raw": "Chemical Plant Zone",

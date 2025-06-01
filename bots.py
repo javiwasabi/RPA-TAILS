@@ -3,27 +3,29 @@ import json
 import time
 import random
 from datetime import datetime
-import requests # Para BotNotificador
+import requests
 
-# Selenium imports - MODIFICADO PARA EDGE
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.edge.service import Service as EdgeService      # CAMBIADO
-from selenium.webdriver.edge.options import Options as EdgeOptions      # CAMBIADO
-from webdriver_manager.microsoft import EdgeChromiumDriverManager   # CAMBIADO
+from selenium.webdriver.edge.service import Service as EdgeService
+from selenium.webdriver.edge.options import Options as EdgeOptions
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from selenium.common.exceptions import WebDriverException, NoSuchElementException, TimeoutException
 
 # --- CONFIGURACIÓN GLOBAL ---
 DATA_DIR = "data"
 LOGS_DIR = "logs"
+REPORTS_DIR = "reports" # Nueva carpeta para reportes HTML
 EVENT_ID_COUNTER = 0
-CONFIG = {} 
+CONFIG = {}
 KNOWLEDGE_BASE = {}
+CURRENT_EVENT_HTML_REPORT = "" # Para el reporte HTML del evento actual
 
 # --- FUNCIONES DE UTILIDAD ---
 def ensure_dirs():
     os.makedirs(DATA_DIR, exist_ok=True)
     os.makedirs(LOGS_DIR, exist_ok=True)
+    os.makedirs(REPORTS_DIR, exist_ok=True) # Asegurar carpeta de reportes
 
 def logger(bot_name, message, level="INFO"):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
@@ -35,12 +37,14 @@ def logger(bot_name, message, level="INFO"):
         f.write(log_message_console + "\n")
 
 def write_json_data(filename, data):
+    # ... (sin cambios)
     path = os.path.join(DATA_DIR, filename)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
     logger("System", f"Archivo JSON '{filename}' escrito.", "DEBUG")
 
 def read_json_data(filename):
+    # ... (sin cambios)
     path = os.path.join(DATA_DIR, filename)
     if not os.path.exists(path):
         logger("System", f"Archivo JSON '{filename}' no encontrado.", "ERROR")
@@ -55,13 +59,14 @@ def read_json_data(filename):
         return None
 
 def load_config():
+    # ... (sin cambios respecto a la última versión)
     global CONFIG, KNOWLEDGE_BASE
     default_config = {
         "bot_maestro": {"process_interval_seconds_min": 5, "process_interval_seconds_max": 10, "max_cycles_to_run": 0},
         "bot_monitor": {
             "use_selenium_source": True, 
             "selenium_local_html_file": "fuente_de_datos_simulada.html",
-            "edge_binary_path_override": "" # Para Edge, si es necesario
+            "edge_binary_path_override": "" 
             },
         "bot_notificador": {"request_timeout_seconds": 5, "endpoints": {
             "Sonic": "http://127.0.0.1:5001/alert", "Knuckles": "http://127.0.0.1:5002/alert",
@@ -70,7 +75,7 @@ def load_config():
         "bot_enriquecedor": {"knowledge_base_simulated": {
             "Unknown Location": {"zone_name": "Unknown Location", "description": "Ubicación desconocida.", "nearby_heroes": [], "common_threats": []}
         }}
-    } # ... (resto de tu default_config y lógica de carga como antes) ...
+    } 
     try:
         with open("config.json", "r", encoding="utf-8") as f:
             loaded_config = json.load(f)
@@ -98,25 +103,118 @@ def load_config():
     logger("BotMaestro", "Base de conocimiento (re)inicializada.")
 
 
-def find_edge_binary(): # NUEVA FUNCIÓN para Edge
-    """Intenta encontrar el ejecutable de Microsoft Edge en ubicaciones comunes."""
+def find_edge_binary():
+    # ... (sin cambios)
     paths_to_check = [
         "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
         "C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe",
     ]
-    # Podrías añadir más rutas si Edge se instala en AppData para el usuario
-    # if 'USERPROFILE' in os.environ:
-    # paths_to_check.append(os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Microsoft', 'Edge', 'Application', 'msedge.exe'))
-    
     for path in paths_to_check:
         if os.path.exists(path):
             logger("System", f"Binario de Edge encontrado en: {path}", "DEBUG")
             return path
-    logger("System", "No se pudo encontrar automáticamente el binario de Edge en rutas comunes.", "WARN")
+    logger("System", "No se pudo encontrar automáticamente el binario de Edge.", "WARN")
     return None
+
+
+# --- Funciones para el Reporte HTML del Flujo ---
+def start_html_report(event_id):
+    global CURRENT_EVENT_HTML_REPORT
+    CURRENT_EVENT_HTML_REPORT = os.path.join(REPORTS_DIR, f"evento_{event_id.replace(':', '-')}.html") # Nombre de archivo seguro
+    html_content = f"""
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Reporte de Flujo - Evento {event_id}</title>
+        <style>
+            body {{ font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }}
+            .container {{ background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }}
+            .bot-step {{ margin-bottom: 20px; padding: 15px; border-left: 5px solid; border-radius: 5px; }}
+            .bot-monitor {{ border-color: #3498db; background-color: #eaf5ff; }} /* Azul */
+            .bot-analizador {{ border-color: #f1c40f; background-color: #fff9e6; }} /* Amarillo */
+            .bot-enriquecedor {{ border-color: #2ecc71; background-color: #e9f7ef; }} /* Verde */
+            .bot-router {{ border-color: #e74c3c; background-color: #fdedec; }} /* Rojo */
+            .bot-notificador {{ border-color: #9b59b6; background-color: #f5eff7; }} /* Morado */
+            h1 {{ color: #2c3e50; text-align: center; }}
+            h2 {{ color: #34495e; border-bottom: 2px solid #eee; padding-bottom: 5px;}}
+            pre {{ background-color: #ecf0f1; padding: 10px; border-radius: 4px; white-space: pre-wrap; word-wrap: break-word; font-size: 0.9em; }}
+            .timestamp {{ font-size: 0.8em; color: #7f8c8d; float: right; }}
+            .character {{ font-weight: bold; font-size: 1.2em; margin-right: 10px;}}
+            .sonic {{ color: #007bff; }}
+            .tails {{ color: #ffaa00; }}
+            .knuckles {{ color: #d90000; }}
+            .eggman {{ color: #c0c0c0; }} /* Para representar amenaza */
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1><span class="eggman">🤖</span> Reporte de Flujo del Evento: {event_id} <span class="eggman">🚨</span></h1>
+    """
+    with open(CURRENT_EVENT_HTML_REPORT, "w", encoding="utf-8") as f:
+        f.write(html_content)
+
+def add_to_html_report(bot_name, data_processed, details=""):
+    if not CURRENT_EVENT_HTML_REPORT: return
+
+    bot_class_map = {
+        "BotMonitor": "bot-monitor", "BotAnalizador": "bot-analizador",
+        "BotEnriquecedor": "bot-enriquecedor", "BotRouter": "bot-router",
+        "BotNotificador": "bot-notificador"
+    }
+    bot_icon_map = { # Iconos simples para los bots
+        "BotMonitor": "🛰️", "BotAnalizador": "🧠",
+        "BotEnriquecedor": "🗺️", "BotRouter": "🚦",
+        "BotNotificador": "📡"
+    }
+    bot_class = bot_class_map.get(bot_name, "")
+    bot_icon = bot_icon_map.get(bot_name, "⚙️")
+    timestamp_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    # Simular qué personaje podría estar asociado con la acción
+    character_html = ""
+    if bot_name == "BotMonitor":
+        source = data_processed.get("source_system_name", data_processed.get("source_system", ""))
+        if "Tails" in source: character_html = '<span class="character tails">Tails:</span>'
+        elif "G.U.N." in source: character_html = '<span class="character eggman">G.U.N.:</span>' # G.U.N. no es un héroe, pero es una fuente
+        elif "Campo" in source: character_html = '<span class="character sonic">Freedom Fighter:</span>'
+        elif "ME" in source: character_html = '<span class="character knuckles">Alerta Esmeralda:</span>'
+    elif bot_name == "BotRouter":
+        targets = data_processed.get("target_destinations", [])
+        if "Sonic" in targets: character_html += '<span class="character sonic">Sonic</span> '
+        if "Tails" in targets: character_html += '<span class="character tails">Tails</span> '
+        if "Knuckles" in targets: character_html += '<span class="character knuckles">Knuckles</span> '
+        if character_html: character_html = f"Ruteado a: {character_html}"
+
+
+    html_content = f"""
+        <div class="bot-step {bot_class}">
+            <span class="timestamp">{timestamp_now}</span>
+            <h2>{bot_icon} {bot_name}</h2>
+            {character_html}
+            <p>{details}</p>
+            <pre>{json.dumps(data_processed, indent=2, ensure_ascii=False)}</pre>
+        </div>
+    """
+    with open(CURRENT_EVENT_HTML_REPORT, "a", encoding="utf-8") as f:
+        f.write(html_content)
+
+def end_html_report():
+    if not CURRENT_EVENT_HTML_REPORT: return
+    html_content = """
+        </div>
+    </body>
+    </html>
+    """
+    with open(CURRENT_EVENT_HTML_REPORT, "a", encoding="utf-8") as f:
+        f.write(html_content)
+    logger("System", f"Reporte HTML generado: {CURRENT_EVENT_HTML_REPORT}")
+
 
 # --- 🛰️ BotMonitor ---
 def bot_monitor():
+    # ... (MISMO CÓDIGO DE BotMonitor de la respuesta anterior, usando Edge)
+    # ... (ASEGÚRATE DE TENER LA LÓGICA DE `use_selenium` Y `edge_binary_override`)
     global EVENT_ID_COUNTER
     EVENT_ID_COUNTER += 1
     bot_name = "BotMonitor"
@@ -126,7 +224,7 @@ def bot_monitor():
     cfg_monitor = CONFIG.get("bot_monitor", {})
     use_selenium = cfg_monitor.get("use_selenium_source", False)
     selenium_html_file = cfg_monitor.get("selenium_local_html_file", "fuente_de_datos_simulada.html")
-    edge_binary_override = cfg_monitor.get("edge_binary_path_override", "").strip() # CAMBIADO
+    edge_binary_override = cfg_monitor.get("edge_binary_path_override", "").strip() 
     
     selenium_data_extracted = False
 
@@ -135,11 +233,10 @@ def bot_monitor():
         try:
             logger(bot_name, f"Intentando obtener datos de '{selenium_html_file}' con Selenium (Microsoft Edge)...")
             
-            options = EdgeOptions() # USAR EdgeOptions
-            options.add_argument("--headless")
-            options.add_argument("--disable-gpu") # A veces necesario para headless
-            # options.use_chromium = True # Ya no es necesario para versiones recientes de Selenium con Edge
-            options.add_experimental_option('excludeSwitches', ['enable-logging']) # Consola más limpia
+            options = EdgeOptions() 
+            # options.add_argument("--headless") # Comentado para ver la ventana
+            options.add_experimental_option('excludeSwitches', ['enable-logging'])
+            options.add_argument('log-level=3')
 
             edge_binary_path_to_use = None
             if edge_binary_override and os.path.exists(edge_binary_override):
@@ -156,8 +253,8 @@ def bot_monitor():
             else:
                 logger(bot_name, "No se especificó/encontró ruta para msedge.exe. Dejando que WebDriverManager intente.", "WARN")
 
-            service = EdgeService(executable_path=EdgeChromiumDriverManager().install()) # USAR EdgeChromiumDriverManager
-            driver = webdriver.Edge(service=service, options=options) # USAR webdriver.Edge
+            service = EdgeService(executable_path=EdgeChromiumDriverManager().install()) 
+            driver = webdriver.Edge(service=service, options=options) 
             
             driver.set_page_load_timeout(10)
             
@@ -167,8 +264,11 @@ def bot_monitor():
 
             driver.get(f"file:///{local_html_path.replace(os.sep, '/')}")
 
+            # Para que tengas tiempo de ver el HTML abierto por Selenium:
+            logger(bot_name, "HTML abierto por Selenium. Observa la ventana del navegador. Se cerrará en unos segundos...")
+            time.sleep(cfg_monitor.get("selenium_view_time_seconds", 5)) # configurable desde config.json
+
             descripcion_web = driver.find_element(By.ID, "descripcion").text
-            # ... (el resto de la extracción de datos es igual) ...
             nivel_web = driver.find_element(By.ID, "nivel").text
             ubicacion_web = driver.find_element(By.ID, "ubicacion").text
             device_id_web = driver.find_element(By.ID, "device_id").text
@@ -179,10 +279,9 @@ def bot_monitor():
 
             logger(bot_name, f"Datos Selenium (Edge): Desc:'{descripcion_web}', Nivel:'{nivel_web}', Ubic:'{ubicacion_web}'")
             monitor_output = {
-                "event_id": f"EVT-SEL-EDGE-{datetime.now().strftime('%Y%m%d%H%M%S')}-{EVENT_ID_COUNTER:04d}", # Etiqueta cambiada
-                "timestamp_raw": datetime.now().isoformat(), "source_system": "Fuente Web (Selenium/Edge)", # Etiqueta cambiada
-                "source_type_tag": "WEB_SELENIUM_EDGE", # Etiqueta cambiada
-                # ... (resto de monitor_output igual) ...
+                "event_id": f"EVT-SEL-EDGE-{datetime.now().strftime('%Y%m%d%H%M%S')}-{EVENT_ID_COUNTER:04d}", 
+                "timestamp_raw": datetime.now().isoformat(), "source_system": "Fuente Web (Selenium/Edge)", 
+                "source_type_tag": "WEB_SELENIUM_EDGE", 
                 "detected_location_raw": ubicacion_web,
                 "threat_level_raw": nivel_web, "description_raw": descripcion_web,
                 "raw_payload": {
@@ -195,10 +294,8 @@ def bot_monitor():
         except FileNotFoundError as fnf_e: logger(bot_name, str(fnf_e), "ERROR")
         except TimeoutException: logger(bot_name, f"Timeout al cargar '{selenium_html_file}' con Edge.", "ERROR")
         except WebDriverException as wde:
-            if "cannot find msedge binary" in str(wde).lower() or "edge browser was not found" in str(wde).lower(): # Mensajes comunes
+            if "cannot find msedge binary" in str(wde).lower() or "edge browser was not found" in str(wde).lower(): 
                 logger(bot_name, "Error de Selenium: No se puede encontrar el binario de Microsoft Edge (msedge.exe).", "CRITICAL")
-                logger(bot_name, "Verifica que Microsoft Edge esté instalado y accesible.", "CRITICAL")
-                logger(bot_name, "Si está en una ubicación no estándar, especifica 'edge_binary_path_override' en config.json.", "CRITICAL")
             else:
                 logger(bot_name, f"WebDriverException con Selenium (Edge): {str(wde)[:200]}...", "ERROR")
         except NoSuchElementException as nsee: logger(bot_name, f"No se encontró elemento en '{selenium_html_file}' con Edge: {nsee}", "ERROR")
@@ -208,8 +305,8 @@ def bot_monitor():
             if selenium_data_extracted: logger(bot_name, "Datos obtenidos vía Selenium (Edge).")
             else: logger(bot_name, "Fallo al obtener datos vía Selenium (Edge). Se usará generación aleatoria.")
     
-    # ... (el resto de la lógica de BotMonitor para generación aleatoria y fallback es la misma) ...
     if not selenium_data_extracted:
+        # ... (código de generación aleatoria igual) ...
         logger(bot_name, "Procediendo con generación de datos aleatorios...")
         sources_config = [
             {"name": "Sensor Tails", "type": "SENSOR_TAILS", "locations": ["Tails' Workshop"]},
@@ -258,18 +355,19 @@ def bot_monitor():
         }
         logger(bot_name, "Fallo crítico en BotMonitor, usando evento por defecto.", "CRITICAL")
 
+    # AÑADIR AL REPORTE HTML
+    start_html_report(monitor_output['event_id']) # Inicia un nuevo reporte para este evento
+    add_to_html_report(bot_name, monitor_output, "Datos iniciales capturados/generados.")
+    
     logger(bot_name, f"Datos finales: ID {monitor_output['event_id']}, Fuente: {monitor_output['source_system']}")
     write_json_data("monitor_output.json", monitor_output)
     logger(bot_name, "Monitoreo completado.")
     return monitor_output
 
-# --- BotAnalizador, BotEnriquecedor, BotRouter, BotNotificador (SIN CAMBIOS IMPORTANTES) ---
-# (Pega aquí las versiones completas de estas funciones de la respuesta anterior si las necesitas de nuevo)
-# Asegúrate que usan CONFIG global si es necesario.
-
-# BotAnalizador
+# --- BotAnalizador ---
 def bot_analizador():
     bot_name = "BotAnalizador"
+    # ... (código igual, pero añadimos llamada a add_to_html_report)
     logger(bot_name, "Iniciando análisis...")
     monitor_data = read_json_data("monitor_output.json")
     if not monitor_data:
@@ -283,8 +381,8 @@ def bot_analizador():
         "source_type": monitor_data["source_type_tag"],
         "location_reported": monitor_data["detected_location_raw"],
         "threat_assessment": {
-            "initial_level": monitor_data["threat_level_raw"].lower(),
-            "description": monitor_data["description_raw"]
+             "initial_level": monitor_data["threat_level_raw"].lower(),
+             "description": monitor_data["description_raw"]
         },
         "original_raw_data": monitor_data.get("raw_payload", {})
     }
@@ -295,13 +393,17 @@ def bot_analizador():
     else: score = 2 
     canonical_data["threat_assessment"]["priority_score"] = score
     logger(bot_name, f"Prioridad asignada: {score}")
+    
+    add_to_html_report(bot_name, canonical_data, "Datos normalizados y priorizados.")
+    
     write_json_data("analysis_output.json", canonical_data)
     logger(bot_name, "Análisis completado.")
     return canonical_data
 
-# BotEnriquecedor
+# --- BotEnriquecedor ---
 def bot_enriquecedor():
     bot_name = "BotEnriquecedor"
+    # ... (código igual, pero añadimos llamada a add_to_html_report)
     logger(bot_name, "Iniciando enriquecimiento...")
     canonical_data = read_json_data("analysis_output.json")
     if not canonical_data:
@@ -332,13 +434,17 @@ def bot_enriquecedor():
     else: urgency = "URGENCIA_BAJA"
     enriched_data["urgency_level"] = urgency
     logger(bot_name, f"Nivel de urgencia: {urgency}")
+
+    add_to_html_report(bot_name, enriched_data, "Datos contextualizados y enriquecidos.")
+
     write_json_data("enriched_output.json", enriched_data)
     logger(bot_name, "Enriquecimiento completado.")
     return enriched_data
 
-# BotRouter
+# --- BotRouter ---
 def bot_router():
     bot_name = "BotRouter"
+    # ... (código igual, pero añadimos llamada a add_to_html_report)
     logger(bot_name, "Iniciando ruteo...")
     enriched_data = read_json_data("enriched_output.json")
     if not enriched_data:
@@ -346,13 +452,14 @@ def bot_router():
 
     logger(bot_name, f"Ruteando evento ID: {enriched_data['event_id']}")
     destinations = set(["LogDB"]) 
-    alert_payload = enriched_data.copy()
+    alert_payload = enriched_data.copy() # Usamos una copia por si modificamos el payload aquí
     threat_level = alert_payload.get("threat_assessment", {}).get("initial_level", "bajo")
     source_type = alert_payload.get("source_type", "")
     location_details = alert_payload.get("location_details", {})
     nearby_heroes = location_details.get("known_nearby_heroes", [])
     zone_name = location_details.get("zone_name", "")
 
+    # Lógica de ruteo (la misma que antes)
     if source_type == "MASTER_EMERALD_ALERT": destinations.add("Knuckles")
     if source_type == "SENSOR_TAILS":
         destinations.add("Tails")
@@ -365,27 +472,33 @@ def bot_router():
     if alert_payload.get("urgency_level") == "MAXIMA_URGENCIA" and "Sonic" not in destinations:
         destinations.add("Sonic")
 
-    routing_decision = {
+    routing_decision = { # Este es el objeto que se guarda y se pasa al notificador
         "event_id": alert_payload["event_id"],
         "target_destinations": list(destinations),
-        "alert_payload_to_send": alert_payload
+        "alert_payload_to_send": alert_payload # El payload completo enriquecido
     }
     logger(bot_name, f"Destinos: {', '.join(list(destinations))}")
+    
+    # Para el reporte HTML, mostramos la decisión de ruteo.
+    # El 'data_processed' para add_to_html_report puede ser el mismo routing_decision.
+    add_to_html_report(bot_name, routing_decision, f"Decisión de ruteo: enviar a {', '.join(list(destinations))}.")
+    
     write_json_data("routing_output.json", routing_decision)
     logger(bot_name, "Ruteo completado.")
     return routing_decision
 
-# BotNotificador
+# --- BotNotificador ---
 def bot_notificador():
     bot_name = "BotNotificador"
+    # ... (código igual, pero añadimos llamada a add_to_html_report)
     logger(bot_name, "Iniciando notificaciones...")
     routing_data = read_json_data("routing_output.json")
     if not routing_data:
         logger(bot_name, "No hay decisiones de ruteo. Abortando.", "ERROR"); return
 
     logger(bot_name, f"Notificando para evento ID: {routing_data['event_id']}")
-    destinations = routing_data["target_destinations"]
-    payload = routing_data["alert_payload_to_send"]
+    destinations_to_notify = routing_data["target_destinations"] # Renombrado para claridad
+    payload_to_send = routing_data["alert_payload_to_send"] # Renombrado para claridad
     
     cfg_notifier = CONFIG.get("bot_notificador", {})
     endpoint_map = cfg_notifier.get("endpoints", {})
@@ -395,26 +508,44 @@ def bot_notificador():
         logger(bot_name, "No hay endpoints configurados en config.json.", "ERROR"); return
 
     sent_count = 0
-    for dest_name in destinations:
+    notifications_summary = [] # Para el reporte HTML
+    for dest_name in destinations_to_notify:
         url = endpoint_map.get(dest_name)
+        status_message = ""
         if url:
             try:
                 logger(bot_name, f"Enviando a {dest_name} en {url}...")
-                response = requests.post(url, json=payload, timeout=request_timeout)
+                response = requests.post(url, json=payload_to_send, timeout=request_timeout)
                 response.raise_for_status()
-                logger(bot_name, f"Enviado a {dest_name} OK. Status: {response.status_code} {response.text[:50]}")
+                status_message = f"Enviado a {dest_name} OK (Status: {response.status_code})"
+                logger(bot_name, status_message)
                 sent_count += 1
             except requests.exceptions.ConnectionError:
-                logger(bot_name, f"Error de conexión con {dest_name} ({url}).", "ERROR")
+                status_message = f"Error de conexión con {dest_name} ({url})"
+                logger(bot_name, status_message, "ERROR")
+            # ... (otras excepciones como antes) ...
             except requests.exceptions.Timeout:
-                logger(bot_name, f"Timeout con {dest_name} ({url}).", "ERROR")
-            except requests.exceptions.HTTPError as e:
-                logger(bot_name, f"Error HTTP con {dest_name} ({url}): {e.response.status_code}", "ERROR")
-            except Exception as e:
-                logger(bot_name, f"Error enviando a {dest_name} ({url}): {type(e).__name__}", "ERROR")
+                status_message = f"Timeout con {dest_name} ({url})"
+                logger(bot_name, status_message, "ERROR")
+            except requests.exceptions.HTTPError as e_http:
+                status_message = f"Error HTTP {e_http.response.status_code} con {dest_name} ({url})"
+                logger(bot_name, status_message, "ERROR")
+            except Exception as e_generic:
+                status_message = f"Error enviando a {dest_name} ({url}): {type(e_generic).__name__}"
+                logger(bot_name, status_message, "ERROR")
         else:
-            logger(bot_name, f"Destino '{dest_name}' sin URL. Saltando.", "WARN")
-    logger(bot_name, f"Notificaciones completadas. {sent_count}/{len(destinations)} enviadas.")
+            status_message = f"Destino '{dest_name}' sin URL configurada. Saltado."
+            logger(bot_name, status_message, "WARN")
+        notifications_summary.append(status_message)
+
+    # Para el reporte HTML, pasamos un resumen de las notificaciones.
+    # El 'data_processed' podría ser el payload original o un resumen.
+    # Usaremos el payload original y el resumen en los detalles.
+    report_details = "Resumen de Notificaciones:<br>" + "<br>".join(notifications_summary)
+    add_to_html_report(bot_name, {"payload_sent": payload_to_send, "destinations": destinations_to_notify, "summary": notifications_summary}, report_details)
+    
+    logger(bot_name, f"Notificaciones completadas. {sent_count}/{len(destinations_to_notify)} enviadas.")
+
 
 # --- CICLO PRINCIPAL DE ORQUESTACIÓN ---
 def main_loop():
@@ -424,23 +555,39 @@ def main_loop():
     cfg_maestro = CONFIG.get("bot_maestro", {})
     min_interval = cfg_maestro.get("process_interval_seconds_min", 3)
     max_interval = cfg_maestro.get("process_interval_seconds_max", 7)
-    max_cycles = cfg_maestro.get("max_cycles_to_run", 0) 
+    max_cycles = cfg_maestro.get("max_cycles_to_run", 0)
     
     current_cycle = 0
     try:
         while True:
             current_cycle += 1
+            global CURRENT_EVENT_HTML_REPORT # Asegurar que se resetea para cada ciclo
+            CURRENT_EVENT_HTML_REPORT = ""
             logger("BotMaestro", f"--- Ciclo #{current_cycle} ---")
             
-            if bot_monitor() is None: logger("BotMaestro", "BotMonitor falló, reintentando ciclo.", "WARN"); time.sleep(1); continue
+            # BotMonitor es el primero y potencialmente inicia el reporte
+            monitor_result = bot_monitor()
+            if monitor_result is None: 
+                logger("BotMaestro", "BotMonitor falló críticamente, saltando ciclo.", "ERROR")
+                time.sleep(max_interval) # Esperar antes de reintentar
+                continue 
+            
             time.sleep(0.2)
-            if bot_analizador() is None: logger("BotMaestro", "BotAnalizador falló, reintentando ciclo.", "WARN"); time.sleep(1); continue
+            analysis_result = bot_analizador()
+            if analysis_result is None: logger("BotMaestro", "BotAnalizador falló."); # No continuar sin análisis
+            
             time.sleep(0.2)
-            if bot_enriquecedor() is None: logger("BotMaestro", "BotEnriquecedor falló, reintentando ciclo.", "WARN"); time.sleep(1); continue
+            enriched_result = bot_enriquecedor()
+            if enriched_result is None: logger("BotMaestro", "BotEnriquecedor falló.");
+
             time.sleep(0.2)
-            if bot_router() is None: logger("BotMaestro", "BotRouter falló, reintentando ciclo.", "WARN"); time.sleep(1); continue
+            routing_result = bot_router()
+            if routing_result is None: logger("BotMaestro", "BotRouter falló.");
+            
             time.sleep(0.2)
             bot_notificador()
+
+            end_html_report() # Finaliza el reporte HTML del evento actual
 
             logger("BotMaestro", f"--- Ciclo #{current_cycle} COMPLETADO ---")
 
@@ -455,6 +602,10 @@ def main_loop():
     except KeyboardInterrupt:
         logger("BotMaestro", "Interrupción por teclado. Deteniendo...")
     finally:
+        if CURRENT_EVENT_HTML_REPORT and os.path.exists(CURRENT_EVENT_HTML_REPORT): # Asegurar que el último reporte se cierre si se interrumpe
+            with open(CURRENT_EVENT_HTML_REPORT, "a", encoding="utf-8") as f:
+                if not f.read().strip().endswith("</html>"): # Evitar doble cierre
+                     f.write("\n        </div>\n    </body>\n    </html>\n")
         logger("BotMaestro", "Hedgehog Alert Processor TERMINADO.")
 
 if __name__ == "__main__":

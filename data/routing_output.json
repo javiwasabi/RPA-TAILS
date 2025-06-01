@@ -1,11 +1,11 @@
 {
-    "event_id": "EVT-SEL-EDGE-20250531221135-0001",
+    "event_id": "EVT-SEL-EDGE-20250531221703-0001",
     "target_destinations": [
         "LogDB"
     ],
     "alert_payload_to_send": {
-        "event_id": "EVT-SEL-EDGE-20250531221135-0001",
-        "timestamp_event": "2025-05-31T22:11:35.847327",
+        "event_id": "EVT-SEL-EDGE-20250531221703-0001",
+        "timestamp_event": "2025-05-31T22:17:03.231277",
         "source_system_name": "Fuente Web (Selenium/Edge)",
         "source_type": "WEB_SELENIUM_EDGE",
         "location_reported": "Chemical Plant Zone",

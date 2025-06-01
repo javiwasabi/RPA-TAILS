@@ -4,11 +4,12 @@
         "process_interval_seconds_max": 10,
         "max_cycles_to_run": 0
     },
-    "bot_monitor": {
-        "use_selenium_source": true,
-        "selenium_local_html_file": "fuente_de_datos_simulada.html",
-        "edge_binary_path_override": "" 
-    },
+   "bot_monitor": {
+    "use_selenium_source": true,
+    "selenium_local_html_file": "fuente_de_datos_simulada.html",
+    "edge_binary_path_override": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe", 
+    "selenium_view_time_seconds": 7 
+},
     "bot_notificador": {
         "request_timeout_seconds": 5,
         "endpoints": {

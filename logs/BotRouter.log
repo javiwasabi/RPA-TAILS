@@ -58,3 +58,7 @@
 [2025-05-31 22:11:38.820] [BotRouter      ] [INFO ] Ruteando evento ID: EVT-SEL-EDGE-20250531221135-0001
 [2025-05-31 22:11:38.821] [BotRouter      ] [INFO ] Destinos: LogDB
 [2025-05-31 22:11:38.836] [BotRouter      ] [INFO ] Ruteo completado.
+[2025-05-31 22:17:06.365] [BotRouter      ] [INFO ] Iniciando ruteo...
+[2025-05-31 22:17:06.408] [BotRouter      ] [INFO ] Ruteando evento ID: EVT-SEL-EDGE-20250531221703-0001
+[2025-05-31 22:17:06.413] [BotRouter      ] [INFO ] Destinos: LogDB
+[2025-05-31 22:17:06.422] [BotRouter      ] [INFO ] Ruteo completado.

@@ -58,3 +58,7 @@
 [2025-05-31 22:11:38.558] [BotEnriquecedor] [INFO ] Enriqueciendo evento ID: EVT-SEL-EDGE-20250531221135-0001
 [2025-05-31 22:11:38.559] [BotEnriquecedor] [INFO ] Nivel de urgencia: URGENCIA_MEDIA
 [2025-05-31 22:11:38.573] [BotEnriquecedor] [INFO ] Enriquecimiento completado.
+[2025-05-31 22:17:06.080] [BotEnriquecedor] [INFO ] Iniciando enriquecimiento...
+[2025-05-31 22:17:06.138] [BotEnriquecedor] [INFO ] Enriqueciendo evento ID: EVT-SEL-EDGE-20250531221703-0001
+[2025-05-31 22:17:06.140] [BotEnriquecedor] [INFO ] Nivel de urgencia: URGENCIA_MEDIA
+[2025-05-31 22:17:06.148] [BotEnriquecedor] [INFO ] Enriquecimiento completado.

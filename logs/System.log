@@ -128,3 +128,12 @@
 [2025-05-31 22:11:38.819] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
 [2025-05-31 22:11:38.824] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito.
 [2025-05-31 22:11:39.066] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.
+[2025-05-31 22:17:05.583] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' escrito.
+[2025-05-31 22:17:05.845] [System         ] [DEBUG] Archivo JSON 'monitor_output.json' leído.
+[2025-05-31 22:17:05.865] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' escrito.
+[2025-05-31 22:17:06.136] [System         ] [DEBUG] Archivo JSON 'analysis_output.json' leído.
+[2025-05-31 22:17:06.143] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' escrito.
+[2025-05-31 22:17:06.399] [System         ] [DEBUG] Archivo JSON 'enriched_output.json' leído.
+[2025-05-31 22:17:06.421] [System         ] [DEBUG] Archivo JSON 'routing_output.json' escrito.
+[2025-05-31 22:17:06.649] [System         ] [DEBUG] Archivo JSON 'routing_output.json' leído.
+[2025-05-31 22:17:06.715] [System         ] [INFO ] Reporte HTML generado: reports\evento_EVT-SEL-EDGE-20250531221703-0001.html
