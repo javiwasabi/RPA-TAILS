@@ -1,0 +1,535 @@
+[2025-06-01 01:25:42.372] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 01:25:42.373] [BotMaestro                  ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 01:25:42.373] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 01:25:42.374] [BotMaestro                  ] [INFO ] Presiona Ctrl+C para detener.
+[2025-06-01 01:25:42.374] [BotMaestro                  ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 01:25:55.332] [BotMaestro                  ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-06-01 01:25:55.332] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 01:26:09.333] [BotMaestro                  ] [INFO ] --- Ciclo #2 ---
+[2025-06-01 01:26:19.803] [BotMaestro                  ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-06-01 01:26:19.803] [BotMaestro                  ] [INFO ] Esperando 13s...
+[2025-06-01 01:26:25.638] [BotMaestro                  ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-06-01 01:27:23.459] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 01:27:23.459] [BotMaestro                  ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 01:27:23.460] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 01:27:23.460] [BotMaestro                  ] [INFO ] Presiona Ctrl+C para detener.
+[2025-06-01 01:27:23.460] [BotMaestro                  ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 01:27:40.396] [BotMaestro                  ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-06-01 01:27:40.397] [BotMaestro                  ] [INFO ] Esperando 13s...
+[2025-06-01 01:27:53.398] [BotMaestro                  ] [INFO ] --- Ciclo #2 ---
+[2025-06-01 01:28:12.488] [BotMaestro                  ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-06-01 01:28:12.488] [BotMaestro                  ] [INFO ] Esperando 11s...
+[2025-06-01 01:28:23.489] [BotMaestro                  ] [INFO ] --- Ciclo #3 ---
+[2025-06-01 01:28:43.593] [BotMaestro                  ] [INFO ] --- Ciclo #3 COMPLETADO ---
+[2025-06-01 01:28:43.593] [BotMaestro                  ] [INFO ] Esperando 10s...
+[2025-06-01 01:28:53.594] [BotMaestro                  ] [INFO ] --- Ciclo #4 ---
+[2025-06-01 01:29:13.697] [BotMaestro                  ] [INFO ] --- Ciclo #4 COMPLETADO ---
+[2025-06-01 01:29:13.697] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 01:29:27.698] [BotMaestro                  ] [INFO ] --- Ciclo #5 ---
+[2025-06-01 01:29:39.784] [BotMaestro                  ] [INFO ] --- Ciclo #5 COMPLETADO ---
+[2025-06-01 01:29:39.784] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 01:29:54.785] [BotMaestro                  ] [INFO ] --- Ciclo #6 ---
+[2025-06-01 01:30:07.876] [BotMaestro                  ] [INFO ] --- Ciclo #6 COMPLETADO ---
+[2025-06-01 01:30:07.876] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 01:30:22.877] [BotMaestro                  ] [INFO ] --- Ciclo #7 ---
+[2025-06-01 01:30:35.989] [BotMaestro                  ] [INFO ] --- Ciclo #7 COMPLETADO ---
+[2025-06-01 01:30:35.989] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 01:30:54.990] [BotMaestro                  ] [INFO ] --- Ciclo #8 ---
+[2025-06-01 01:31:15.087] [BotMaestro                  ] [INFO ] --- Ciclo #8 COMPLETADO ---
+[2025-06-01 01:31:15.088] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 01:31:31.089] [BotMaestro                  ] [INFO ] --- Ciclo #9 ---
+[2025-06-01 01:31:46.176] [BotMaestro                  ] [INFO ] --- Ciclo #9 COMPLETADO ---
+[2025-06-01 01:31:46.176] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 01:32:06.177] [BotMaestro                  ] [INFO ] --- Ciclo #10 ---
+[2025-06-01 01:32:50.337] [BotMaestro                  ] [INFO ] --- Ciclo #10 COMPLETADO ---
+[2025-06-01 01:32:50.338] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 01:33:06.339] [BotMaestro                  ] [INFO ] --- Ciclo #11 ---
+[2025-06-01 01:33:50.465] [BotMaestro                  ] [INFO ] --- Ciclo #11 COMPLETADO ---
+[2025-06-01 01:33:50.466] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 01:34:06.466] [BotMaestro                  ] [INFO ] --- Ciclo #12 ---
+[2025-06-01 01:34:50.669] [BotMaestro                  ] [INFO ] --- Ciclo #12 COMPLETADO ---
+[2025-06-01 01:34:50.669] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 01:35:06.670] [BotMaestro                  ] [INFO ] --- Ciclo #13 ---
+[2025-06-01 01:35:51.098] [BotMaestro                  ] [INFO ] --- Ciclo #13 COMPLETADO ---
+[2025-06-01 01:35:51.098] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 01:36:06.099] [BotMaestro                  ] [INFO ] --- Ciclo #14 ---
+[2025-06-01 01:36:50.238] [BotMaestro                  ] [INFO ] --- Ciclo #14 COMPLETADO ---
+[2025-06-01 01:36:50.238] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 01:37:10.240] [BotMaestro                  ] [INFO ] --- Ciclo #15 ---
+[2025-06-01 01:37:54.431] [BotMaestro                  ] [INFO ] --- Ciclo #15 COMPLETADO ---
+[2025-06-01 01:37:54.431] [BotMaestro                  ] [INFO ] Esperando 13s...
+[2025-06-01 01:38:07.432] [BotMaestro                  ] [INFO ] --- Ciclo #16 ---
+[2025-06-01 01:38:51.607] [BotMaestro                  ] [INFO ] --- Ciclo #16 COMPLETADO ---
+[2025-06-01 01:38:51.608] [BotMaestro                  ] [INFO ] Esperando 11s...
+[2025-06-01 01:39:02.609] [BotMaestro                  ] [INFO ] --- Ciclo #17 ---
+[2025-06-01 01:39:46.754] [BotMaestro                  ] [INFO ] --- Ciclo #17 COMPLETADO ---
+[2025-06-01 01:39:46.755] [BotMaestro                  ] [INFO ] Esperando 11s...
+[2025-06-01 01:39:57.756] [BotMaestro                  ] [INFO ] --- Ciclo #18 ---
+[2025-06-01 01:40:41.927] [BotMaestro                  ] [INFO ] --- Ciclo #18 COMPLETADO ---
+[2025-06-01 01:40:41.928] [BotMaestro                  ] [INFO ] Esperando 18s...
+[2025-06-01 01:40:59.928] [BotMaestro                  ] [INFO ] --- Ciclo #19 ---
+[2025-06-01 01:41:44.125] [BotMaestro                  ] [INFO ] --- Ciclo #19 COMPLETADO ---
+[2025-06-01 01:41:44.125] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 01:41:58.126] [BotMaestro                  ] [INFO ] --- Ciclo #20 ---
+[2025-06-01 01:42:42.308] [BotMaestro                  ] [INFO ] --- Ciclo #20 COMPLETADO ---
+[2025-06-01 01:42:42.308] [BotMaestro                  ] [INFO ] Esperando 13s...
+[2025-06-01 01:42:55.309] [BotMaestro                  ] [INFO ] --- Ciclo #21 ---
+[2025-06-01 01:43:39.500] [BotMaestro                  ] [INFO ] --- Ciclo #21 COMPLETADO ---
+[2025-06-01 01:43:39.500] [BotMaestro                  ] [INFO ] Esperando 18s...
+[2025-06-01 01:43:57.501] [BotMaestro                  ] [INFO ] --- Ciclo #22 ---
+[2025-06-01 01:44:41.686] [BotMaestro                  ] [INFO ] --- Ciclo #22 COMPLETADO ---
+[2025-06-01 01:44:41.687] [BotMaestro                  ] [INFO ] Esperando 18s...
+[2025-06-01 01:44:59.687] [BotMaestro                  ] [INFO ] --- Ciclo #23 ---
+[2025-06-01 01:45:43.855] [BotMaestro                  ] [INFO ] --- Ciclo #23 COMPLETADO ---
+[2025-06-01 01:45:43.855] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 01:46:00.856] [BotMaestro                  ] [INFO ] --- Ciclo #24 ---
+[2025-06-01 01:46:45.070] [BotMaestro                  ] [INFO ] --- Ciclo #24 COMPLETADO ---
+[2025-06-01 01:46:45.071] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 01:47:02.071] [BotMaestro                  ] [INFO ] --- Ciclo #25 ---
+[2025-06-01 01:47:46.276] [BotMaestro                  ] [INFO ] --- Ciclo #25 COMPLETADO ---
+[2025-06-01 01:47:46.276] [BotMaestro                  ] [INFO ] Esperando 12s...
+[2025-06-01 01:47:58.277] [BotMaestro                  ] [INFO ] --- Ciclo #26 ---
+[2025-06-01 01:48:42.496] [BotMaestro                  ] [INFO ] --- Ciclo #26 COMPLETADO ---
+[2025-06-01 01:48:42.497] [BotMaestro                  ] [INFO ] Esperando 13s...
+[2025-06-01 01:48:55.498] [BotMaestro                  ] [INFO ] --- Ciclo #27 ---
+[2025-06-01 01:49:39.667] [BotMaestro                  ] [INFO ] --- Ciclo #27 COMPLETADO ---
+[2025-06-01 01:49:39.668] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 01:49:54.668] [BotMaestro                  ] [INFO ] --- Ciclo #28 ---
+[2025-06-01 01:50:38.844] [BotMaestro                  ] [INFO ] --- Ciclo #28 COMPLETADO ---
+[2025-06-01 01:50:38.845] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 01:50:55.845] [BotMaestro                  ] [INFO ] --- Ciclo #29 ---
+[2025-06-01 01:51:40.040] [BotMaestro                  ] [INFO ] --- Ciclo #29 COMPLETADO ---
+[2025-06-01 01:51:40.040] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 01:51:54.041] [BotMaestro                  ] [INFO ] --- Ciclo #30 ---
+[2025-06-01 01:52:38.207] [BotMaestro                  ] [INFO ] --- Ciclo #30 COMPLETADO ---
+[2025-06-01 01:52:38.207] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 01:52:57.208] [BotMaestro                  ] [INFO ] --- Ciclo #31 ---
+[2025-06-01 01:53:41.370] [BotMaestro                  ] [INFO ] --- Ciclo #31 COMPLETADO ---
+[2025-06-01 01:53:41.370] [BotMaestro                  ] [INFO ] Esperando 11s...
+[2025-06-01 01:53:52.371] [BotMaestro                  ] [INFO ] --- Ciclo #32 ---
+[2025-06-01 01:54:36.522] [BotMaestro                  ] [INFO ] --- Ciclo #32 COMPLETADO ---
+[2025-06-01 01:54:36.522] [BotMaestro                  ] [INFO ] Esperando 12s...
+[2025-06-01 01:54:48.523] [BotMaestro                  ] [INFO ] --- Ciclo #33 ---
+[2025-06-01 01:55:32.684] [BotMaestro                  ] [INFO ] --- Ciclo #33 COMPLETADO ---
+[2025-06-01 01:55:32.685] [BotMaestro                  ] [INFO ] Esperando 13s...
+[2025-06-01 01:55:45.686] [BotMaestro                  ] [INFO ] --- Ciclo #34 ---
+[2025-06-01 01:56:29.853] [BotMaestro                  ] [INFO ] --- Ciclo #34 COMPLETADO ---
+[2025-06-01 01:56:29.854] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 01:56:46.854] [BotMaestro                  ] [INFO ] --- Ciclo #35 ---
+[2025-06-01 01:57:31.016] [BotMaestro                  ] [INFO ] --- Ciclo #35 COMPLETADO ---
+[2025-06-01 01:57:31.016] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 01:57:48.017] [BotMaestro                  ] [INFO ] --- Ciclo #36 ---
+[2025-06-01 01:58:32.156] [BotMaestro                  ] [INFO ] --- Ciclo #36 COMPLETADO ---
+[2025-06-01 01:58:32.156] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 01:58:49.157] [BotMaestro                  ] [INFO ] --- Ciclo #37 ---
+[2025-06-01 01:59:33.304] [BotMaestro                  ] [INFO ] --- Ciclo #37 COMPLETADO ---
+[2025-06-01 01:59:33.305] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 01:59:52.306] [BotMaestro                  ] [INFO ] --- Ciclo #38 ---
+[2025-06-01 02:00:36.464] [BotMaestro                  ] [INFO ] --- Ciclo #38 COMPLETADO ---
+[2025-06-01 02:00:36.465] [BotMaestro                  ] [INFO ] Esperando 11s...
+[2025-06-01 02:00:47.466] [BotMaestro                  ] [INFO ] --- Ciclo #39 ---
+[2025-06-01 02:01:31.604] [BotMaestro                  ] [INFO ] --- Ciclo #39 COMPLETADO ---
+[2025-06-01 02:01:31.604] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 02:01:45.605] [BotMaestro                  ] [INFO ] --- Ciclo #40 ---
+[2025-06-01 02:02:29.790] [BotMaestro                  ] [INFO ] --- Ciclo #40 COMPLETADO ---
+[2025-06-01 02:02:29.791] [BotMaestro                  ] [INFO ] Esperando 18s...
+[2025-06-01 02:02:47.792] [BotMaestro                  ] [INFO ] --- Ciclo #41 ---
+[2025-06-01 02:03:31.997] [BotMaestro                  ] [INFO ] --- Ciclo #41 COMPLETADO ---
+[2025-06-01 02:03:31.998] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 02:03:46.999] [BotMaestro                  ] [INFO ] --- Ciclo #42 ---
+[2025-06-01 02:04:31.144] [BotMaestro                  ] [INFO ] --- Ciclo #42 COMPLETADO ---
+[2025-06-01 02:04:31.145] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 02:04:48.145] [BotMaestro                  ] [INFO ] --- Ciclo #43 ---
+[2025-06-01 02:05:32.309] [BotMaestro                  ] [INFO ] --- Ciclo #43 COMPLETADO ---
+[2025-06-01 02:05:32.309] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 02:05:51.310] [BotMaestro                  ] [INFO ] --- Ciclo #44 ---
+[2025-06-01 02:06:35.478] [BotMaestro                  ] [INFO ] --- Ciclo #44 COMPLETADO ---
+[2025-06-01 02:06:35.478] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 02:06:55.479] [BotMaestro                  ] [INFO ] --- Ciclo #45 ---
+[2025-06-01 02:07:39.641] [BotMaestro                  ] [INFO ] --- Ciclo #45 COMPLETADO ---
+[2025-06-01 02:07:39.641] [BotMaestro                  ] [INFO ] Esperando 11s...
+[2025-06-01 02:07:50.642] [BotMaestro                  ] [INFO ] --- Ciclo #46 ---
+[2025-06-01 02:08:34.845] [BotMaestro                  ] [INFO ] --- Ciclo #46 COMPLETADO ---
+[2025-06-01 02:08:34.846] [BotMaestro                  ] [INFO ] Esperando 18s...
+[2025-06-01 02:08:52.847] [BotMaestro                  ] [INFO ] --- Ciclo #47 ---
+[2025-06-01 02:09:37.056] [BotMaestro                  ] [INFO ] --- Ciclo #47 COMPLETADO ---
+[2025-06-01 02:09:37.056] [BotMaestro                  ] [INFO ] Esperando 10s...
+[2025-06-01 02:09:47.057] [BotMaestro                  ] [INFO ] --- Ciclo #48 ---
+[2025-06-01 02:10:31.244] [BotMaestro                  ] [INFO ] --- Ciclo #48 COMPLETADO ---
+[2025-06-01 02:10:31.244] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 02:10:50.245] [BotMaestro                  ] [INFO ] --- Ciclo #49 ---
+[2025-06-01 02:11:34.424] [BotMaestro                  ] [INFO ] --- Ciclo #49 COMPLETADO ---
+[2025-06-01 02:11:34.424] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 02:11:53.425] [BotMaestro                  ] [INFO ] --- Ciclo #50 ---
+[2025-06-01 02:12:37.608] [BotMaestro                  ] [INFO ] --- Ciclo #50 COMPLETADO ---
+[2025-06-01 02:12:37.608] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 02:12:53.609] [BotMaestro                  ] [INFO ] --- Ciclo #51 ---
+[2025-06-01 02:13:37.775] [BotMaestro                  ] [INFO ] --- Ciclo #51 COMPLETADO ---
+[2025-06-01 02:13:37.776] [BotMaestro                  ] [INFO ] Esperando 12s...
+[2025-06-01 02:13:49.777] [BotMaestro                  ] [INFO ] --- Ciclo #52 ---
+[2025-06-01 02:14:33.940] [BotMaestro                  ] [INFO ] --- Ciclo #52 COMPLETADO ---
+[2025-06-01 02:14:33.940] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 02:14:53.941] [BotMaestro                  ] [INFO ] --- Ciclo #53 ---
+[2025-06-01 02:15:38.098] [BotMaestro                  ] [INFO ] --- Ciclo #53 COMPLETADO ---
+[2025-06-01 02:15:38.098] [BotMaestro                  ] [INFO ] Esperando 12s...
+[2025-06-01 02:15:50.099] [BotMaestro                  ] [INFO ] --- Ciclo #54 ---
+[2025-06-01 02:16:34.256] [BotMaestro                  ] [INFO ] --- Ciclo #54 COMPLETADO ---
+[2025-06-01 02:16:34.256] [BotMaestro                  ] [INFO ] Esperando 12s...
+[2025-06-01 02:16:46.257] [BotMaestro                  ] [INFO ] --- Ciclo #55 ---
+[2025-06-01 02:17:30.420] [BotMaestro                  ] [INFO ] --- Ciclo #55 COMPLETADO ---
+[2025-06-01 02:17:30.421] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 02:17:44.422] [BotMaestro                  ] [INFO ] --- Ciclo #56 ---
+[2025-06-01 02:18:28.624] [BotMaestro                  ] [INFO ] --- Ciclo #56 COMPLETADO ---
+[2025-06-01 02:18:28.625] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 02:18:42.626] [BotMaestro                  ] [INFO ] --- Ciclo #57 ---
+[2025-06-01 02:19:26.819] [BotMaestro                  ] [INFO ] --- Ciclo #57 COMPLETADO ---
+[2025-06-01 02:19:26.820] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 02:19:46.820] [BotMaestro                  ] [INFO ] --- Ciclo #58 ---
+[2025-06-01 02:20:30.965] [BotMaestro                  ] [INFO ] --- Ciclo #58 COMPLETADO ---
+[2025-06-01 02:20:30.965] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 02:20:45.966] [BotMaestro                  ] [INFO ] --- Ciclo #59 ---
+[2025-06-01 02:21:30.143] [BotMaestro                  ] [INFO ] --- Ciclo #59 COMPLETADO ---
+[2025-06-01 02:21:30.143] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 02:21:46.144] [BotMaestro                  ] [INFO ] --- Ciclo #60 ---
+[2025-06-01 02:22:30.363] [BotMaestro                  ] [INFO ] --- Ciclo #60 COMPLETADO ---
+[2025-06-01 02:22:30.363] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 02:22:50.364] [BotMaestro                  ] [INFO ] --- Ciclo #61 ---
+[2025-06-01 21:22:29.944] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 21:22:29.945] [BotMaestro                  ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 21:22:29.945] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 21:22:29.946] [BotMaestro                  ] [INFO ] Presiona Ctrl+C para detener.
+[2025-06-01 21:22:29.946] [BotMaestro                  ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 21:22:43.186] [BotMaestro                  ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-06-01 21:22:43.187] [BotMaestro                  ] [INFO ] Esperando 18s...
+[2025-06-01 21:23:01.188] [BotMaestro                  ] [INFO ] --- Ciclo #2 ---
+[2025-06-01 21:23:11.522] [BotMaestro                  ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-06-01 21:23:11.522] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 21:23:31.523] [BotMaestro                  ] [INFO ] --- Ciclo #3 ---
+[2025-06-01 21:23:41.801] [BotMaestro                  ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-06-01 21:24:08.372] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 21:24:08.373] [BotMaestro                  ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 21:24:08.373] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 21:24:08.374] [BotMaestro                  ] [INFO ] Presiona Ctrl+C para detener.
+[2025-06-01 21:24:08.374] [BotMaestro                  ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 21:24:21.871] [BotMaestro                  ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-06-01 21:24:21.871] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 21:24:35.873] [BotMaestro                  ] [INFO ] --- Ciclo #2 ---
+[2025-06-01 21:24:50.983] [BotMaestro                  ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-06-01 21:24:50.983] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 21:25:09.984] [BotMaestro                  ] [INFO ] --- Ciclo #3 ---
+[2025-06-01 21:25:19.154] [BotMaestro                  ] [INFO ] --- Ciclo #3 COMPLETADO ---
+[2025-06-01 21:25:19.154] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 21:25:36.155] [BotMaestro                  ] [INFO ] --- Ciclo #4 ---
+[2025-06-01 21:26:20.315] [BotMaestro                  ] [INFO ] --- Ciclo #4 COMPLETADO ---
+[2025-06-01 21:26:20.315] [BotMaestro                  ] [INFO ] Esperando 10s...
+[2025-06-01 21:26:30.316] [BotMaestro                  ] [INFO ] --- Ciclo #5 ---
+[2025-06-01 21:26:41.462] [BotMaestro                  ] [INFO ] --- Ciclo #5 COMPLETADO ---
+[2025-06-01 21:26:41.462] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 21:27:00.463] [BotMaestro                  ] [INFO ] --- Ciclo #6 ---
+[2025-06-01 21:27:28.532] [BotMaestro                  ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-06-01 21:33:28.548] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 21:33:28.548] [BotMaestro                  ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 21:33:28.549] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 21:33:28.549] [BotMaestro                  ] [INFO ] Presiona Ctrl+C para detener.
+[2025-06-01 21:33:28.550] [BotMaestro                  ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 21:33:41.166] [BotMaestro                  ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-06-01 21:33:41.167] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 21:34:00.168] [BotMaestro                  ] [INFO ] --- Ciclo #2 ---
+[2025-06-01 21:34:15.276] [BotMaestro                  ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-06-01 21:34:15.276] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 21:34:34.277] [BotMaestro                  ] [INFO ] --- Ciclo #3 ---
+[2025-06-01 21:34:46.392] [BotMaestro                  ] [INFO ] --- Ciclo #3 COMPLETADO ---
+[2025-06-01 21:34:46.393] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 21:35:03.394] [BotMaestro                  ] [INFO ] --- Ciclo #4 ---
+[2025-06-01 21:35:12.524] [BotMaestro                  ] [INFO ] --- Ciclo #4 COMPLETADO ---
+[2025-06-01 21:35:12.525] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 21:35:28.526] [BotMaestro                  ] [INFO ] --- Ciclo #5 ---
+[2025-06-01 21:36:12.665] [BotMaestro                  ] [INFO ] --- Ciclo #5 COMPLETADO ---
+[2025-06-01 21:36:12.666] [BotMaestro                  ] [INFO ] Esperando 13s...
+[2025-06-01 21:36:25.667] [BotMaestro                  ] [INFO ] --- Ciclo #6 ---
+[2025-06-01 21:37:09.847] [BotMaestro                  ] [INFO ] --- Ciclo #6 COMPLETADO ---
+[2025-06-01 21:37:09.848] [BotMaestro                  ] [INFO ] Esperando 12s...
+[2025-06-01 21:37:21.849] [BotMaestro                  ] [INFO ] --- Ciclo #7 ---
+[2025-06-01 21:37:51.927] [BotMaestro                  ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-06-01 21:40:14.796] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 21:40:14.797] [BotMaestro                  ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 21:40:14.797] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 21:40:14.798] [BotMaestro                  ] [INFO ] Presiona Ctrl+C para detener.
+[2025-06-01 21:40:14.798] [BotMaestro                  ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 21:40:30.351] [BotMaestro                  ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-06-01 21:40:30.352] [BotMaestro                  ] [INFO ] Esperando 10s...
+[2025-06-01 21:40:40.352] [BotMaestro                  ] [INFO ] --- Ciclo #2 ---
+[2025-06-01 21:40:55.444] [BotMaestro                  ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-06-01 21:40:55.444] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 21:41:12.445] [BotMaestro                  ] [INFO ] --- Ciclo #3 ---
+[2025-06-01 21:41:32.545] [BotMaestro                  ] [INFO ] --- Ciclo #3 COMPLETADO ---
+[2025-06-01 21:41:32.545] [BotMaestro                  ] [INFO ] Esperando 13s...
+[2025-06-01 21:41:45.546] [BotMaestro                  ] [INFO ] --- Ciclo #4 ---
+[2025-06-01 21:42:29.669] [BotMaestro                  ] [INFO ] --- Ciclo #4 COMPLETADO ---
+[2025-06-01 21:42:29.669] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 21:42:46.670] [BotMaestro                  ] [INFO ] --- Ciclo #5 ---
+[2025-06-01 21:43:23.772] [BotMaestro                  ] [INFO ] --- Ciclo #5 COMPLETADO ---
+[2025-06-01 21:43:23.773] [BotMaestro                  ] [INFO ] Esperando 10s...
+[2025-06-01 21:43:27.933] [BotMaestro                  ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-06-01 21:46:58.238] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 21:46:58.239] [BotMaestro                  ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 21:46:58.239] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 21:46:58.239] [BotMaestro                  ] [INFO ] Presiona Ctrl+C para detener.
+[2025-06-01 21:46:58.240] [BotMaestro                  ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 21:47:44.892] [BotMaestro                  ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-06-01 21:47:44.893] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 21:47:58.893] [BotMaestro                  ] [INFO ] --- Ciclo #2 ---
+[2025-06-01 21:48:43.067] [BotMaestro                  ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-06-01 21:48:43.068] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 21:49:00.068] [BotMaestro                  ] [INFO ] --- Ciclo #3 ---
+[2025-06-01 21:49:08.156] [BotMaestro                  ] [INFO ] --- Ciclo #3 COMPLETADO ---
+[2025-06-01 21:49:08.157] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 21:49:27.157] [BotMaestro                  ] [INFO ] --- Ciclo #4 ---
+[2025-06-01 21:49:39.228] [BotMaestro                  ] [INFO ] --- Ciclo #4 COMPLETADO ---
+[2025-06-01 21:49:39.228] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 21:49:58.229] [BotMaestro                  ] [INFO ] --- Ciclo #5 ---
+[2025-06-01 21:50:08.308] [BotMaestro                  ] [INFO ] --- Ciclo #5 COMPLETADO ---
+[2025-06-01 21:50:08.308] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 21:50:24.309] [BotMaestro                  ] [INFO ] --- Ciclo #6 ---
+[2025-06-01 21:50:51.428] [BotMaestro                  ] [INFO ] --- Ciclo #6 COMPLETADO ---
+[2025-06-01 21:50:51.429] [BotMaestro                  ] [INFO ] Esperando 12s...
+[2025-06-01 21:51:03.430] [BotMaestro                  ] [INFO ] --- Ciclo #7 ---
+[2025-06-01 21:51:47.559] [BotMaestro                  ] [INFO ] --- Ciclo #7 COMPLETADO ---
+[2025-06-01 21:51:47.559] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 21:52:07.560] [BotMaestro                  ] [INFO ] --- Ciclo #8 ---
+[2025-06-01 21:52:51.707] [BotMaestro                  ] [INFO ] --- Ciclo #8 COMPLETADO ---
+[2025-06-01 21:52:51.707] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 21:53:05.708] [BotMaestro                  ] [INFO ] --- Ciclo #9 ---
+[2025-06-01 21:53:49.820] [BotMaestro                  ] [INFO ] --- Ciclo #9 COMPLETADO ---
+[2025-06-01 21:53:49.821] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 21:54:04.822] [BotMaestro                  ] [INFO ] --- Ciclo #10 ---
+[2025-06-01 21:54:48.965] [BotMaestro                  ] [INFO ] --- Ciclo #10 COMPLETADO ---
+[2025-06-01 21:54:48.966] [BotMaestro                  ] [INFO ] Esperando 11s...
+[2025-06-01 21:54:59.967] [BotMaestro                  ] [INFO ] --- Ciclo #11 ---
+[2025-06-01 21:55:44.083] [BotMaestro                  ] [INFO ] --- Ciclo #11 COMPLETADO ---
+[2025-06-01 21:55:44.083] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 21:55:58.084] [BotMaestro                  ] [INFO ] --- Ciclo #12 ---
+[2025-06-01 21:56:42.202] [BotMaestro                  ] [INFO ] --- Ciclo #12 COMPLETADO ---
+[2025-06-01 21:56:42.203] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 21:56:58.203] [BotMaestro                  ] [INFO ] --- Ciclo #13 ---
+[2025-06-01 21:57:42.338] [BotMaestro                  ] [INFO ] --- Ciclo #13 COMPLETADO ---
+[2025-06-01 21:57:42.339] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 21:57:59.340] [BotMaestro                  ] [INFO ] --- Ciclo #14 ---
+[2025-06-01 21:58:43.476] [BotMaestro                  ] [INFO ] --- Ciclo #14 COMPLETADO ---
+[2025-06-01 21:58:43.476] [BotMaestro                  ] [INFO ] Esperando 12s...
+[2025-06-01 21:58:55.477] [BotMaestro                  ] [INFO ] --- Ciclo #15 ---
+[2025-06-01 21:58:59.150] [BotMaestro                  ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-06-01 21:59:14.413] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 21:59:14.414] [BotMaestro                  ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 21:59:14.414] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 21:59:14.415] [BotMaestro                  ] [INFO ] Presiona Ctrl+C para detener.
+[2025-06-01 21:59:14.415] [BotMaestro                  ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 21:59:28.039] [BotMaestro                  ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-06-01 21:59:28.039] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 21:59:43.040] [BotMaestro                  ] [INFO ] --- Ciclo #2 ---
+[2025-06-01 21:59:56.286] [BotMaestro                  ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-06-01 21:59:56.287] [BotMaestro                  ] [INFO ] Esperando 18s...
+[2025-06-01 22:00:14.287] [BotMaestro                  ] [INFO ] --- Ciclo #3 ---
+[2025-06-01 22:00:27.383] [BotMaestro                  ] [INFO ] --- Ciclo #3 COMPLETADO ---
+[2025-06-01 22:00:27.384] [BotMaestro                  ] [INFO ] Esperando 18s...
+[2025-06-01 22:00:45.385] [BotMaestro                  ] [INFO ] --- Ciclo #4 ---
+[2025-06-01 22:01:03.480] [BotMaestro                  ] [INFO ] --- Ciclo #4 COMPLETADO ---
+[2025-06-01 22:01:03.481] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 22:01:18.482] [BotMaestro                  ] [INFO ] --- Ciclo #5 ---
+[2025-06-01 22:01:26.548] [BotMaestro                  ] [INFO ] --- Ciclo #5 COMPLETADO ---
+[2025-06-01 22:01:26.548] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 22:01:46.549] [BotMaestro                  ] [INFO ] --- Ciclo #6 ---
+[2025-06-01 22:01:55.804] [BotMaestro                  ] [INFO ] --- Ciclo #6 COMPLETADO ---
+[2025-06-01 22:01:55.805] [BotMaestro                  ] [INFO ] Esperando 18s...
+[2025-06-01 22:02:13.805] [BotMaestro                  ] [INFO ] --- Ciclo #7 ---
+[2025-06-01 22:02:32.925] [BotMaestro                  ] [INFO ] --- Ciclo #7 COMPLETADO ---
+[2025-06-01 22:02:32.925] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 22:02:49.926] [BotMaestro                  ] [INFO ] --- Ciclo #8 ---
+[2025-06-01 22:03:08.075] [BotMaestro                  ] [INFO ] --- Ciclo #8 COMPLETADO ---
+[2025-06-01 22:03:08.076] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 22:03:25.076] [BotMaestro                  ] [INFO ] --- Ciclo #9 ---
+[2025-06-01 22:03:34.188] [BotMaestro                  ] [INFO ] --- Ciclo #9 COMPLETADO ---
+[2025-06-01 22:03:34.189] [BotMaestro                  ] [INFO ] Esperando 10s...
+[2025-06-01 22:03:44.190] [BotMaestro                  ] [INFO ] --- Ciclo #10 ---
+[2025-06-01 22:03:53.278] [BotMaestro                  ] [INFO ] --- Ciclo #10 COMPLETADO ---
+[2025-06-01 22:03:53.278] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 22:04:09.279] [BotMaestro                  ] [INFO ] --- Ciclo #11 ---
+[2025-06-01 22:04:19.378] [BotMaestro                  ] [INFO ] --- Ciclo #11 COMPLETADO ---
+[2025-06-01 22:04:19.378] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 22:04:36.379] [BotMaestro                  ] [INFO ] --- Ciclo #12 ---
+[2025-06-01 22:04:46.486] [BotMaestro                  ] [INFO ] --- Ciclo #12 COMPLETADO ---
+[2025-06-01 22:04:46.487] [BotMaestro                  ] [INFO ] Esperando 10s...
+[2025-06-01 22:04:56.487] [BotMaestro                  ] [INFO ] --- Ciclo #13 ---
+[2025-06-01 22:05:40.633] [BotMaestro                  ] [INFO ] --- Ciclo #13 COMPLETADO ---
+[2025-06-01 22:05:40.634] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 22:05:55.635] [BotMaestro                  ] [INFO ] --- Ciclo #14 ---
+[2025-06-01 22:06:03.813] [BotMaestro                  ] [INFO ] --- Ciclo #14 COMPLETADO ---
+[2025-06-01 22:06:03.814] [BotMaestro                  ] [INFO ] Esperando 18s...
+[2025-06-01 22:06:21.814] [BotMaestro                  ] [INFO ] --- Ciclo #15 ---
+[2025-06-01 22:06:30.940] [BotMaestro                  ] [INFO ] --- Ciclo #15 COMPLETADO ---
+[2025-06-01 22:06:30.941] [BotMaestro                  ] [INFO ] Esperando 11s...
+[2025-06-01 22:06:41.942] [BotMaestro                  ] [INFO ] --- Ciclo #16 ---
+[2025-06-01 22:06:50.078] [BotMaestro                  ] [INFO ] --- Ciclo #16 COMPLETADO ---
+[2025-06-01 22:06:50.079] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 22:07:10.080] [BotMaestro                  ] [INFO ] --- Ciclo #17 ---
+[2025-06-01 22:07:19.233] [BotMaestro                  ] [INFO ] --- Ciclo #17 COMPLETADO ---
+[2025-06-01 22:07:19.234] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 22:07:33.234] [BotMaestro                  ] [INFO ] --- Ciclo #18 ---
+[2025-06-01 22:07:47.346] [BotMaestro                  ] [INFO ] --- Ciclo #18 COMPLETADO ---
+[2025-06-01 22:07:47.346] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 22:08:07.347] [BotMaestro                  ] [INFO ] --- Ciclo #19 ---
+[2025-06-01 22:08:15.426] [BotMaestro                  ] [INFO ] --- Ciclo #19 COMPLETADO ---
+[2025-06-01 22:08:15.426] [BotMaestro                  ] [INFO ] Esperando 12s...
+[2025-06-01 22:08:27.427] [BotMaestro                  ] [INFO ] --- Ciclo #20 ---
+[2025-06-01 22:08:35.568] [BotMaestro                  ] [INFO ] --- Ciclo #20 COMPLETADO ---
+[2025-06-01 22:08:35.568] [BotMaestro                  ] [INFO ] Esperando 12s...
+[2025-06-01 22:08:47.569] [BotMaestro                  ] [INFO ] --- Ciclo #21 ---
+[2025-06-01 22:08:57.649] [BotMaestro                  ] [INFO ] --- Ciclo #21 COMPLETADO ---
+[2025-06-01 22:08:57.650] [BotMaestro                  ] [INFO ] Esperando 13s...
+[2025-06-01 22:09:10.650] [BotMaestro                  ] [INFO ] --- Ciclo #22 ---
+[2025-06-01 22:09:54.846] [BotMaestro                  ] [INFO ] --- Ciclo #22 COMPLETADO ---
+[2025-06-01 22:09:54.847] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 22:10:13.848] [BotMaestro                  ] [INFO ] --- Ciclo #23 ---
+[2025-06-01 22:10:28.033] [BotMaestro                  ] [INFO ] --- Ciclo #23 COMPLETADO ---
+[2025-06-01 22:10:28.033] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 22:10:45.034] [BotMaestro                  ] [INFO ] --- Ciclo #24 ---
+[2025-06-01 22:11:04.128] [BotMaestro                  ] [INFO ] --- Ciclo #24 COMPLETADO ---
+[2025-06-01 22:11:04.128] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 22:11:18.129] [BotMaestro                  ] [INFO ] --- Ciclo #25 ---
+[2025-06-01 22:11:36.214] [BotMaestro                  ] [INFO ] --- Ciclo #25 COMPLETADO ---
+[2025-06-01 22:11:36.214] [BotMaestro                  ] [INFO ] Esperando 10s...
+[2025-06-01 22:11:46.215] [BotMaestro                  ] [INFO ] --- Ciclo #26 ---
+[2025-06-01 22:12:18.349] [BotMaestro                  ] [INFO ] --- Ciclo #26 COMPLETADO ---
+[2025-06-01 22:12:18.349] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 22:12:32.350] [BotMaestro                  ] [INFO ] --- Ciclo #27 ---
+[2025-06-01 22:12:40.428] [BotMaestro                  ] [INFO ] --- Ciclo #27 COMPLETADO ---
+[2025-06-01 22:12:40.428] [BotMaestro                  ] [INFO ] Esperando 11s...
+[2025-06-01 22:12:51.428] [BotMaestro                  ] [INFO ] --- Ciclo #28 ---
+[2025-06-01 22:13:02.494] [BotMaestro                  ] [INFO ] --- Ciclo #28 COMPLETADO ---
+[2025-06-01 22:13:02.494] [BotMaestro                  ] [INFO ] Esperando 12s...
+[2025-06-01 22:13:14.495] [BotMaestro                  ] [INFO ] --- Ciclo #29 ---
+[2025-06-01 22:13:58.599] [BotMaestro                  ] [INFO ] --- Ciclo #29 COMPLETADO ---
+[2025-06-01 22:13:58.599] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 22:14:14.600] [BotMaestro                  ] [INFO ] --- Ciclo #30 ---
+[2025-06-01 22:14:47.693] [BotMaestro                  ] [INFO ] --- Ciclo #30 COMPLETADO ---
+[2025-06-01 22:14:47.693] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 22:15:06.694] [BotMaestro                  ] [INFO ] --- Ciclo #31 ---
+[2025-06-01 22:15:50.814] [BotMaestro                  ] [INFO ] --- Ciclo #31 COMPLETADO ---
+[2025-06-01 22:15:50.814] [BotMaestro                  ] [INFO ] Esperando 10s...
+[2025-06-01 22:16:00.815] [BotMaestro                  ] [INFO ] --- Ciclo #32 ---
+[2025-06-01 22:16:44.920] [BotMaestro                  ] [INFO ] --- Ciclo #32 COMPLETADO ---
+[2025-06-01 22:16:44.921] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 22:17:01.921] [BotMaestro                  ] [INFO ] --- Ciclo #33 ---
+[2025-06-01 22:17:46.169] [BotMaestro                  ] [INFO ] --- Ciclo #33 COMPLETADO ---
+[2025-06-01 22:17:46.170] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 22:18:05.171] [BotMaestro                  ] [INFO ] --- Ciclo #34 ---
+[2025-06-01 22:18:49.504] [BotMaestro                  ] [INFO ] --- Ciclo #34 COMPLETADO ---
+[2025-06-01 22:18:49.504] [BotMaestro                  ] [INFO ] Esperando 16s...
+[2025-06-01 22:19:05.505] [BotMaestro                  ] [INFO ] --- Ciclo #35 ---
+[2025-06-01 22:19:49.738] [BotMaestro                  ] [INFO ] --- Ciclo #35 COMPLETADO ---
+[2025-06-01 22:19:49.739] [BotMaestro                  ] [INFO ] Esperando 19s...
+[2025-06-01 22:20:08.739] [BotMaestro                  ] [INFO ] --- Ciclo #36 ---
+[2025-06-01 22:20:52.958] [BotMaestro                  ] [INFO ] --- Ciclo #36 COMPLETADO ---
+[2025-06-01 22:20:52.959] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 22:21:07.960] [BotMaestro                  ] [INFO ] --- Ciclo #37 ---
+[2025-06-01 22:21:52.259] [BotMaestro                  ] [INFO ] --- Ciclo #37 COMPLETADO ---
+[2025-06-01 22:21:52.259] [BotMaestro                  ] [INFO ] Esperando 11s...
+[2025-06-01 22:22:03.260] [BotMaestro                  ] [INFO ] --- Ciclo #38 ---
+[2025-06-01 22:22:47.475] [BotMaestro                  ] [INFO ] --- Ciclo #38 COMPLETADO ---
+[2025-06-01 22:22:47.475] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 22:23:01.476] [BotMaestro                  ] [INFO ] --- Ciclo #39 ---
+[2025-06-01 22:23:45.603] [BotMaestro                  ] [INFO ] --- Ciclo #39 COMPLETADO ---
+[2025-06-01 22:23:45.604] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 22:23:59.604] [BotMaestro                  ] [INFO ] --- Ciclo #40 ---
+[2025-06-01 22:24:43.776] [BotMaestro                  ] [INFO ] --- Ciclo #40 COMPLETADO ---
+[2025-06-01 22:24:43.777] [BotMaestro                  ] [INFO ] Esperando 17s...
+[2025-06-01 22:25:00.777] [BotMaestro                  ] [INFO ] --- Ciclo #41 ---
+[2025-06-01 22:25:44.898] [BotMaestro                  ] [INFO ] --- Ciclo #41 COMPLETADO ---
+[2025-06-01 22:25:44.898] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 22:25:58.899] [BotMaestro                  ] [INFO ] --- Ciclo #42 ---
+[2025-06-01 22:26:43.089] [BotMaestro                  ] [INFO ] --- Ciclo #42 COMPLETADO ---
+[2025-06-01 22:26:43.089] [BotMaestro                  ] [INFO ] Esperando 14s...
+[2025-06-01 22:26:57.090] [BotMaestro                  ] [INFO ] --- Ciclo #43 ---
+[2025-06-01 22:27:41.291] [BotMaestro                  ] [INFO ] --- Ciclo #43 COMPLETADO ---
+[2025-06-01 22:27:41.292] [BotMaestro                  ] [INFO ] Esperando 20s...
+[2025-06-01 22:28:01.293] [BotMaestro                  ] [INFO ] --- Ciclo #44 ---
+[2025-06-01 22:28:45.459] [BotMaestro                  ] [INFO ] --- Ciclo #44 COMPLETADO ---
+[2025-06-01 22:28:45.459] [BotMaestro                  ] [INFO ] Esperando 15s...
+[2025-06-01 22:29:00.460] [BotMaestro                  ] [INFO ] --- Ciclo #45 ---
+[2025-06-01 22:29:36.691] [BotMaestro                  ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-06-01 22:49:18.750] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 22:49:18.751] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 22:49:18.751] [BotMaestro                  ] [INFO ] Estado del juego inicializado. HP Eggman: 100, Pánico Global: 0
+[2025-06-01 22:49:18.752] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor TERMINADO.
+[2025-06-01 22:53:14.482] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 22:53:14.483] [BotMaestro                  ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 22:53:14.483] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 22:53:14.484] [BotMaestro                  ] [INFO ] Estado inicial: HP Eggman: 100, Pánico: 0
+[2025-06-01 22:53:14.484] [BotMaestro                  ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 22:53:55.096] [BotMaestro                  ] [INFO ] Interrupción por teclado. Deteniendo...
+[2025-06-01 22:55:16.472] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 22:55:16.472] [BotMaestro                  ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 22:55:16.473] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 22:55:16.473] [BotMaestro                  ] [INFO ] Estado inicial: HP Eggman: 100, Pánico: 0
+[2025-06-01 22:55:16.474] [BotMaestro                  ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 22:55:29.528] [BotMaestro                  ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-06-01 22:55:45.529] [BotMaestro                  ] [INFO ] --- Ciclo #2 ---
+[2025-06-01 22:56:01.905] [BotMaestro                  ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-06-01 22:56:11.906] [BotMaestro                  ] [INFO ] --- Ciclo #3 ---
+[2025-06-01 22:56:55.310] [BotMaestro                  ] [INFO ] --- Ciclo #3 COMPLETADO ---
+[2025-06-01 22:57:12.311] [BotMaestro                  ] [INFO ] --- Ciclo #4 ---
+[2025-06-01 22:57:55.789] [BotMaestro                  ] [INFO ] --- Ciclo #4 COMPLETADO ---
+[2025-06-01 22:58:09.789] [BotMaestro                  ] [INFO ] --- Ciclo #5 ---
+[2025-06-01 22:58:19.117] [BotMaestro                  ] [INFO ] --- Ciclo #5 COMPLETADO ---
+[2025-06-01 22:58:39.118] [BotMaestro                  ] [INFO ] --- Ciclo #6 ---
+[2025-06-01 22:58:47.444] [BotMaestro                  ] [INFO ] --- Ciclo #6 COMPLETADO ---
+[2025-06-01 22:58:58.444] [BotMaestro                  ] [INFO ] --- Ciclo #7 ---
+[2025-06-01 22:59:16.785] [BotMaestro                  ] [INFO ] --- Ciclo #7 COMPLETADO ---
+[2025-06-01 22:59:30.786] [BotMaestro                  ] [INFO ] --- Ciclo #8 ---
+[2025-06-01 22:59:40.141] [BotMaestro                  ] [INFO ] --- Ciclo #8 COMPLETADO ---
+[2025-06-01 22:59:56.142] [BotMaestro                  ] [INFO ] --- Ciclo #9 ---
+[2025-06-01 23:00:11.475] [BotMaestro                  ] [INFO ] --- Ciclo #9 COMPLETADO ---
+[2025-06-01 23:00:24.476] [BotMaestro                  ] [INFO ] --- Ciclo #10 ---
+[2025-06-01 23:00:36.765] [BotMaestro                  ] [INFO ] --- Ciclo #10 COMPLETADO ---
+[2025-06-01 23:00:56.766] [BotMaestro                  ] [INFO ] --- Ciclo #11 ---
+[2025-06-01 23:01:06.055] [BotMaestro                  ] [INFO ] --- Ciclo #11 COMPLETADO ---
+[2025-06-01 23:01:17.056] [BotMaestro                  ] [INFO ] --- Ciclo #12 ---
+[2025-06-01 23:01:30.411] [BotMaestro                  ] [INFO ] --- Ciclo #12 COMPLETADO ---
+[2025-06-01 23:01:43.412] [BotMaestro                  ] [INFO ] --- Ciclo #13 ---
+[2025-06-01 23:01:57.724] [BotMaestro                  ] [INFO ] --- Ciclo #13 COMPLETADO ---
+[2025-06-01 23:02:14.725] [BotMaestro                  ] [INFO ] --- Ciclo #14 ---
+[2025-06-01 23:02:24.044] [BotMaestro                  ] [INFO ] --- Ciclo #14 COMPLETADO ---
+[2025-06-01 23:02:38.045] [BotMaestro                  ] [INFO ] --- Ciclo #15 ---
+[2025-06-01 23:02:47.345] [BotMaestro                  ] [INFO ] ¡VICTORIA! HP Eggman a 0.
+[2025-06-01 23:02:47.345] [BotMaestro                  ] [INFO ] Enviando estado final del juego a http://127.0.0.1:5005/submit_alert_data...
+[2025-06-01 23:02:49.513] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor TERMINADO.
+[2025-06-01 23:06:09.552] [BotMaestro                  ] [INFO ] Configuración cargada desde config.json
+[2025-06-01 23:06:09.552] [BotMaestro                  ] [INFO ] Base de conocimiento (re)inicializada.
+[2025-06-01 23:06:09.553] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor INICIADO.
+[2025-06-01 23:06:09.553] [BotMaestro                  ] [INFO ] Estado inicial: HP Eggman: 100, Pánico: 0
+[2025-06-01 23:06:09.554] [BotMaestro                  ] [INFO ] --- Ciclo #1 ---
+[2025-06-01 23:06:22.718] [BotMaestro                  ] [INFO ] --- Ciclo #1 COMPLETADO ---
+[2025-06-01 23:06:37.719] [BotMaestro                  ] [INFO ] --- Ciclo #2 ---
+[2025-06-01 23:07:21.021] [BotMaestro                  ] [INFO ] --- Ciclo #2 COMPLETADO ---
+[2025-06-01 23:07:38.022] [BotMaestro                  ] [INFO ] --- Ciclo #3 ---
+[2025-06-01 23:07:48.311] [BotMaestro                  ] [INFO ] --- Ciclo #3 COMPLETADO ---
+[2025-06-01 23:08:05.311] [BotMaestro                  ] [INFO ] --- Ciclo #4 ---
+[2025-06-01 23:08:19.607] [BotMaestro                  ] [INFO ] --- Ciclo #4 COMPLETADO ---
+[2025-06-01 23:08:31.607] [BotMaestro                  ] [INFO ] --- Ciclo #5 ---
+[2025-06-01 23:08:39.887] [BotMaestro                  ] [INFO ] --- Ciclo #5 COMPLETADO ---
+[2025-06-01 23:08:59.888] [BotMaestro                  ] [INFO ] --- Ciclo #6 ---
+[2025-06-01 23:09:10.162] [BotMaestro                  ] [INFO ] --- Ciclo #6 COMPLETADO ---
+[2025-06-01 23:09:23.163] [BotMaestro                  ] [INFO ] --- Ciclo #7 ---
+[2025-06-01 23:09:31.590] [BotMaestro                  ] [INFO ] --- Ciclo #7 COMPLETADO ---
+[2025-06-01 23:09:46.591] [BotMaestro                  ] [INFO ] --- Ciclo #8 ---
+[2025-06-01 23:10:00.917] [BotMaestro                  ] [INFO ] --- Ciclo #8 COMPLETADO ---
+[2025-06-01 23:10:18.918] [BotMaestro                  ] [INFO ] --- Ciclo #9 ---
+[2025-06-01 23:10:29.290] [BotMaestro                  ] [INFO ] --- Ciclo #9 COMPLETADO ---
+[2025-06-01 23:10:41.291] [BotMaestro                  ] [INFO ] --- Ciclo #10 ---
+[2025-06-01 23:10:56.586] [BotMaestro                  ] [INFO ] --- Ciclo #10 COMPLETADO ---
+[2025-06-01 23:11:12.587] [BotMaestro                  ] [INFO ] --- Ciclo #11 ---
+[2025-06-01 23:11:21.859] [BotMaestro                  ] [INFO ] --- Ciclo #11 COMPLETADO ---
+[2025-06-01 23:11:41.860] [BotMaestro                  ] [INFO ] --- Ciclo #12 ---
+[2025-06-01 23:11:52.140] [BotMaestro                  ] [INFO ] ¡VICTORIA! HP Eggman a 0.
+[2025-06-01 23:11:52.140] [BotMaestro                  ] [INFO ] Enviando estado final del juego a http://127.0.0.1:5005/submit_alert_data...
+[2025-06-01 23:11:54.276] [BotMaestro                  ] [INFO ] Hedgehog Alert Processor TERMINADO.

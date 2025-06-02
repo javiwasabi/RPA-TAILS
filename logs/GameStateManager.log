@@ -1,0 +1,54 @@
+[2025-06-01 22:55:29.509] [GameStateManager            ] [INFO ] Daño a Eggman: 8. HP restante: 92
+[2025-06-01 22:55:29.510] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 0
+[2025-06-01 22:56:01.874] [GameStateManager            ] [INFO ] Daño a Eggman: 8. HP restante: 84
+[2025-06-01 22:56:01.875] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 0
+[2025-06-01 22:56:55.269] [GameStateManager            ] [INFO ] Daño a Eggman: 0. HP restante: 84
+[2025-06-01 22:56:55.270] [GameStateManager            ] [INFO ] Cambio de Pánico: 15. Pánico Global actual: 15
+[2025-06-01 22:57:55.769] [GameStateManager            ] [INFO ] Daño a Eggman: 0. HP restante: 84
+[2025-06-01 22:57:55.769] [GameStateManager            ] [INFO ] Cambio de Pánico: 4. Pánico Global actual: 19
+[2025-06-01 22:58:19.095] [GameStateManager            ] [INFO ] Daño a Eggman: -2. HP restante: 86
+[2025-06-01 22:58:19.096] [GameStateManager            ] [INFO ] Cambio de Pánico: 2. Pánico Global actual: 21
+[2025-06-01 22:58:47.416] [GameStateManager            ] [INFO ] Daño a Eggman: 20. HP restante: 66
+[2025-06-01 22:58:47.417] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 19
+[2025-06-01 22:59:16.764] [GameStateManager            ] [INFO ] Daño a Eggman: -2. HP restante: 68
+[2025-06-01 22:59:16.765] [GameStateManager            ] [INFO ] Cambio de Pánico: 2. Pánico Global actual: 21
+[2025-06-01 22:59:40.116] [GameStateManager            ] [INFO ] Daño a Eggman: 5. HP restante: 63
+[2025-06-01 22:59:40.117] [GameStateManager            ] [INFO ] Cambio de Pánico: 3. Pánico Global actual: 24
+[2025-06-01 23:00:11.454] [GameStateManager            ] [INFO ] Daño a Eggman: 1. HP restante: 62
+[2025-06-01 23:00:11.455] [GameStateManager            ] [INFO ] Cambio de Pánico: 3. Pánico Global actual: 27
+[2025-06-01 23:00:36.747] [GameStateManager            ] [INFO ] Daño a Eggman: 20. HP restante: 42
+[2025-06-01 23:00:36.747] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 25
+[2025-06-01 23:01:06.032] [GameStateManager            ] [INFO ] Daño a Eggman: 8. HP restante: 34
+[2025-06-01 23:01:06.032] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 23
+[2025-06-01 23:01:30.379] [GameStateManager            ] [INFO ] Daño a Eggman: 8. HP restante: 26
+[2025-06-01 23:01:30.380] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 21
+[2025-06-01 23:01:57.706] [GameStateManager            ] [INFO ] Daño a Eggman: -2. HP restante: 28
+[2025-06-01 23:01:57.707] [GameStateManager            ] [INFO ] Cambio de Pánico: 2. Pánico Global actual: 23
+[2025-06-01 23:02:24.014] [GameStateManager            ] [INFO ] Daño a Eggman: 20. HP restante: 8
+[2025-06-01 23:02:24.014] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 21
+[2025-06-01 23:02:47.311] [GameStateManager            ] [INFO ] Daño a Eggman: 8. HP restante: 0
+[2025-06-01 23:02:47.312] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 19
+[2025-06-01 23:06:22.700] [GameStateManager            ] [INFO ] Daño a Eggman: 8. HP restante: 92
+[2025-06-01 23:06:22.700] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 0
+[2025-06-01 23:07:20.995] [GameStateManager            ] [INFO ] Daño a Eggman: 0. HP restante: 92
+[2025-06-01 23:07:20.995] [GameStateManager            ] [INFO ] Cambio de Pánico: 15. Pánico Global actual: 15
+[2025-06-01 23:07:48.291] [GameStateManager            ] [INFO ] Daño a Eggman: 20. HP restante: 72
+[2025-06-01 23:07:48.292] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 13
+[2025-06-01 23:08:19.590] [GameStateManager            ] [INFO ] Daño a Eggman: 20. HP restante: 52
+[2025-06-01 23:08:19.591] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 11
+[2025-06-01 23:08:39.861] [GameStateManager            ] [INFO ] Daño a Eggman: 8. HP restante: 44
+[2025-06-01 23:08:39.861] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 9
+[2025-06-01 23:09:10.142] [GameStateManager            ] [INFO ] Daño a Eggman: 8. HP restante: 36
+[2025-06-01 23:09:10.143] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 7
+[2025-06-01 23:09:31.571] [GameStateManager            ] [INFO ] Daño a Eggman: 8. HP restante: 28
+[2025-06-01 23:09:31.572] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 5
+[2025-06-01 23:10:00.896] [GameStateManager            ] [INFO ] Daño a Eggman: 1. HP restante: 27
+[2025-06-01 23:10:00.896] [GameStateManager            ] [INFO ] Cambio de Pánico: 3. Pánico Global actual: 8
+[2025-06-01 23:10:29.274] [GameStateManager            ] [INFO ] Daño a Eggman: 20. HP restante: 7
+[2025-06-01 23:10:29.274] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 6
+[2025-06-01 23:10:56.571] [GameStateManager            ] [INFO ] Daño a Eggman: -2. HP restante: 9
+[2025-06-01 23:10:56.572] [GameStateManager            ] [INFO ] Cambio de Pánico: 2. Pánico Global actual: 8
+[2025-06-01 23:11:21.835] [GameStateManager            ] [INFO ] Daño a Eggman: 8. HP restante: 1
+[2025-06-01 23:11:21.836] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 6
+[2025-06-01 23:11:52.121] [GameStateManager            ] [INFO ] Daño a Eggman: 8. HP restante: 0
+[2025-06-01 23:11:52.122] [GameStateManager            ] [INFO ] Cambio de Pánico: -2. Pánico Global actual: 4

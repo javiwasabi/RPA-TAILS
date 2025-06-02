@@ -1,0 +1,204 @@
+[2025-06-01 01:25:42.375] [WebDriver                   ] [INFO ] Inicializando nueva instancia de WebDriver (Edge)...
+[2025-06-01 01:25:42.376] [WebDriver                   ] [INFO ] Usando ruta de binario de Edge desde config: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-06-01 01:25:44.937] [WebDriver                   ] [INFO ] Nueva instancia de WebDriver creada exitosamente.
+[2025-06-01 01:26:09.339] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:26:25.639] [WebDriver                   ] [INFO ] Cerrando instancia de WebDriver...
+[2025-06-01 01:27:23.461] [WebDriver                   ] [INFO ] Inicializando nueva instancia de WebDriver (Edge)...
+[2025-06-01 01:27:23.461] [WebDriver                   ] [INFO ] Usando ruta de binario de Edge desde config: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-06-01 01:27:26.202] [WebDriver                   ] [INFO ] Nueva instancia de WebDriver creada exitosamente.
+[2025-06-01 01:27:53.404] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:28:23.495] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:28:53.600] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:29:27.704] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:29:54.790] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:30:22.883] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:30:54.996] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:31:31.094] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:32:06.182] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:33:06.345] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:34:06.473] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:35:06.677] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:36:06.105] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:37:10.247] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:38:07.438] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:39:02.614] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:39:57.761] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:40:59.935] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:41:58.132] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:42:55.315] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:43:57.507] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:44:59.693] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:46:00.864] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:47:02.077] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:47:58.285] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:48:55.507] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:49:54.675] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:50:55.853] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:51:54.046] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:52:57.214] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:53:52.376] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:54:48.528] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:55:45.691] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:56:46.860] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:57:48.023] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:58:49.163] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 01:59:52.312] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:00:47.471] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:01:45.611] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:02:47.798] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:03:47.006] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:04:48.150] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:05:51.315] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:06:55.485] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:07:50.649] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:08:52.853] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:09:47.063] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:10:50.251] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:11:53.431] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:12:53.614] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:13:49.782] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:14:53.947] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:15:50.106] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:16:46.264] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:17:44.428] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:18:42.631] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:19:46.826] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:20:45.972] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:21:46.149] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 02:22:50.374] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:22:29.947] [WebDriver                   ] [INFO ] Inicializando nueva instancia de WebDriver (Edge)...
+[2025-06-01 21:22:29.948] [WebDriver                   ] [INFO ] Usando ruta de binario de Edge desde config: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-06-01 21:22:32.812] [WebDriver                   ] [INFO ] Nueva instancia de WebDriver creada exitosamente.
+[2025-06-01 21:23:01.193] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:23:31.528] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:23:41.801] [WebDriver                   ] [INFO ] Cerrando instancia de WebDriver...
+[2025-06-01 21:24:08.375] [WebDriver                   ] [INFO ] Inicializando nueva instancia de WebDriver (Edge)...
+[2025-06-01 21:24:08.375] [WebDriver                   ] [INFO ] Usando ruta de binario de Edge desde config: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-06-01 21:24:10.741] [WebDriver                   ] [INFO ] Nueva instancia de WebDriver creada exitosamente.
+[2025-06-01 21:24:35.887] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:25:09.990] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:25:36.160] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:26:30.322] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:27:00.468] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:27:28.533] [WebDriver                   ] [INFO ] Cerrando instancia de WebDriver...
+[2025-06-01 21:33:28.550] [WebDriver                   ] [INFO ] Inicializando nueva instancia de WebDriver (Edge)...
+[2025-06-01 21:33:28.551] [WebDriver                   ] [INFO ] Usando ruta de binario de Edge desde config: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-06-01 21:33:31.050] [WebDriver                   ] [INFO ] Nueva instancia de WebDriver creada exitosamente.
+[2025-06-01 21:34:00.174] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:34:34.283] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:35:03.400] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:35:28.532] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:36:25.673] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:37:21.856] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:37:51.928] [WebDriver                   ] [INFO ] Cerrando instancia de WebDriver...
+[2025-06-01 21:40:14.799] [WebDriver                   ] [INFO ] Inicializando nueva instancia de WebDriver (Edge)...
+[2025-06-01 21:40:14.800] [WebDriver                   ] [INFO ] Usando ruta de binario de Edge desde config: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-06-01 21:40:17.239] [WebDriver                   ] [INFO ] Nueva instancia de WebDriver creada exitosamente.
+[2025-06-01 21:40:40.358] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:41:12.450] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:41:45.551] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:42:46.676] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:43:27.934] [WebDriver                   ] [INFO ] Cerrando instancia de WebDriver...
+[2025-06-01 21:46:58.241] [WebDriver                   ] [INFO ] Inicializando nueva instancia de WebDriver (Edge)...
+[2025-06-01 21:46:58.241] [WebDriver                   ] [INFO ] Usando ruta de binario de Edge desde config: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-06-01 21:47:00.717] [WebDriver                   ] [INFO ] Nueva instancia de WebDriver creada exitosamente.
+[2025-06-01 21:47:58.899] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:49:00.073] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:49:27.163] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:49:58.236] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:50:24.315] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:51:03.435] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:52:07.567] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:53:05.714] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:54:04.827] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:54:59.973] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:55:58.089] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:56:58.209] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:57:59.345] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:58:55.483] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 21:58:59.151] [WebDriver                   ] [INFO ] Cerrando instancia de WebDriver...
+[2025-06-01 21:59:14.416] [WebDriver                   ] [INFO ] Inicializando nueva instancia de WebDriver (Edge)...
+[2025-06-01 21:59:14.416] [WebDriver                   ] [INFO ] Usando ruta de binario de Edge desde config: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-06-01 21:59:16.840] [WebDriver                   ] [INFO ] Nueva instancia de WebDriver creada exitosamente.
+[2025-06-01 21:59:43.046] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:00:14.293] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:00:45.391] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:01:18.488] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:01:46.554] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:02:13.811] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:02:49.932] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:03:25.082] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:03:44.195] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:04:09.285] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:04:36.385] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:04:56.494] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:05:55.640] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:06:21.819] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:06:41.948] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:07:10.086] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:07:33.240] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:08:07.352] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:08:27.432] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:08:47.574] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:09:10.657] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:10:13.854] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:10:45.040] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:11:18.134] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:11:46.220] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:12:32.356] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:12:51.434] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:13:14.500] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:14:14.605] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:15:06.699] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:16:00.820] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:17:01.928] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:18:05.178] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:19:05.511] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:20:08.745] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:21:07.966] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:22:03.268] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:23:01.482] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:23:59.610] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:25:00.783] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:25:58.906] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:26:57.097] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:28:01.299] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:29:00.465] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:29:36.692] [WebDriver                   ] [INFO ] Cerrando instancia de WebDriver...
+[2025-06-01 22:53:14.485] [WebDriver                   ] [INFO ] Inicializando nueva instancia de WebDriver (Edge)...
+[2025-06-01 22:53:14.486] [WebDriver                   ] [INFO ] Usando binario de Edge: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-06-01 22:53:17.254] [WebDriver                   ] [INFO ] Nueva instancia de WebDriver creada exitosamente.
+[2025-06-01 22:53:55.097] [WebDriver                   ] [INFO ] Cerrando instancia de WebDriver...
+[2025-06-01 22:55:16.474] [WebDriver                   ] [INFO ] Inicializando nueva instancia de WebDriver (Edge)...
+[2025-06-01 22:55:16.475] [WebDriver                   ] [INFO ] Usando binario de Edge: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-06-01 22:55:19.138] [WebDriver                   ] [INFO ] Nueva instancia de WebDriver creada exitosamente.
+[2025-06-01 22:55:45.535] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:56:11.912] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:57:12.319] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:58:09.794] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:58:39.125] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:58:58.451] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:59:30.792] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 22:59:56.148] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:00:24.482] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:00:56.772] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:01:17.062] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:01:43.418] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:02:14.731] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:02:38.050] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:02:47.348] [WebDriver                   ] [INFO ] Cerrando instancia de WebDriver...
+[2025-06-01 23:06:09.555] [WebDriver                   ] [INFO ] Inicializando nueva instancia de WebDriver (Edge)...
+[2025-06-01 23:06:09.555] [WebDriver                   ] [INFO ] Usando binario de Edge: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[2025-06-01 23:06:12.358] [WebDriver                   ] [INFO ] Nueva instancia de WebDriver creada exitosamente.
+[2025-06-01 23:06:37.724] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:07:38.028] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:08:05.317] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:08:31.613] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:08:59.894] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:09:23.173] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:09:46.596] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:10:18.924] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:10:41.297] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:11:12.593] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:11:41.866] [WebDriver                   ] [INFO ] Reutilizando instancia de WebDriver existente.
+[2025-06-01 23:11:52.144] [WebDriver                   ] [INFO ] Cerrando instancia de WebDriver...

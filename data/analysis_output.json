@@ -1,18 +1,18 @@
 {
-    "event_id": "EVT-SEL-20250601012026-0003",
-    "timestamp_event": "2025-06-01T01:20:26.926459",
-    "source_system_name": "Fuente Web: Alerta Angel Island (Scraped)",
-    "source_type": "WEB_SELENIUM_ANGEL_ISLAND",
-    "location_reported": "Angel Island",
+    "event_id": "EVT-SEL-20250601231144-0012",
+    "timestamp_event": "2025-06-01T23:11:44.999642",
+    "source_system_name": "Fuente Web: fuente_reporte_tails.html (Scraped)",
+    "source_type": "WEB_SELENIUM_TAILS_REPORT",
+    "location_reported": "Tails' Workshop",
     "threat_assessment": {
-        "initial_level": "critico",
-        "description": "Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!",
-        "priority_score": 10
+        "initial_level": "medio",
+        "description": "Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.",
+        "priority_score": 5
     },
     "original_raw_data": {
-        "device_id": "ME_GUARDIAN_SYSTEM_01",
-        "reading_type": "energy_signature_alert",
-        "value": 99.9,
-        "html_source_file": "fuente_alerta_angel_island.html"
+        "device_id": "TAILS_SENSOR_ARRAY_003",
+        "reading_type": "multi_badnik_signature",
+        "value": 15,
+        "html_source_file": "fuente_reporte_tails.html"
     }
 }

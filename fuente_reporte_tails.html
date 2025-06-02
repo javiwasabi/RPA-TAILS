@@ -3,31 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Fuente de Datos: Reporte Taller de Tails</title>
-    <style>
-        body { font-family: 'Courier New', Courier, monospace; margin: 20px; background-color: #fff3e0; color: #e65100; }
-        .alert-box { background-color: #fff; border: 2px dashed #ffb74d; padding: 20px; margin-bottom: 15px; border-radius: 0px; }
-        h1 { color: #ef6c00; text-align: left; font-size: 24px; }
-        p { color: #f57c00; font-size: 16px;}
-        .label { font-weight: bold; color: #e65100; text-decoration: underline;}
-        pre { background-color: #ffe0b2; padding: 10px; border: 1px solid #ffcc80; white-space: pre-wrap; word-wrap: break-word; font-size: 14px; color: #bf360c;}
-    </style>
+    <link rel="stylesheet" href="static/css/dashboard_style.css">
 </head>
-<body>
-    <h1><span style="font-size: 1.5em;">🔧</span> Reporte Técnico desde el Taller de Tails <span style="font-size: 1.5em;">🛠️</span></h1>
-
-    <div class="alert-box">
-        <h2>Análisis de Sensor Remoto:</h2>
-        <p><span class="label">Descripción del Evento:</span> <span id="descripcion">Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.</span></p>
-        <p><span class="label">Nivel de Amenaza Estimado:</span> <span id="nivel">medio</span></p>
-        <p><span class="label">Ubicación Afectada:</span> <span id="ubicacion">Tails' Workshop</span></p> <p><span class="label">ID Sensor:</span> <span id="device_id">TAILS_SENSOR_ARRAY_003</span></p>
-        <p><span class="label">Tipo de Dato:</span> <span id="reading_type">multi_badnik_signature</span></p>
-        <p><span class="label">Conteo Estimado:</span> <span id="value">15</span></p>
-        <pre id="technical_notes">
-Notas Adicionales:
-- Signaturas de energía consistentes con modelos estándar de Eggman.
-- No hay indicios de unidades pesadas por el momento.
-- Recomiendo vigilancia.
-        </pre>
+<body class="zone-mystic-ruins">
+    <div class="container">
+        <h1><span class="icon">🔧</span> Fuente de Datos: Reporte de Tails <span class="icon">🛠️</span></h1>
+        <div class="alert-details">
+            <h2>Análisis de Sensor Remoto:</h2>
+            <p><strong class="label">Descripción del Evento:</strong> <span id="descripcion">Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.</span></p>
+            <p><strong class="label">Nivel de Amenaza Estimado:</strong> <span id="nivel">medio</span></p>
+            <p><strong class="label">Ubicación Afectada:</strong> <span id="ubicacion">Tails' Workshop</span></p>
+            <p><strong class="label">ID Sensor:</strong> <span id="device_id">TAILS_SENSOR_ARRAY_003</span></p>
+            <p><strong class="label">Tipo de Dato:</strong> <span id="reading_type">multi_badnik_signature</span></p>
+            <p><strong class="label">Conteo Estimado:</strong> <span id="value">15</span></p>
+        </div>
     </div>
 </body>
 </html>

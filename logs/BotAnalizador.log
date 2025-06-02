@@ -1,0 +1,632 @@
+[2025-06-01 01:25:52.662] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:25:52.672] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601012548-0001
+[2025-06-01 01:25:52.673] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:25:52.675] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:26:17.122] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:26:17.133] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601012612-0002
+[2025-06-01 01:26:17.133] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:26:17.143] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:27:29.696] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:27:29.706] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601012729-0001
+[2025-06-01 01:27:29.707] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:27:29.709] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:27:56.790] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:27:56.802] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601012756-0002
+[2025-06-01 01:27:56.803] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:27:56.805] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:28:26.884] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:28:26.899] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601012826-0003
+[2025-06-01 01:28:26.900] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:28:26.902] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:28:56.987] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:28:56.997] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601012856-0004
+[2025-06-01 01:28:56.998] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:28:56.999] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:29:31.079] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:29:31.095] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601012930-0005
+[2025-06-01 01:29:31.095] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:29:31.097] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:29:58.177] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:29:58.188] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601012957-0006
+[2025-06-01 01:29:58.188] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:29:58.190] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:30:26.284] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:30:26.295] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601013026-0007
+[2025-06-01 01:30:26.296] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:30:26.297] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:30:58.391] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:30:58.402] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601013058-0008
+[2025-06-01 01:30:58.402] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:30:58.405] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:31:34.477] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:31:34.488] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601013134-0009
+[2025-06-01 01:31:34.489] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:31:34.491] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:32:09.594] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:32:09.606] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601013209-0010
+[2025-06-01 01:32:09.607] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:32:09.608] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:33:09.738] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:33:09.749] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601013309-0011
+[2025-06-01 01:33:09.749] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:33:09.751] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:34:09.948] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:34:09.959] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601013409-0012
+[2025-06-01 01:34:09.959] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:34:09.961] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:35:10.341] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:35:10.361] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601013509-0013
+[2025-06-01 01:35:10.362] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:35:10.364] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:36:09.509] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:36:09.521] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601013609-0014
+[2025-06-01 01:36:09.522] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:36:09.523] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:37:13.679] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:37:13.692] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601013713-0015
+[2025-06-01 01:37:13.692] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:37:13.695] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:38:10.865] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:38:10.876] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601013810-0016
+[2025-06-01 01:38:10.876] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:38:10.878] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:39:06.019] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:39:06.032] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601013905-0017
+[2025-06-01 01:39:06.033] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:39:06.035] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:40:01.168] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:40:01.178] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601014000-0018
+[2025-06-01 01:40:01.179] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:40:01.180] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:41:03.401] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:41:03.410] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601014103-0019
+[2025-06-01 01:41:03.411] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:41:03.412] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:42:01.558] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:42:01.580] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601014201-0020
+[2025-06-01 01:42:01.581] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:42:01.584] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:42:58.734] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:42:58.745] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601014258-0021
+[2025-06-01 01:42:58.745] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:42:58.747] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:44:00.938] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:44:00.948] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601014400-0022
+[2025-06-01 01:44:00.949] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:44:00.950] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:45:03.120] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:45:03.140] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601014502-0023
+[2025-06-01 01:45:03.141] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:45:03.143] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:46:04.337] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:46:04.350] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601014604-0024
+[2025-06-01 01:46:04.350] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:46:04.352] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:47:05.541] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:47:05.552] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601014705-0025
+[2025-06-01 01:47:05.552] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:47:05.554] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:48:01.729] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:48:01.745] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601014801-0026
+[2025-06-01 01:48:01.746] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:48:01.748] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:48:58.939] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:48:58.954] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601014858-0027
+[2025-06-01 01:48:58.954] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:48:58.956] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:49:58.113] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:49:58.123] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601014957-0028
+[2025-06-01 01:49:58.124] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:49:58.125] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:50:59.314] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:50:59.324] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601015059-0029
+[2025-06-01 01:50:59.325] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:50:59.326] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:51:57.446] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:51:57.457] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601015157-0030
+[2025-06-01 01:51:57.457] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:51:57.459] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:53:00.637] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:53:00.647] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601015300-0031
+[2025-06-01 01:53:00.648] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 01:53:00.649] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:53:55.789] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:53:55.799] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601015355-0032
+[2025-06-01 01:53:55.800] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:53:55.801] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:54:51.952] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:54:51.964] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601015451-0033
+[2025-06-01 01:54:51.964] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:54:51.966] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:55:49.125] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:55:49.138] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601015548-0034
+[2025-06-01 01:55:49.138] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:55:49.140] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:56:50.287] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:56:50.297] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601015650-0035
+[2025-06-01 01:56:50.298] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:56:50.299] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:57:51.431] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:57:51.444] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601015751-0036
+[2025-06-01 01:57:51.444] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:57:51.446] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:58:52.583] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:58:52.592] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601015852-0037
+[2025-06-01 01:58:52.593] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 01:58:52.594] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 01:59:55.736] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 01:59:55.749] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601015955-0038
+[2025-06-01 01:59:55.749] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 01:59:55.751] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:00:50.883] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:00:50.895] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601020050-0039
+[2025-06-01 02:00:50.896] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:00:50.897] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:01:49.055] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:01:49.067] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601020148-0040
+[2025-06-01 02:01:49.068] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 02:01:49.070] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:02:51.248] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:02:51.261] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601020250-0041
+[2025-06-01 02:02:51.262] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 02:02:51.263] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:03:50.420] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:03:50.432] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601020350-0042
+[2025-06-01 02:03:50.432] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:03:50.434] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:04:51.585] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:04:51.594] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601020451-0043
+[2025-06-01 02:04:51.595] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 02:04:51.596] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:05:54.737] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:05:54.750] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601020554-0044
+[2025-06-01 02:05:54.751] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:05:54.752] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:06:58.900] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:06:58.913] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601020658-0045
+[2025-06-01 02:06:58.914] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:06:58.916] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:07:54.086] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:07:54.097] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601020753-0046
+[2025-06-01 02:07:54.098] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:07:54.100] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:08:56.300] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:08:56.316] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601020856-0047
+[2025-06-01 02:08:56.317] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 02:08:56.318] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:09:50.503] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:09:50.517] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601020950-0048
+[2025-06-01 02:09:50.518] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:09:50.520] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:10:53.672] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:10:53.689] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601021053-0049
+[2025-06-01 02:10:53.689] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:10:53.691] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:11:56.875] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:11:56.886] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601021156-0050
+[2025-06-01 02:11:56.886] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 02:11:56.888] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:12:57.050] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:12:57.060] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601021256-0051
+[2025-06-01 02:12:57.061] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 02:12:57.062] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:13:53.209] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:13:53.221] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601021352-0052
+[2025-06-01 02:13:53.222] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 02:13:53.223] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:14:57.366] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:14:57.379] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601021457-0053
+[2025-06-01 02:14:57.379] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:14:57.381] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:15:53.531] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:15:53.544] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601021553-0054
+[2025-06-01 02:15:53.545] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:15:53.546] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:16:49.688] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:16:49.699] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601021649-0055
+[2025-06-01 02:16:49.700] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:16:49.701] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:17:47.885] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:17:47.895] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601021747-0056
+[2025-06-01 02:17:47.896] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 02:17:47.897] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:18:46.073] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:18:46.090] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601021845-0057
+[2025-06-01 02:18:46.090] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:18:46.092] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:19:50.231] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:19:50.242] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601021949-0058
+[2025-06-01 02:19:50.242] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 02:19:50.244] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:20:49.390] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:20:49.402] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601022049-0059
+[2025-06-01 02:20:49.403] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 02:20:49.405] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:21:49.610] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:21:49.621] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601022149-0060
+[2025-06-01 02:21:49.622] [BotAnalizador               ] [INFO ] Prioridad asignada: 7
+[2025-06-01 02:21:49.624] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 02:22:53.831] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 02:22:53.841] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601022253-0061
+[2025-06-01 02:22:53.842] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 02:22:53.844] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:22:40.494] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:22:40.512] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601212235-0001
+[2025-06-01 21:22:40.513] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:22:40.515] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:23:08.863] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:23:08.873] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601212304-0002
+[2025-06-01 21:23:08.874] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:23:08.875] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:23:39.223] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:23:39.232] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601212334-0003
+[2025-06-01 21:23:39.233] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:23:39.234] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:24:14.174] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:24:14.183] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601212413-0001
+[2025-06-01 21:24:14.184] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:24:14.186] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:24:39.290] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:24:39.302] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601212439-0002
+[2025-06-01 21:24:39.303] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:24:39.305] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:25:13.459] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:25:13.471] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601212513-0003
+[2025-06-01 21:25:13.472] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 21:25:13.474] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:25:39.583] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:25:39.597] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601212539-0004
+[2025-06-01 21:25:39.597] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:25:39.599] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:26:33.774] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:26:33.783] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601212633-0005
+[2025-06-01 21:26:33.784] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:26:33.785] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:27:03.854] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:27:03.865] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601212703-0006
+[2025-06-01 21:27:03.866] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 21:27:03.868] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:33:34.486] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:33:34.495] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601213334-0001
+[2025-06-01 21:33:34.495] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:33:34.497] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:34:03.569] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:34:03.580] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601213403-0002
+[2025-06-01 21:34:03.580] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:34:03.582] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:34:37.698] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:34:37.708] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601213437-0003
+[2025-06-01 21:34:37.709] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 21:34:37.710] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:35:06.833] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:35:06.848] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601213506-0004
+[2025-06-01 21:35:06.849] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 21:35:06.851] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:35:31.944] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:35:31.955] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601213531-0005
+[2025-06-01 21:35:31.955] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:35:31.957] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:36:29.130] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:36:29.140] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601213628-0006
+[2025-06-01 21:36:29.140] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:36:29.142] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:37:25.355] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:37:25.366] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601213725-0007
+[2025-06-01 21:37:25.367] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:37:25.369] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:40:20.666] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:40:20.677] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601214020-0001
+[2025-06-01 21:40:20.677] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:40:20.679] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:40:43.751] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:40:43.761] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601214043-0002
+[2025-06-01 21:40:43.761] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:40:43.763] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:41:15.845] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:41:15.858] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601214115-0003
+[2025-06-01 21:41:15.858] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:41:15.860] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:41:48.953] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:41:48.964] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601214148-0004
+[2025-06-01 21:41:48.964] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:41:48.965] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:42:50.061] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:42:50.071] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601214249-0005
+[2025-06-01 21:42:50.071] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:42:50.073] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:47:04.167] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:47:04.178] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601214703-0001
+[2025-06-01 21:47:04.179] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:47:04.181] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:48:02.352] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:48:02.362] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601214802-0002
+[2025-06-01 21:48:02.362] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:48:02.364] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:49:03.466] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:49:03.475] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601214903-0003
+[2025-06-01 21:49:03.475] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:49:03.477] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:49:30.541] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:49:30.553] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601214930-0004
+[2025-06-01 21:49:30.554] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 21:49:30.555] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:50:01.631] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:50:01.641] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215001-0005
+[2025-06-01 21:50:01.641] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 21:50:01.643] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:50:27.726] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:50:27.736] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215027-0006
+[2025-06-01 21:50:27.737] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:50:27.739] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:51:06.840] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:51:06.849] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215106-0007
+[2025-06-01 21:51:06.850] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:51:06.851] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:52:10.973] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:52:10.985] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215210-0008
+[2025-06-01 21:52:10.986] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:52:10.988] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:53:09.101] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:53:09.112] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215308-0009
+[2025-06-01 21:53:09.113] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:53:09.114] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:54:08.224] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:54:08.236] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215407-0010
+[2025-06-01 21:54:08.237] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 21:54:08.239] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:55:03.362] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:55:03.373] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215503-0011
+[2025-06-01 21:55:03.373] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:55:03.375] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:56:01.474] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:56:01.484] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215601-0012
+[2025-06-01 21:56:01.484] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:56:01.486] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:57:01.611] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:57:01.620] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215701-0013
+[2025-06-01 21:57:01.620] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:57:01.622] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:58:02.738] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:58:02.748] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215802-0014
+[2025-06-01 21:58:02.748] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 21:58:02.750] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:58:58.925] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:58:58.935] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215858-0015
+[2025-06-01 21:58:58.935] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:58:58.937] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:59:20.353] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:59:20.363] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215920-0001
+[2025-06-01 21:59:20.363] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:59:20.365] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 21:59:46.563] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 21:59:46.580] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601215946-0002
+[2025-06-01 21:59:46.581] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 21:59:46.583] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:00:17.691] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:00:17.703] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220017-0003
+[2025-06-01 22:00:17.704] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:00:17.705] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:00:48.786] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:00:48.797] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220048-0004
+[2025-06-01 22:00:48.797] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:00:48.800] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:01:21.865] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:01:21.875] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220121-0005
+[2025-06-01 22:01:21.875] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:01:21.877] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:01:50.044] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:01:50.059] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220149-0006
+[2025-06-01 22:01:50.060] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:01:50.062] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:02:17.215] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:02:17.225] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220216-0007
+[2025-06-01 22:02:17.226] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:02:17.228] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:02:53.370] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:02:53.381] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220253-0008
+[2025-06-01 22:02:53.382] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:02:53.384] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:03:28.496] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:03:28.510] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220328-0009
+[2025-06-01 22:03:28.511] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:03:28.513] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:03:47.594] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:03:47.605] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220347-0010
+[2025-06-01 22:03:47.605] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:03:47.607] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:04:12.691] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:04:12.701] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220412-0011
+[2025-06-01 22:04:12.702] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:04:12.703] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:04:39.789] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:04:39.801] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220439-0012
+[2025-06-01 22:04:39.801] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:04:39.803] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:04:59.890] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:04:59.900] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220459-0013
+[2025-06-01 22:04:59.900] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:04:59.902] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:05:59.111] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:05:59.125] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220558-0014
+[2025-06-01 22:05:59.125] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:05:59.127] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:06:25.242] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:06:25.253] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220624-0015
+[2025-06-01 22:06:25.253] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:06:25.255] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:06:45.372] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:06:45.385] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220645-0016
+[2025-06-01 22:06:45.386] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:06:45.388] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:07:13.543] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:07:13.558] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220713-0017
+[2025-06-01 22:07:13.558] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:07:13.560] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:07:36.660] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:07:36.671] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220736-0018
+[2025-06-01 22:07:36.672] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:07:36.674] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:08:10.744] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:08:10.753] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220810-0019
+[2025-06-01 22:08:10.754] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:08:10.755] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:08:30.876] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:08:30.890] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220830-0020
+[2025-06-01 22:08:30.891] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:08:30.892] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:08:50.971] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:08:50.980] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220850-0021
+[2025-06-01 22:08:50.980] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:08:50.982] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:09:14.125] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:09:14.135] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601220913-0022
+[2025-06-01 22:09:14.135] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:09:14.137] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:10:17.318] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:10:17.331] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221017-0023
+[2025-06-01 22:10:17.331] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:10:17.334] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:10:48.433] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:10:48.444] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221048-0024
+[2025-06-01 22:10:48.444] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:10:48.446] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:11:21.516] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:11:21.525] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221121-0025
+[2025-06-01 22:11:21.526] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:11:21.527] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:11:49.629] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:11:49.638] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221149-0026
+[2025-06-01 22:11:49.639] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:11:49.640] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:12:35.748] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:12:35.759] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221235-0027
+[2025-06-01 22:12:35.759] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:12:35.761] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:12:54.816] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:12:54.826] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221254-0028
+[2025-06-01 22:12:54.826] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:12:54.828] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:13:17.880] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:13:17.890] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221317-0029
+[2025-06-01 22:13:17.890] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:13:17.892] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:14:17.988] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:14:17.999] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221417-0030
+[2025-06-01 22:14:18.000] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:14:18.001] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:15:10.091] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:15:10.102] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221509-0031
+[2025-06-01 22:15:10.102] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:15:10.104] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:16:04.198] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:16:04.208] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221603-0032
+[2025-06-01 22:16:04.209] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:16:04.210] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:17:05.398] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:17:05.408] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221705-0033
+[2025-06-01 22:17:05.409] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:17:05.410] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:18:08.580] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:18:08.613] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221808-0034
+[2025-06-01 22:18:08.614] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:18:08.622] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:19:08.960] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:19:08.972] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601221908-0035
+[2025-06-01 22:19:08.973] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:19:08.974] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:20:12.187] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:20:12.197] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601222011-0036
+[2025-06-01 22:20:12.197] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:20:12.199] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:21:11.516] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:21:11.526] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601222111-0037
+[2025-06-01 22:21:11.526] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:21:11.528] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:22:06.741] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:22:06.752] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601222206-0038
+[2025-06-01 22:22:06.752] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:22:06.754] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:23:04.890] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:23:04.899] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601222304-0039
+[2025-06-01 22:23:04.900] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:23:04.901] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:24:03.054] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:24:03.069] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601222402-0040
+[2025-06-01 22:24:03.070] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:24:03.072] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:25:04.188] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:25:04.197] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601222503-0041
+[2025-06-01 22:25:04.198] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:25:04.200] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:26:02.362] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:26:02.373] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601222602-0042
+[2025-06-01 22:26:02.373] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:26:02.375] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:27:00.563] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:27:00.578] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601222700-0043
+[2025-06-01 22:27:00.579] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:27:00.582] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:28:04.737] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:28:04.748] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601222804-0044
+[2025-06-01 22:28:04.749] [BotAnalizador               ] [INFO ] Prioridad asignada: 5
+[2025-06-01 22:28:04.750] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:29:03.900] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:29:03.911] [BotAnalizador               ] [INFO ] Analizando evento ID: EVT-SEL-20250601222903-0045
+[2025-06-01 22:29:03.911] [BotAnalizador               ] [INFO ] Prioridad asignada: 10
+[2025-06-01 22:29:03.913] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:53:20.713] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:53:20.725] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:55:22.451] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:55:22.461] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:55:48.797] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:55:48.813] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:56:15.160] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:56:15.175] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:57:15.668] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:57:15.684] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:58:13.033] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:58:13.045] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:58:42.363] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:58:42.374] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:59:01.701] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:59:01.713] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:59:34.051] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:59:34.067] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 22:59:59.379] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 22:59:59.396] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:00:27.688] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:00:27.700] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:00:59.970] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:00:59.982] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:01:20.312] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:01:20.324] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:01:46.641] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:01:46.653] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:02:17.956] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:02:17.970] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:02:41.250] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:02:41.261] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:06:15.643] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:06:15.655] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:06:40.904] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:06:40.917] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:07:41.236] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:07:41.247] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:08:08.532] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:08:08.543] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:08:34.811] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:08:34.822] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:09:03.088] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:09:03.101] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:09:26.489] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:09:26.508] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:09:49.830] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:09:49.842] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:10:22.214] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:10:22.225] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:10:44.513] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:10:44.523] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:11:15.777] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:11:15.789] [BotAnalizador               ] [INFO ] Análisis completado.
+[2025-06-01 23:11:45.065] [BotAnalizador               ] [INFO ] Iniciando análisis...
+[2025-06-01 23:11:45.077] [BotAnalizador               ] [INFO ] Análisis completado.

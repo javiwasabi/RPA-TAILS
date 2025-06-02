@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Victoria!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard_style.css') }}">
+    <style>
+        /* Estilos específicos para la página de victoria */
+        body { 
+            justify-content: center; /* Centra el contenedor verticalmente */
+        }
+        .container { 
+            text-align: center; /* Centra el contenido dentro del contenedor */
+        } 
+        .victory-title { 
+            color: #2ecc71; /* Verde brillante */
+            font-size: 3em; /* Más grande */
+            text-shadow: 0 0 20px rgba(46, 204, 113, 0.8); 
+            margin-bottom: 20px;
+        }
+        .final-stats { 
+            font-size: 1.3em; 
+            margin-top: 25px;
+            margin-bottom: 15px;
+            color: #ecf0f1;
+        }
+        .final-stats strong {
+            color: #f1c40f; /* Amarillo para destacar los números */
+        }
+        .final-image { 
+            max-height: 300px; /* Imagen de victoria más grande */
+            width: auto;
+            margin-top: 15px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+        }
+        a.btn-return { 
+            display: inline-block; 
+            background-color: #3498db; 
+            color: white; 
+            padding: 15px 30px; /* Botón más grande */
+            border-radius: 8px; 
+            text-decoration: none; 
+            font-size: 1.2em; 
+            transition: background-color 0.3s ease, transform 0.2s ease; 
+            font-weight: bold;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        a.btn-return:hover { 
+            background-color: #2980b9; 
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="zone-default"> <div class="container">
+        <h1 class="victory-title">¡VICTORIA!</h1>
+        <img src="{{ url_for('static', filename='images/victory.png') }}" alt="¡Has Ganado!" class="final-image">
+        <p class="final-stats">¡Felicidades, Comandante! Has desmantelado con éxito la perversa operación del Dr. Eggman y salvado el día.</p>
+        <p class="final-stats">HP final de la Base de Eggman: <strong>{{ result.final_hp }}%</strong></p>
+        <p class="final-stats">Nivel de Pánico Global Final: <strong>{{ result.final_panic }}%</strong></p>
+
+        <a href="{{ url_for('reset') }}" class="btn-return">Jugar de Nuevo</a>
+    </div>
+</body>
+</html>

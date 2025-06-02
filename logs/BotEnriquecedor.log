@@ -1,0 +1,632 @@
+[2025-06-01 01:25:52.876] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:25:52.886] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601012548-0001
+[2025-06-01 01:25:52.886] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:25:52.888] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:26:17.344] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:26:17.354] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601012612-0002
+[2025-06-01 01:26:17.355] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:26:17.357] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:27:29.910] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:27:29.921] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601012729-0001
+[2025-06-01 01:27:29.921] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:27:29.923] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:27:57.005] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:27:57.015] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601012756-0002
+[2025-06-01 01:27:57.015] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:27:57.017] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:28:27.103] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:28:27.115] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601012826-0003
+[2025-06-01 01:28:27.115] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:28:27.117] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:28:57.200] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:28:57.211] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601012856-0004
+[2025-06-01 01:28:57.212] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:28:57.213] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:29:31.298] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:29:31.309] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601012930-0005
+[2025-06-01 01:29:31.310] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:29:31.313] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:29:58.391] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:29:58.401] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601012957-0006
+[2025-06-01 01:29:58.402] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:29:58.404] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:30:26.498] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:30:26.509] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601013026-0007
+[2025-06-01 01:30:26.510] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:30:26.512] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:30:58.606] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:30:58.618] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601013058-0008
+[2025-06-01 01:30:58.618] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:30:58.620] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:31:34.691] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:31:34.703] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601013134-0009
+[2025-06-01 01:31:34.704] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:31:34.706] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:32:09.809] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:32:09.820] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601013209-0010
+[2025-06-01 01:32:09.821] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:32:09.822] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:33:09.952] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:33:09.963] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601013309-0011
+[2025-06-01 01:33:09.963] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:33:09.965] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:34:10.162] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:34:10.173] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601013409-0012
+[2025-06-01 01:34:10.173] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:34:10.175] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:35:10.565] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:35:10.588] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601013509-0013
+[2025-06-01 01:35:10.589] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:35:10.591] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:36:09.724] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:36:09.734] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601013609-0014
+[2025-06-01 01:36:09.735] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:36:09.737] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:37:13.895] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:37:13.909] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601013713-0015
+[2025-06-01 01:37:13.910] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:37:13.911] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:38:11.079] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:38:11.103] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601013810-0016
+[2025-06-01 01:38:11.104] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:38:11.108] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:39:06.235] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:39:06.245] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601013905-0017
+[2025-06-01 01:39:06.246] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:39:06.247] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:40:01.381] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:40:01.391] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601014000-0018
+[2025-06-01 01:40:01.392] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:40:01.393] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:41:03.613] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:41:03.624] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601014103-0019
+[2025-06-01 01:41:03.624] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:41:03.626] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:42:01.785] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:42:01.795] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601014201-0020
+[2025-06-01 01:42:01.803] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:42:01.805] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:42:58.948] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:42:58.958] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601014258-0021
+[2025-06-01 01:42:58.958] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:42:58.960] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:44:01.151] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:44:01.163] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601014400-0022
+[2025-06-01 01:44:01.163] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:44:01.165] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:45:03.343] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:45:03.353] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601014502-0023
+[2025-06-01 01:45:03.354] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:45:03.355] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:46:04.553] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:46:04.563] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601014604-0024
+[2025-06-01 01:46:04.564] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:46:04.565] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:47:05.755] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:47:05.764] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601014705-0025
+[2025-06-01 01:47:05.765] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:47:05.766] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:48:01.949] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:48:01.965] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601014801-0026
+[2025-06-01 01:48:01.965] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:48:01.968] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:48:59.157] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:48:59.177] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601014858-0027
+[2025-06-01 01:48:59.178] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:48:59.180] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:49:58.326] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:49:58.338] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601014957-0028
+[2025-06-01 01:49:58.339] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:49:58.340] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:50:59.527] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:50:59.539] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601015059-0029
+[2025-06-01 01:50:59.540] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:50:59.542] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:51:57.660] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:51:57.671] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601015157-0030
+[2025-06-01 01:51:57.671] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:51:57.673] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:53:00.850] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:53:00.861] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601015300-0031
+[2025-06-01 01:53:00.861] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 01:53:00.863] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:53:56.002] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:53:56.012] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601015355-0032
+[2025-06-01 01:53:56.013] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:53:56.014] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:54:52.167] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:54:52.178] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601015451-0033
+[2025-06-01 01:54:52.178] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:54:52.180] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:55:49.340] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:55:49.351] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601015548-0034
+[2025-06-01 01:55:49.351] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:55:49.353] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:56:50.500] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:56:50.512] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601015650-0035
+[2025-06-01 01:56:50.513] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:56:50.514] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:57:51.646] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:57:51.659] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601015751-0036
+[2025-06-01 01:57:51.660] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:57:51.662] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:58:52.795] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:58:52.806] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601015852-0037
+[2025-06-01 01:58:52.806] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 01:58:52.808] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 01:59:55.952] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 01:59:55.961] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601015955-0038
+[2025-06-01 01:59:55.962] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 01:59:55.963] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:00:51.098] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:00:51.109] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601020050-0039
+[2025-06-01 02:00:51.110] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:00:51.112] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:01:49.270] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:01:49.284] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601020148-0040
+[2025-06-01 02:01:49.285] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 02:01:49.287] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:02:51.464] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:02:51.480] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601020250-0041
+[2025-06-01 02:02:51.480] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 02:02:51.483] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:03:50.634] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:03:50.647] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601020350-0042
+[2025-06-01 02:03:50.647] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:03:50.649] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:04:51.797] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:04:51.809] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601020451-0043
+[2025-06-01 02:04:51.810] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 02:04:51.811] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:05:54.953] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:05:54.966] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601020554-0044
+[2025-06-01 02:05:54.966] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:05:54.968] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:06:59.117] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:06:59.127] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601020658-0045
+[2025-06-01 02:06:59.128] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:06:59.130] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:07:54.300] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:07:54.314] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601020753-0046
+[2025-06-01 02:07:54.323] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:07:54.325] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:08:56.519] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:08:56.538] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601020856-0047
+[2025-06-01 02:08:56.539] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 02:08:56.542] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:09:50.721] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:09:50.731] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601020950-0048
+[2025-06-01 02:09:50.732] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:09:50.733] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:10:53.892] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:10:53.904] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601021053-0049
+[2025-06-01 02:10:53.904] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:10:53.915] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:11:57.089] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:11:57.098] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601021156-0050
+[2025-06-01 02:11:57.099] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 02:11:57.101] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:12:57.263] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:12:57.275] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601021256-0051
+[2025-06-01 02:12:57.276] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 02:12:57.278] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:13:53.424] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:13:53.436] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601021352-0052
+[2025-06-01 02:13:53.437] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 02:13:53.439] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:14:57.582] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:14:57.591] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601021457-0053
+[2025-06-01 02:14:57.592] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:14:57.594] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:15:53.747] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:15:53.756] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601021553-0054
+[2025-06-01 02:15:53.757] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:15:53.758] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:16:49.902] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:16:49.913] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601021649-0055
+[2025-06-01 02:16:49.913] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:16:49.915] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:17:48.098] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:17:48.110] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601021747-0056
+[2025-06-01 02:17:48.111] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 02:17:48.113] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:18:46.294] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:18:46.308] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601021845-0057
+[2025-06-01 02:18:46.308] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:18:46.311] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:19:50.444] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:19:50.454] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601021949-0058
+[2025-06-01 02:19:50.454] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 02:19:50.456] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:20:49.605] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:20:49.615] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601022049-0059
+[2025-06-01 02:20:49.616] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 02:20:49.618] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:21:49.825] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:21:49.844] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601022149-0060
+[2025-06-01 02:21:49.845] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: ALTA_URGENCIA
+[2025-06-01 02:21:49.847] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 02:22:54.044] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 02:22:54.060] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601022253-0061
+[2025-06-01 02:22:54.060] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 02:22:54.062] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:22:40.716] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:22:40.726] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601212235-0001
+[2025-06-01 21:22:40.727] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:22:40.729] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:23:09.076] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:23:09.085] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601212304-0002
+[2025-06-01 21:23:09.085] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:23:09.087] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:23:39.435] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:23:39.444] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601212334-0003
+[2025-06-01 21:23:39.444] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:23:39.446] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:24:14.387] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:24:14.399] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601212413-0001
+[2025-06-01 21:24:14.400] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:24:14.402] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:24:39.505] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:24:39.515] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601212439-0002
+[2025-06-01 21:24:39.516] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:24:39.518] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:25:13.675] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:25:13.686] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601212513-0003
+[2025-06-01 21:25:13.687] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 21:25:13.690] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:25:39.800] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:25:39.813] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601212539-0004
+[2025-06-01 21:25:39.814] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:25:39.815] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:26:33.986] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:26:33.996] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601212633-0005
+[2025-06-01 21:26:33.996] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:26:33.998] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:27:04.069] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:27:04.079] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601212703-0006
+[2025-06-01 21:27:04.079] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 21:27:04.081] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:33:34.698] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:33:34.708] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601213334-0001
+[2025-06-01 21:33:34.709] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:33:34.711] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:34:03.783] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:34:03.793] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601213403-0002
+[2025-06-01 21:34:03.794] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:34:03.796] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:34:37.911] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:34:37.921] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601213437-0003
+[2025-06-01 21:34:37.922] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 21:34:37.924] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:35:07.052] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:35:07.063] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601213506-0004
+[2025-06-01 21:35:07.064] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 21:35:07.066] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:35:32.158] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:35:32.167] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601213531-0005
+[2025-06-01 21:35:32.167] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:35:32.169] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:36:29.343] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:36:29.352] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601213628-0006
+[2025-06-01 21:36:29.353] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:36:29.354] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:37:25.569] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:37:25.581] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601213725-0007
+[2025-06-01 21:37:25.581] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:37:25.583] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:40:20.880] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:40:20.890] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601214020-0001
+[2025-06-01 21:40:20.890] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:40:20.892] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:40:43.964] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:40:43.973] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601214043-0002
+[2025-06-01 21:40:43.974] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:40:43.976] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:41:16.061] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:41:16.072] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601214115-0003
+[2025-06-01 21:41:16.073] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:41:16.074] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:41:49.166] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:41:49.176] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601214148-0004
+[2025-06-01 21:41:49.176] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:41:49.178] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:42:50.273] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:42:50.282] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601214249-0005
+[2025-06-01 21:42:50.283] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:42:50.285] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:47:04.382] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:47:04.392] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601214703-0001
+[2025-06-01 21:47:04.393] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:47:04.394] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:48:02.565] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:48:02.574] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601214802-0002
+[2025-06-01 21:48:02.574] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:48:02.576] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:49:03.678] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:49:03.688] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601214903-0003
+[2025-06-01 21:49:03.688] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:49:03.694] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:49:30.756] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:49:30.766] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601214930-0004
+[2025-06-01 21:49:30.767] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 21:49:30.769] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:50:01.844] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:50:01.853] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215001-0005
+[2025-06-01 21:50:01.854] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 21:50:01.856] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:50:27.940] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:50:27.949] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215027-0006
+[2025-06-01 21:50:27.949] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:50:27.951] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:51:07.052] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:51:07.062] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215106-0007
+[2025-06-01 21:51:07.062] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:51:07.065] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:52:11.189] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:52:11.199] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215210-0008
+[2025-06-01 21:52:11.199] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:52:11.202] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:53:09.315] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:53:09.324] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215308-0009
+[2025-06-01 21:53:09.325] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:53:09.327] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:54:08.440] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:54:08.452] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215407-0010
+[2025-06-01 21:54:08.452] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 21:54:08.454] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:55:03.575] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:55:03.585] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215503-0011
+[2025-06-01 21:55:03.585] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:55:03.587] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:56:01.687] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:56:01.696] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215601-0012
+[2025-06-01 21:56:01.696] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:56:01.698] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:57:01.823] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:57:01.832] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215701-0013
+[2025-06-01 21:57:01.833] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:57:01.835] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:58:02.951] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:58:02.963] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215802-0014
+[2025-06-01 21:58:02.963] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 21:58:02.965] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:58:59.137] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:58:59.146] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215858-0015
+[2025-06-01 21:58:59.147] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:58:59.148] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:59:20.566] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:59:20.575] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215920-0001
+[2025-06-01 21:59:20.575] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:59:20.577] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 21:59:46.784] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 21:59:46.806] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601215946-0002
+[2025-06-01 21:59:46.807] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 21:59:46.809] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:00:17.906] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:00:17.915] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220017-0003
+[2025-06-01 22:00:17.916] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:00:17.918] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:00:49.001] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:00:49.013] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220048-0004
+[2025-06-01 22:00:49.014] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:00:49.016] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:01:22.078] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:01:22.088] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220121-0005
+[2025-06-01 22:01:22.088] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:01:22.090] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:01:50.263] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:01:50.283] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220149-0006
+[2025-06-01 22:01:50.284] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:01:50.287] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:02:17.428] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:02:17.441] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220216-0007
+[2025-06-01 22:02:17.442] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:02:17.444] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:02:53.585] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:02:53.599] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220253-0008
+[2025-06-01 22:02:53.599] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:02:53.601] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:03:28.713] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:03:28.723] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220328-0009
+[2025-06-01 22:03:28.723] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:03:28.725] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:03:47.808] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:03:47.818] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220347-0010
+[2025-06-01 22:03:47.819] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:03:47.821] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:04:12.904] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:04:12.914] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220412-0011
+[2025-06-01 22:04:12.914] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:04:12.917] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:04:40.004] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:04:40.014] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220439-0012
+[2025-06-01 22:04:40.014] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:04:40.016] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:05:00.103] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:05:00.113] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220459-0013
+[2025-06-01 22:05:00.113] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:05:00.115] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:05:59.328] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:05:59.344] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220558-0014
+[2025-06-01 22:05:59.344] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:05:59.346] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:06:25.456] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:06:25.467] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220624-0015
+[2025-06-01 22:06:25.468] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:06:25.469] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:06:45.589] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:06:45.608] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220645-0016
+[2025-06-01 22:06:45.609] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:06:45.611] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:07:13.761] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:07:13.775] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220713-0017
+[2025-06-01 22:07:13.775] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:07:13.777] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:07:36.874] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:07:36.885] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220736-0018
+[2025-06-01 22:07:36.885] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:07:36.887] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:08:10.956] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:08:10.967] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220810-0019
+[2025-06-01 22:08:10.968] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:08:10.969] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:08:31.093] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:08:31.103] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220830-0020
+[2025-06-01 22:08:31.103] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:08:31.105] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:08:51.183] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:08:51.191] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220850-0021
+[2025-06-01 22:08:51.192] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:08:51.194] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:09:14.338] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:09:14.346] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601220913-0022
+[2025-06-01 22:09:14.347] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:09:14.349] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:10:17.535] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:10:17.547] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221017-0023
+[2025-06-01 22:10:17.548] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:10:17.550] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:10:48.647] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:10:48.656] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221048-0024
+[2025-06-01 22:10:48.657] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:10:48.659] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:11:21.728] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:11:21.739] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221121-0025
+[2025-06-01 22:11:21.739] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:11:21.741] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:11:49.841] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:11:49.850] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221149-0026
+[2025-06-01 22:11:49.851] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:11:49.853] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:12:35.962] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:12:35.971] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221235-0027
+[2025-06-01 22:12:35.972] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:12:35.973] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:12:55.028] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:12:55.037] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221254-0028
+[2025-06-01 22:12:55.038] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:12:55.039] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:13:18.093] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:13:18.102] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221317-0029
+[2025-06-01 22:13:18.103] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:13:18.105] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:14:18.202] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:14:18.211] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221417-0030
+[2025-06-01 22:14:18.212] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:14:18.213] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:15:10.304] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:15:10.317] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221509-0031
+[2025-06-01 22:15:10.317] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:15:10.319] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:16:04.411] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:16:04.420] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221603-0032
+[2025-06-01 22:16:04.421] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:16:04.422] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:17:05.611] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:17:05.621] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221705-0033
+[2025-06-01 22:17:05.622] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:17:05.623] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:18:08.823] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:18:08.851] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221808-0034
+[2025-06-01 22:18:08.851] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:18:08.853] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:19:09.175] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:19:09.185] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601221908-0035
+[2025-06-01 22:19:09.185] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:19:09.187] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:20:12.400] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:20:12.410] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601222011-0036
+[2025-06-01 22:20:12.411] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:20:12.413] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:21:11.728] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:21:11.739] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601222111-0037
+[2025-06-01 22:21:11.739] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:21:11.741] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:22:06.955] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:22:06.964] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601222206-0038
+[2025-06-01 22:22:06.965] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:22:06.966] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:23:05.102] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:23:05.111] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601222304-0039
+[2025-06-01 22:23:05.112] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:23:05.114] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:24:03.273] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:24:03.283] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601222402-0040
+[2025-06-01 22:24:03.284] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:24:03.285] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:25:04.400] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:25:04.408] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601222503-0041
+[2025-06-01 22:25:04.409] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:25:04.410] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:26:02.576] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:26:02.585] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601222602-0042
+[2025-06-01 22:26:02.586] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:26:02.588] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:27:00.787] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:27:00.797] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601222700-0043
+[2025-06-01 22:27:00.797] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:27:00.799] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:28:04.951] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:28:04.962] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601222804-0044
+[2025-06-01 22:28:04.962] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: URGENCIA_MEDIA
+[2025-06-01 22:28:04.964] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:29:04.114] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:29:04.123] [BotEnriquecedor             ] [INFO ] Enriqueciendo evento ID: EVT-SEL-20250601222903-0045
+[2025-06-01 22:29:04.124] [BotEnriquecedor             ] [INFO ] Nivel de urgencia asignado: MAXIMA_URGENCIA
+[2025-06-01 22:29:04.125] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:53:20.726] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:53:20.736] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:55:22.462] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:55:22.473] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:55:48.814] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:55:48.827] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:56:15.175] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:56:15.190] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:57:15.685] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:57:15.698] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:58:13.045] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:58:13.057] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:58:42.375] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:58:42.387] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:59:01.713] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:59:01.723] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:59:34.068] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:59:34.080] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 22:59:59.397] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 22:59:59.409] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:00:27.700] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:00:27.711] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:00:59.983] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:00:59.994] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:01:20.324] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:01:20.336] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:01:46.654] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:01:46.664] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:02:17.971] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:02:17.982] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:02:41.262] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:02:41.272] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:06:15.656] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:06:15.667] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:06:40.917] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:06:40.928] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:07:41.248] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:07:41.257] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:08:08.544] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:08:08.554] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:08:34.822] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:08:34.832] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:09:03.101] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:09:03.111] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:09:26.509] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:09:26.528] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:09:49.843] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:09:49.854] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:10:22.225] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:10:22.237] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:10:44.524] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:10:44.534] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:11:15.790] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:11:15.801] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.
+[2025-06-01 23:11:45.077] [BotEnriquecedor             ] [INFO ] Iniciando enriquecimiento...
+[2025-06-01 23:11:45.088] [BotEnriquecedor             ] [INFO ] Enriquecimiento completado.

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,80 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Táctico - Alerta Eggman</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; color: #ecf0f1; display: flex; flex-direction: column; align-items: center; min-height: 100vh; padding: 20px; box-sizing: border-box; transition: background-color 0.5s ease; }
-        /* Estilos base para el cuerpo */
-        body.zone-default { background-color: #2c3e50; }
-        body.zone-green-hill { background: linear-gradient(to bottom, #6ab04c, #82ccdd); color: #2c3e50; }
-        body.zone-chemical-plant { background: linear-gradient(to bottom, #9b59b6, #34495e); }
-        body.zone-station-square { background: linear-gradient(to bottom, #546e7a, #37474f); }
-        body.zone-angel-island { background: linear-gradient(to bottom, #e67e22, #d35400); color: #fff; }
-        body.zone-mystic-ruins { background: linear-gradient(to bottom, #795548, #4e342e); }
-        body.zone-gun-hq { background: linear-gradient(to bottom, #424242, #212121); }
-        body.zone-unknown { background-color: #7f8c8d; }
-
-        .container { background-color: rgba(52, 73, 94, 0.85); padding: 30px; border-radius: 10px; box-shadow: 0 0 25px rgba(0,0,0,0.6); width: 90%; max-width: 950px; text-align: left; backdrop-filter: blur(5px); }
-        h1 { text-align: center; font-size: 2.5em; border-bottom: 2px solid; padding-bottom: 10px; margin-bottom: 20px; }
-        h1 .icon { font-size: 1em; vertical-align: middle; }
-        /* Colores de títulos según la zona */
-        .zone-default h1, .zone-chemical-plant h1, .zone-station-square h1, .zone-gun-hq h1 { color: #e74c3c; border-color: #e74c3c; }
-        .zone-green-hill h1 { color: #27ae60; border-color: #27ae60; }
-        .zone-angel-island h1 { color: #f39c12; border-color: #f39c12; }
-        .zone-mystic-ruins h1 { color: #a1887f; border-color: #a1887f; }
-        .zone-unknown h1 { color: #bdc3c7; border-color: #bdc3c7; }
-
-
-        .alert-details { background-color: rgba(0,0,0,0.2); padding: 20px; border-radius: 8px; margin-bottom: 25px; border-left: 5px solid #1abc9c; }
-        .alert-details h2 { color: #1abc9c; margin-top: 0; border-bottom: 1px solid #1abc9c; padding-bottom: 5px;}
-        .alert-details p { margin: 10px 0; line-height: 1.6; }
-        .alert-details strong { color: #e0e0e0; } /* Un color de strong que funcione en varios fondos */
-        .zone-green-hill .alert-details strong { color: #1e824c; }
-
-
-        .decision-form h2 { text-align: center; margin-bottom: 15px;}
-        .zone-default .decision-form h2, .zone-chemical-plant .decision-form h2, .zone-station-square .decision-form h2, .zone-gun-hq .decision-form h2 { color: #f1c40f; }
-        .zone-green-hill .decision-form h2 { color: #f39c12;}
-        .zone-angel-island .decision-form h2 { color: #fefefe; }
-
-        .buttons { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; }
-        .btn { color: white; padding: 12px 18px; border: none; border-radius: 5px; cursor: pointer; font-size: 1em; text-align: center; transition: background-color 0.3s ease, transform 0.1s ease; font-weight: bold; }
-        .btn:hover { opacity: 0.9; transform: translateY(-2px); }
-        .btn:active { transform: translateY(0px); }
-        
-        .btn-sonic { background-color: #007bff; }
-        .btn-tails { background-color: #ffaa00; color: #2c3e50;}
-        .btn-knuckles { background-color: #d90000; }
-        .btn-sonic-tails { background-color: #16a085; }
-        .btn-all { background-color: #2ecc71; }
-        .btn-logdb { background-color: #95a5a6; }
-        .btn[disabled] { background-color: #566573; cursor: not-allowed; opacity: 0.5; }
-
-        .no-alert { font-size: 1.5em; text-align: center; margin-top: 50px;}
-        .zone-default .no-alert, .zone-chemical-plant .no-alert, .zone-station-square .no-alert, .zone-gun-hq .no-alert { color: #95a5a6; }
-        .zone-green-hill .no-alert { color: #387038; }
-
-        .timer { text-align: center; font-size: 1.2em; margin-bottom: 20px; background-color: rgba(0,0,0,0.3); padding: 10px; border-radius: 5px;}
-        .timer strong {font-size: 1.5em;}
-        #countdown { animation: pulse_timer 1.5s infinite alternate; }
-        @keyframes pulse_timer { 0% { opacity: 0.7; } 100% { opacity: 1; transform: scale(1.03); } }
-        
-        .hero-list .sonic_hero_class { color: #2980b9; font-weight: bold; background-color: rgba(255,255,255,0.1); padding: 2px 5px; border-radius:3px; }
-        .hero-list .tails_hero_class { color: #f39c12; font-weight: bold; background-color: rgba(255,255,255,0.1); padding: 2px 5px; border-radius:3px; }
-        .hero-list .knuckles_hero_class { color: #c0392b; font-weight: bold; background-color: rgba(255,255,255,0.1); padding: 2px 5px; border-radius:3px; }
-        .hero-list .amy_hero_class { color: #e91e63; font-weight: bold; background-color: rgba(255,255,255,0.1); padding: 2px 5px; border-radius:3px; }
-
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard_style.css') }}">
 </head>
 <body class="{{ zone_class }}">
     <div class="container">
         <h1><span class="icon">🚨</span> Dashboard Táctico de Alertas <span class="icon">🚨</span></h1>
 
+        {% if alert and alert.game_state %}
+        <div class="game-state-container">
+            <div class="progress-bar-wrapper">
+                <div class="progress-bar-label">HP Base de Eggman</div>
+                <div class="progress-bar hp-bar" style="width: {{ alert.game_state.eggman_hp }}%;">
+                    {{ alert.game_state.eggman_hp }}%
+                </div>
+            </div>
+            <div class="progress-bar-wrapper">
+                <div class="progress-bar-label">Nivel de Pánico Global</div>
+                <div class="progress-bar panic-bar" style="width: {{ alert.game_state.global_panic }}%;">
+                    {{ alert.game_state.global_panic }}%
+                </div>
+            </div>
+        </div>
+        {% endif %}
         {% if alert %}
             <div class="timer">
                 Tiempo para decisión manual: <strong id="countdown">{{ time_left }}</strong> segundos
             </div>
             <div class="alert-details">
-                <h2>Detalles del Evento: {{ alert.event_id }}</h2>
+                <div class="alert-header">
+                    <h2>Detalles del Evento: {{ alert.event_id }}</h2>
+                    <img src="{{ url_for('static', filename='images/eggman.png') }}" alt="¡Alerta de Eggman!" class="eggman-alert-img">
+                </div>
                 <p><strong>Descripción:</strong> {{ alert.threat_assessment.description }}</p>
                 <p><strong>Ubicación:</strong> {{ alert.location_reported }} (Zona: {{ alert.location_details.zone_name }})</p>
                 <p><strong>Nivel de Amenaza:</strong> <span style="color: {% if alert.threat_assessment.initial_level == 'critico' %}#e74c3c{% elif alert.threat_assessment.initial_level == 'alto' %}#f39c12{% elif alert.threat_assessment.initial_level == 'medio' %}#f1c40f{% else %}#2ecc71{% endif %}; text-transform: uppercase; font-weight: bold;">{{ alert.threat_assessment.initial_level }}</span> (Prioridad: {{ alert.threat_assessment.priority_score }})</p>
@@ -116,30 +72,26 @@
     </div>
     <script>
         const currentEventId = "{{ event_id if alert else '' }}";
-        const pollInterval = {{ poll_interval if alert else 3000 }}; // Intervalo de sondeo para nuevas alertas
+        const pollInterval = {{ poll_interval if alert else 3000 }};
 
         function checkForNewAlert() {
             fetch("{{ url_for('check_new_alert') }}")
                 .then(response => response.json())
                 .then(data => {
                     if (data.new_alert) {
-                        // Si la alerta actual en la página es diferente de la nueva, o si no hay alerta actual
                         if (currentEventId !== data.event_id || !document.querySelector('.alert-details')) {
-                             console.log("Nueva alerta detectada por polling ("+ data.event_id +"), recargando dashboard...");
-                             window.location.reload();
+                            console.log("Nueva alerta detectada por polling ("+ data.event_id +"), recargando dashboard...");
+                            window.location.reload();
                         }
                     }
                 })
                 .catch(error => console.error("Error en polling de alertas:", error));
         }
 
-        // Iniciar polling solo si no hay una alerta mostrándose actualmente
-        // O si la alerta actual ya fue decidida y estamos esperando la próxima
         if (!document.querySelector('.alert-details h2') || document.querySelector('.alert-details h2').textContent.includes('N/A')) {
-             setInterval(checkForNewAlert, pollInterval);
+            setInterval(checkForNewAlert, pollInterval);
         }
         
-        // Script simple para actualizar el contador visual del timeout
         let timeLeft = {{ time_left if alert else 0 }};
         const countdownElement = document.getElementById('countdown');
         let countdownInterval;
@@ -152,20 +104,15 @@
                     if (timeLeft <= 0) {
                         clearInterval(countdownInterval);
                         countdownElement.textContent = "Timeout!";
-                        // Aquí podríamos deshabilitar botones, pero bots.py tomará la decisión automática.
-                        // La página se recargará o mostrará "esperando" cuando bots.py envíe la siguiente alerta (o esta se limpie)
-                        // O cuando el polling detecte que ya no hay alerta activa (porque fue manejada por timeout)
-                        // Forzar un chequeo para ver si la alerta fue manejada por timeout
-                        setTimeout(checkForNewAlert, 1500); // Chequear poco después del timeout visual
+                        setTimeout(checkForNewAlert, 1500);
                     }
                 }, 1000);
             }
         }
         
-        if (timeLeft > 0) { // Solo iniciar si hay tiempo restante (es decir, una alerta activa)
+        if (timeLeft > 0) {
             startCountdown();
         }
-
     </script>
 </body>
 </html>

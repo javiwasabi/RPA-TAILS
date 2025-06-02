@@ -1,0 +1,10 @@
+{
+    "event_id": "EVT-SEL-20250601225715-0004",
+    "user_decision": "all_heroes",
+    "target_destinations": [
+        "LogDB",
+        "Knuckles",
+        "Tails",
+        "Sonic"
+    ]
+}

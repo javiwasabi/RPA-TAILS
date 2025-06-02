@@ -3,26 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Fuente de Datos Badnik Simulada</title>
-    <style>
-        /* ... (mismos estilos que antes) ... */
-        body { font-family: sans-serif; margin: 20px; background-color: #f0f0f0; }
-        .alert-box { background-color: #fff; border: 1px solid #ccc; padding: 15px; margin-bottom: 10px; border-radius: 5px; }
-        h1 { color: #333; }
-        p { color: #555; }
-        .label { font-weight: bold; }
-    </style>
+    <link rel="stylesheet" href="static/css/dashboard_style.css">
 </head>
-<body>
-    <h1>Portal de Alertas de Actividad Badnik (Simulado)</h1>
-
-    <div class="alert-box">
-        <h2>Última Alerta Detectada:</h2>
-        <p><span class="label">Descripción:</span> <span id="descripcion">EggRobo avistado intentando acceder al altar de la Master Emerald.</span></p>
-        <p><span class="label">Nivel de Amenaza:</span> <span id="nivel">alto</span></p> 
-        <p><span class="label">Ubicación Reportada:</span> <span id="ubicacion">Angel Island</span></p>
-        <p><span class="label">ID Dispositivo:</span> <span id="device_id">ME_GUARD_001</span></p>
-        <p><span class="label">Tipo de Lectura:</span> <span id="reading_type">proximity_breach</span></p>
-        <p><span class="label">Valor:</span> <span id="value">10</span></p>
+<body class="zone-chemical-plant">
+    <div class="container">
+        <h1><span class="icon">🧪</span> Portal de Alertas de Actividad Badnik <span class="icon">🧪</span></h1>
+        <div class="alert-details">
+            <h2>Última Alerta Detectada:</h2>
+            <p><strong class="label">Descripción:</strong> <span id="descripcion">Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.</span></p>
+            <p><strong class="label">Nivel de Amenaza:</strong> <span id="nivel">medio</span></p>
+            <p><strong class="label">Ubicación Reportada:</strong> <span id="ubicacion">Chemical Plant Zone</span></p>
+            <p><strong class="label">ID Dispositivo:</strong> <span id="device_id">WEB_SENSOR_001</span></p>
+            <p><strong class="label">Tipo de Lectura:</strong> <span id="reading_type">visual_confirmation</span></p>
+            <p><strong class="label">Valor:</strong> <span id="value">1</span></p>
+        </div>
     </div>
 </body>
 </html>

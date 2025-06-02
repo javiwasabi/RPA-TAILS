@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard_style.css') }}">
+    <style>
+        /* Estilos específicos para la página de game over */
+         body { 
+            justify-content: center; 
+        }
+        .container { 
+            text-align: center; 
+        } 
+        .defeat-title { 
+            color: #e74c3c; /* Rojo */
+            font-size: 3em;
+            text-shadow: 0 0 20px rgba(231, 76, 60, 0.8);
+            margin-bottom: 20px;
+        }
+        .final-stats { 
+            font-size: 1.3em; 
+            margin-top: 25px;
+            margin-bottom: 15px;
+            color: #ecf0f1;
+        }
+         .final-stats strong {
+            color: #f1c40f; 
+        }
+        .final-image { 
+            max-height: 300px; 
+            width: auto;
+            margin-top: 15px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+        }
+        a.btn-return { 
+            display: inline-block; 
+            background-color: #e74c3c; /* Botón rojo para game over */
+            color: white; 
+            padding: 15px 30px; 
+            border-radius: 8px; 
+            text-decoration: none; 
+            font-size: 1.2em; 
+            transition: background-color 0.3s ease, transform 0.2s ease; 
+            font-weight: bold;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        a.btn-return:hover { 
+            background-color: #c0392b; 
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="zone-default"> <div class="container">
+        <h1 class="defeat-title">GAME OVER</h1>
+        <img src="{{ url_for('static', filename='images/game_over.png') }}" alt="Has Perdido" class="final-image">
+        <p class="final-stats">El pánico global ha llegado a su límite. El Dr. Eggman ha logrado su nefasto objetivo esta vez... El mundo está sumido en el caos.</p>
+        <p class="final-stats">Nivel de pánico final: <strong>{{ result.final_panic }}%</strong></p>
+        <p class="final-stats">HP restante de la Base de Eggman: <strong>{{ result.final_hp }}%</strong></p>
+
+        <a href="{{ url_for('reset') }}" class="btn-return">Intentar de Nuevo</a>
+    </div>
+</body>
+</html>

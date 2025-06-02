@@ -42,5 +42,10 @@
             "G.U.N. HQ": {"zone_name": "Central City - G.U.N. HQ", "description": "Cuartel G.U.N.", "nearby_heroes": [], "common_threats": ["Robots G.U.N."], "css_class": "zone-gun-hq"},
             "Unknown Location": {"zone_name": "Unknown Location", "description": "Ubicación desconocida.", "nearby_heroes": [], "common_threats": [], "css_class": "zone-unknown"}
         }
+    },
+    "game_state": {
+        "initial_eggman_hp": 100,
+        "initial_global_panic": 0,
+        "max_global_panic": 100
     }
 }
