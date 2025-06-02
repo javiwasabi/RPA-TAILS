@@ -48,47 +48,6 @@ El sistema presenta alertas generadas dinámicamente. El jugador, a través de u
 * **HTML, CSS, JavaScript**: Para el frontend del Dashboard Táctico.
 * **WebDriver-Manager**: Para gestionar automáticamente el driver de Edge.
 
-## Estructura del Proyecto (Simplificada)
-RPA-TAILS/
-|-- bots.py                     # Orquestador principal y lógica de los bots/juego
-|-- dashboard_tactico_app.py    # Aplicación Flask para el dashboard interactivo
-|-- run_endpoints.py            # Script para iniciar los endpoints (Windows)
-|-- config.json                 # Configuración centralizada
-|-- requirements.txt            # Dependencias de Python
-|
-|-- endpoints/                  # Scripts Flask para los héroes y LogDB
-|   |-- sonic_app.py
-|   |-- tails_app.py
-|   |-- knuckles_app.py
-|   |-- logdb_app.py
-|
-|-- templates/                  # Plantillas HTML para Flask
-|   |-- dashboard_v2.html
-|   |-- decision_made_v2.html
-|   |-- victory.html
-|   |-- game_over.html
-|
-|-- static/                     # Archivos estáticos (CSS, imágenes)
-|   |-- css/
-|   |   |-- dashboard_style.css
-|   |-- images/
-|       |-- eggman.png
-|       |-- sonic.png
-|       |-- tails.png
-|       |-- knuckles.png
-|       |-- victory.png
-|       |-- game_over.png
-|       |-- (otras imágenes necesarias)
-|
-|-- data/                       # Datos temporales del flujo de bots
-|-- data_dashboard/             # Datos temporales de decisión del dashboard
-|-- logs/                       # Archivos de log
-|-- reports/                    # Reportes HTML de eventos
-|
-|-- fuente_*.html               # Archivos HTML para simulación con Selenium
-|-- venv/                       # (Entorno virtual, opcional pero recomendado)
-|-- README.md                   # Este archivo
-
 ## Requisitos Previos
 
 * Python 3.7 o superior.
