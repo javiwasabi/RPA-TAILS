@@ -137,6 +137,13 @@ def make_decision():
         if not event_id_form or not action:
             return "Error: Faltan datos en la decisión.", 400
 
+        auto_decision_path = os.path.join(DATA_DIR, f"auto_decision_{event_id_form}.json")
+        if os.path.exists(auto_decision_path):
+            return redirect(url_for('decision_made', 
+                                 event_id=event_id_form,
+                                 message="Error: Tiempo agotado. Decisión tomada automáticamente",
+                                 image_name="timeout.png"))
+
         target_destinations = ["LogDB"]
         # Lógica para determinar el nombre de la imagen basada en la acción
         image_name = "logdb.png" # Imagen por defecto

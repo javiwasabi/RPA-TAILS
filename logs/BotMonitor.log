@@ -1432,3 +1432,407 @@ Stacktrace:
 [2025-06-01 23:11:41.866] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
 [2025-06-01 23:11:44.998] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
 [2025-06-01 23:11:45.064] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:35:17.923] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:35:23.362] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-01 23:35:26.727] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-01 23:35:26.902] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:36:24.151] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:36:24.160] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-01 23:36:27.373] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-01 23:36:27.398] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:37:12.644] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:37:12.652] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-01 23:37:15.845] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-01 23:37:15.873] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:37:47.138] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:37:47.147] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-01 23:37:50.271] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-01 23:37:50.351] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:38:48.607] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:38:48.615] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-01 23:38:51.817] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-01 23:38:51.850] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:39:55.000] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:39:55.707] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-01 23:40:07.849] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-01 23:40:09.841] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:41:06.388] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:41:06.401] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-01 23:41:09.603] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-01 23:41:09.644] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:42:08.243] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:42:08.251] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-01 23:42:11.468] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-01 23:42:11.553] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:43:18.231] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:43:18.241] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-01 23:43:21.949] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-01 23:43:22.000] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:44:23.602] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:44:23.609] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-01 23:44:26.757] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-01 23:44:26.797] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:45:24.059] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:45:24.072] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-01 23:45:27.274] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-01 23:45:27.358] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:46:30.603] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:46:30.611] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-01 23:46:33.812] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-01 23:46:33.902] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:47:37.262] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:47:37.272] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-01 23:47:40.483] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-01 23:47:40.563] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:48:38.875] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:48:38.883] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-01 23:48:42.003] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-01 23:48:42.077] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:49:06.272] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:49:06.290] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-01 23:49:09.436] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-01 23:49:09.458] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:50:12.758] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:50:12.766] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-01 23:50:15.882] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-01 23:50:15.969] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:51:16.352] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:51:16.361] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-01 23:51:19.552] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-01 23:51:19.621] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:52:23.920] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:52:23.928] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-01 23:52:27.105] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-01 23:52:27.173] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-01 23:53:33.501] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-01 23:53:33.509] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-01 23:53:36.691] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-01 23:53:36.800] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 19:31:26.156] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 19:31:30.833] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 19:31:34.201] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 19:31:34.379] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 19:32:02.783] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 19:32:02.790] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 19:32:05.987] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 19:32:06.015] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 19:32:57.187] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 19:32:57.194] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 19:33:00.312] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 19:33:00.334] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 19:33:53.500] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 19:33:53.508] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 19:33:56.685] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 19:33:56.758] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 19:34:23.882] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 19:34:23.889] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 19:34:27.070] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 19:34:27.148] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 19:34:54.291] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 19:34:54.300] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 19:34:57.479] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 19:34:57.504] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 19:35:29.630] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 19:35:29.639] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 19:35:32.751] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 19:35:32.781] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 19:36:02.903] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 19:36:02.911] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 19:36:06.205] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 19:36:06.249] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 19:36:32.440] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 19:36:32.447] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 19:36:35.563] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 19:36:35.638] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 19:37:06.775] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 19:37:06.784] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 19:37:09.956] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 19:37:10.031] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 19:37:29.144] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 19:37:29.152] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 19:37:32.340] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 19:37:32.414] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:02:28.525] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:02:30.758] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:02:34.033] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:02:34.167] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:03:30.337] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:03:30.345] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 20:03:33.476] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 20:03:33.504] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:04:28.690] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:04:28.698] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:04:31.815] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:04:31.835] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:05:27.054] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:05:27.062] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:05:30.232] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:05:30.256] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:06:28.457] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:06:28.464] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 20:06:31.579] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 20:06:31.651] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:07:30.778] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:07:30.785] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 20:07:34.092] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 20:07:34.198] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:08:25.580] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:08:25.588] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 20:08:28.707] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 20:08:28.805] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:09:23.950] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:09:23.959] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:09:27.082] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:09:27.166] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:10:18.641] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:10:18.649] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:10:21.847] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:10:21.872] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:11:20.051] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:11:20.059] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:11:23.284] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:11:23.306] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:14:47.663] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:14:50.241] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 20:14:53.555] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 20:14:53.591] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:17:21.151] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:17:24.031] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:17:27.289] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:17:27.521] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:18:20.706] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:18:20.715] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:18:23.887] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:18:23.922] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:19:21.123] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:19:21.131] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:19:24.247] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:19:24.269] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:32:02.193] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:32:04.696] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 20:32:07.844] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 20:32:07.881] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:32:31.007] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:32:31.016] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:32:34.452] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:32:34.555] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:33:03.687] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:33:03.696] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:33:06.936] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:33:06.965] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:33:34.093] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:33:34.101] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 20:33:40.515] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 20:33:40.620] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:33:58.715] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:33:58.724] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:34:01.840] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:34:01.925] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:34:24.031] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:34:24.039] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 20:34:27.148] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 20:34:27.176] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:35:18.325] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:35:18.332] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:35:21.452] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:35:21.481] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:36:05.636] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:36:05.643] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:36:08.826] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:36:08.894] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:36:41.006] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:36:41.013] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:36:44.486] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:36:44.505] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:37:02.637] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:37:02.645] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:37:05.814] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:37:05.834] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:37:50.877] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:37:53.154] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:37:56.441] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:37:56.516] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:38:46.704] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:38:46.711] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:38:49.884] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:38:49.952] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:39:45.108] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:39:45.115] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:39:48.288] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:39:48.312] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:40:46.464] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:40:46.471] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:40:49.584] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:40:49.656] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:41:39.811] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:41:39.818] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:41:42.995] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:41:43.021] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:42:33.200] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:42:33.208] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:42:36.372] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:42:36.402] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:43:28.598] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:43:28.606] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:43:31.776] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:43:31.852] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:44:26.017] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:44:26.025] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 20:44:29.205] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 20:44:29.224] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:45:29.377] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:45:29.384] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:45:32.559] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:45:32.579] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:46:22.752] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:46:22.759] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:46:25.938] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:46:25.961] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:47:20.147] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:47:20.154] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:47:23.324] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:47:23.345] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:48:17.503] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:48:17.511] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 20:48:20.684] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 20:48:20.705] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:49:14.892] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:49:14.899] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:49:18.072] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:49:18.090] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:50:18.318] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:50:18.325] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:50:21.511] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:50:21.579] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:51:19.754] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:51:19.762] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 20:51:22.931] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 20:51:23.006] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:52:13.159] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:52:13.166] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 20:52:16.282] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 20:52:16.305] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 20:53:10.467] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 20:53:10.476] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 20:53:13.585] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 20:53:13.660] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:03:52.303] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:03:54.607] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:03:57.860] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:03:57.927] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:04:50.133] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:04:50.140] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 21:04:53.317] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 21:04:53.340] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:05:53.554] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:05:53.561] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:05:56.678] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:05:56.699] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:06:47.838] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:06:47.844] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:06:51.025] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:06:51.048] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:07:50.207] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:07:50.214] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 21:07:53.382] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 21:07:53.406] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:08:52.597] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:08:52.605] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:08:55.723] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:08:55.796] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:09:46.948] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:09:46.955] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:09:50.130] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:09:50.149] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:10:40.306] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:10:40.314] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 21:10:43.490] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 21:10:43.513] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:11:42.671] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:11:42.679] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 21:11:45.860] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 21:11:45.933] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:12:36.077] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:12:36.085] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 21:12:39.204] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 21:12:39.229] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:13:29.397] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:13:29.404] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 21:13:32.583] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 21:13:32.603] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:14:30.774] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:14:30.781] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:14:33.900] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:14:33.972] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:15:25.118] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:15:25.125] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:15:28.299] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:15:28.369] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:16:20.544] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:16:20.551] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:16:23.733] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:16:23.753] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:17:20.924] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:17:20.931] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 21:17:24.046] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 21:17:24.065] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:18:18.270] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:18:18.277] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 21:18:21.446] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 21:18:21.469] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:19:21.629] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:19:21.637] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 21:19:24.814] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 21:19:24.835] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:51:33.176] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:51:35.483] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 21:51:38.749] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 21:51:38.812] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:52:46.697] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:52:49.107] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 21:52:52.504] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 21:52:52.744] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:53:12.990] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:53:12.999] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:53:16.118] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:53:16.137] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:53:35.231] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:53:35.246] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 21:53:38.452] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 21:53:38.480] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:54:13.634] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:54:13.643] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 21:54:16.850] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 21:54:16.934] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:54:43.044] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:54:43.052] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 21:54:46.295] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 21:54:46.381] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:55:12.541] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:55:12.550] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 21:55:15.776] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 21:55:15.855] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:55:32.958] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:55:32.966] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:55:36.208] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:55:36.239] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:56:08.644] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:56:08.651] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:56:11.846] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:56:11.872] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:56:44.063] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:56:44.070] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 21:56:47.263] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 21:56:47.351] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:57:23.483] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:57:23.491] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_reporte_tails.html'
+[2025-06-02 21:57:26.668] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_reporte_tails.html': Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.
+[2025-06-02 21:57:26.692] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:57:52.803] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:57:52.811] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_de_datos_simulada.html'
+[2025-06-02 21:57:55.979] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_de_datos_simulada.html': Un Buzz Bomber solitario está causando problemas cerca de la entrada de Chemical Plant.
+[2025-06-02 21:57:56.077] [BotMonitor                  ] [INFO ] Monitoreo completado.
+[2025-06-02 21:58:15.220] [BotMonitor                  ] [INFO ] Iniciando monitoreo...
+[2025-06-02 21:58:15.226] [BotMonitor                  ] [INFO ] Selenium: Fuente HTML para scraping: 'fuente_alerta_angel_island.html'
+[2025-06-02 21:58:18.404] [BotMonitor                  ] [INFO ] Datos Selenium (Edge) de 'fuente_alerta_angel_island.html': Detectada fluctuación de energía anómala directamente desde el altar de la Master Emerald. ¡Posible intento de robo!
+[2025-06-02 21:58:18.428] [BotMonitor                  ] [INFO ] Monitoreo completado.

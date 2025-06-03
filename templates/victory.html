@@ -55,15 +55,39 @@
             transform: translateY(-2px);
         }
     </style>
+    <script>
+        // Redirección después de 20 segundos
+        setTimeout(function() {
+            window.location.href = "{{ url_for('reset') }}";
+        }, 20000);  // 20000 ms = 20 segundos
+        
+        // Opcional: Contador visible
+        let secondsLeft = 20;
+        const counterElement = document.createElement('div');
+        counterElement.style.position = 'fixed';
+        counterElement.style.bottom = '20px';
+        counterElement.style.right = '20px';
+        counterElement.style.backgroundColor = 'rgba(0,0,0,0.7)';
+        counterElement.style.color = 'white';
+        counterElement.style.padding = '10px';
+        counterElement.style.borderRadius = '5px';
+        counterElement.textContent = `Reiniciando en ${secondsLeft} segundos...`;
+        document.body.appendChild(counterElement);
+        
+        setInterval(() => {
+            secondsLeft--;
+            counterElement.textContent = `Reiniciando en ${secondsLeft} segundos...`;
+        }, 1000);
+    </script>
 </head>
 <body class="zone-default"> <div class="container">
         <h1 class="victory-title">¡VICTORIA!</h1>
-        <img src="{{ url_for('static', filename='images/victory.png') }}" alt="¡Has Ganado!" class="final-image">
+        <!-- <img src="{{ url_for('static', filename='images/victory.png') }}" alt="¡Has Ganado!" class="final-image"> -->
         <p class="final-stats">¡Felicidades, Comandante! Has desmantelado con éxito la perversa operación del Dr. Eggman y salvado el día.</p>
         <p class="final-stats">HP final de la Base de Eggman: <strong>{{ result.final_hp }}%</strong></p>
         <p class="final-stats">Nivel de Pánico Global Final: <strong>{{ result.final_panic }}%</strong></p>
 
-        <a href="{{ url_for('reset') }}" class="btn-return">Jugar de Nuevo</a>
+        <!-- <a href="{{ url_for('reset') }}" class="btn-return">Jugar de Nuevo</a> -->
     </div>
 </body>
 </html>

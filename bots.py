@@ -545,11 +545,16 @@ def main_loop():
             if EGGMAN_HP <= 0:
                 logger("BotMaestro", "¡VICTORIA! HP Eggman a 0.", "INFO")
                 final_data = {"game_status": "VICTORY", "final_hp": EGGMAN_HP, "final_panic": GLOBAL_PANIC}
+                #game_over = True
+                send_game_over_to_dashboard(final_data)
+                time.sleep(20)  # Esperar 20 segundos antes de cerrar
                 game_over = True
-            
             if GLOBAL_PANIC >= max_panic:
                 logger("BotMaestro", "¡DERROTA! Pánico global al máximo.", "CRITICAL")
                 final_data = {"game_status": "DEFEAT", "final_hp": EGGMAN_HP, "final_panic": GLOBAL_PANIC}
+                
+                send_game_over_to_dashboard(final_data)
+                time.sleep(20)  # Esperar 20 segundos antes de cerrar
                 game_over = True
 
             if game_over:
@@ -588,6 +593,16 @@ def main_loop():
             except Exception as e_file:
                 logger("BotMaestro", f"Error al intentar cerrar HTML en finally: {e_file}", "ERROR")
         logger("BotMaestro", "Hedgehog Alert Processor TERMINADO.")
+
+def send_game_over_to_dashboard(final_data):
+    try:
+        cfg_dashboard = CONFIG.get("dashboard_tactico", {})
+        full_submit_url = f"{cfg_dashboard.get('url', '').rstrip('/')}{cfg_dashboard.get('submit_alert_endpoint', '')}"
+        if full_submit_url:
+            logger("BotMaestro", f"Enviando estado final del juego a {full_submit_url}...")
+            requests.post(full_submit_url, json=final_data, timeout=5)
+    except Exception as e:
+        logger("BotMaestro", f"No se pudo enviar estado final al dashboard: {e}", "ERROR")
 
 if __name__ == "__main__":
     ensure_dirs()

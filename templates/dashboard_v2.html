@@ -103,8 +103,18 @@
                     countdownElement.textContent = timeLeft;
                     if (timeLeft <= 0) {
                         clearInterval(countdownInterval);
-                        countdownElement.textContent = "Timeout!";
-                        setTimeout(checkForNewAlert, 1500);
+                        countdownElement.textContent = "¡TIEMPO AGOTADO!";
+                        
+                        // Deshabilitar todos los botones inmediatamente
+                        document.querySelectorAll('.decision-form button').forEach(btn => {
+                            btn.disabled = true;
+                            btn.classList.add('disabled-btn');
+                        });
+                        
+                        // Recargar después de 2 segundos (opcional)
+                        setTimeout(() => {
+                            window.location.reload();
+                        }, 2000);
                     }
                 }, 1000);
             }

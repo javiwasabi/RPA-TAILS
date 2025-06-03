@@ -1,0 +1,152 @@
+
+    <!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><title>Reporte de Flujo - Evento EVT-SEL-20250602210357-0001</title>
+    <style>body{font-family:Arial,sans-serif;margin:20px;background-color:#f4f4f4;color:#333}.container{background-color:#fff;padding:20px;border-radius:8px;box-shadow:0 0 10px rgba(0,0,0,.1)}.bot-step{margin-bottom:20px;padding:15px;border-left:5px solid;border-radius:5px}.bot-monitor{border-color:#3498db;background-color:#eaf5ff}.bot-analizador{border-color:#f1c40f;background-color:#fff9e6}.bot-enriquecedor{border-color:#2ecc71;background-color:#e9f7ef}.bot-decision-tactica{border-color:#e67e22;background-color:#fdf3e6}.bot-notificador{border-color:#9b59b6;background-color:#f5eff7}h1{color:#2c3e50;text-align:center}h2{color:#34495e;border-bottom:2px solid #eee;padding-bottom:5px}pre{background-color:#ecf0f1;padding:10px;border-radius:4px;white-space:pre-wrap;word-wrap:break-word;font-size:.9em}.timestamp{font-size:.8em;color:#7f8c8d;float:right}.character{font-weight:700;font-size:1.2em;margin-right:10px}.sonic{color:#007bff}.tails{color:#ffaa00}.knuckles{color:#d90000}.eggman{color:#c0c0c0}</style></head>
+    <body><div class="container"><h1><span class="eggman">🤖</span> Reporte de Flujo del Evento: EVT-SEL-20250602210357-0001 <span class="eggman">🚨</span></h1><div class="bot-step bot-monitor"><span class="timestamp">2025-06-02 21:03:57</span><h2>🛰️ BotMonitor</h2><p>Datos iniciales capturados/generados.</p><pre>{
+  "event_id": "EVT-SEL-20250602210357-0001",
+  "timestamp_raw": "2025-06-02T21:03:57.861617",
+  "source_system": "Fuente Web: fuente_reporte_tails.html (Scraped)",
+  "source_type_tag": "WEB_SELENIUM_TAILS_REPORT",
+  "detected_location_raw": "Tails' Workshop",
+  "threat_level_raw": "medio",
+  "description_raw": "Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.",
+  "raw_payload": {
+    "device_id": "TAILS_SENSOR_ARRAY_003",
+    "reading_type": "multi_badnik_signature",
+    "value": 15,
+    "html_source_file": "fuente_reporte_tails.html"
+  }
+}</pre></div><div class="bot-step bot-analizador"><span class="timestamp">2025-06-02 21:03:57</span><h2>🧠 BotAnalizador</h2><p>Datos normalizados y priorizados.</p><pre>{
+  "event_id": "EVT-SEL-20250602210357-0001",
+  "timestamp_event": "2025-06-02T21:03:57.861617",
+  "source_system_name": "Fuente Web: fuente_reporte_tails.html (Scraped)",
+  "source_type": "WEB_SELENIUM_TAILS_REPORT",
+  "location_reported": "Tails' Workshop",
+  "threat_assessment": {
+    "initial_level": "medio",
+    "description": "Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.",
+    "priority_score": 5
+  },
+  "original_raw_data": {
+    "device_id": "TAILS_SENSOR_ARRAY_003",
+    "reading_type": "multi_badnik_signature",
+    "value": 15,
+    "html_source_file": "fuente_reporte_tails.html"
+  }
+}</pre></div><div class="bot-step bot-enriquecedor"><span class="timestamp">2025-06-02 21:03:57</span><h2>🗺️ BotEnriquecedor</h2><p>Datos contextualizados y enriquecidos.</p><pre>{
+  "event_id": "EVT-SEL-20250602210357-0001",
+  "timestamp_event": "2025-06-02T21:03:57.861617",
+  "source_system_name": "Fuente Web: fuente_reporte_tails.html (Scraped)",
+  "source_type": "WEB_SELENIUM_TAILS_REPORT",
+  "location_reported": "Tails' Workshop",
+  "threat_assessment": {
+    "initial_level": "medio",
+    "description": "Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.",
+    "priority_score": 5
+  },
+  "original_raw_data": {
+    "device_id": "TAILS_SENSOR_ARRAY_003",
+    "reading_type": "multi_badnik_signature",
+    "value": 15,
+    "html_source_file": "fuente_reporte_tails.html"
+  },
+  "location_details": {
+    "zone_name": "Tails' Workshop",
+    "description": "Taller de Tails en Mystic Ruins.",
+    "known_nearby_heroes": [
+      "Tails",
+      "Sonic"
+    ],
+    "common_threats_in_zone": [
+      "Badniks exploradores",
+      "Espionaje"
+    ],
+    "css_class": "zone-mystic-ruins"
+  },
+  "urgency_level": "URGENCIA_MEDIA"
+}</pre></div><div class="bot-step bot-decision-tactica"><span class="timestamp">2025-06-02 21:04:38</span><h2>🎯 BotDecisionTactica</h2><p>Decisión táctica (Automática (Timeout)).</p><pre>{
+  "event_id": "EVT-SEL-20250602210357-0001",
+  "target_destinations": [
+    "Sonic",
+    "LogDB"
+  ],
+  "alert_payload_to_send": {
+    "event_id": "EVT-SEL-20250602210357-0001",
+    "timestamp_event": "2025-06-02T21:03:57.861617",
+    "source_system_name": "Fuente Web: fuente_reporte_tails.html (Scraped)",
+    "source_type": "WEB_SELENIUM_TAILS_REPORT",
+    "location_reported": "Tails' Workshop",
+    "threat_assessment": {
+      "initial_level": "medio",
+      "description": "Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.",
+      "priority_score": 5
+    },
+    "original_raw_data": {
+      "device_id": "TAILS_SENSOR_ARRAY_003",
+      "reading_type": "multi_badnik_signature",
+      "value": 15,
+      "html_source_file": "fuente_reporte_tails.html"
+    },
+    "location_details": {
+      "zone_name": "Tails' Workshop",
+      "description": "Taller de Tails en Mystic Ruins.",
+      "known_nearby_heroes": [
+        "Tails",
+        "Sonic"
+      ],
+      "common_threats_in_zone": [
+        "Badniks exploradores",
+        "Espionaje"
+      ],
+      "css_class": "zone-mystic-ruins"
+    },
+    "urgency_level": "URGENCIA_MEDIA",
+    "game_state": {
+      "eggman_hp": 100,
+      "global_panic": 0
+    }
+  },
+  "decision_type": "Automática (Timeout)"
+}</pre></div><div class="bot-step bot-notificador"><span class="timestamp">2025-06-02 21:04:38</span><h2>📡 BotNotificador</h2><p>Notificaciones enviadas.</p><pre>{
+  "event_id": "EVT-SEL-20250602210357-0001",
+  "target_destinations": [
+    "Sonic",
+    "LogDB"
+  ],
+  "alert_payload_to_send": {
+    "event_id": "EVT-SEL-20250602210357-0001",
+    "timestamp_event": "2025-06-02T21:03:57.861617",
+    "source_system_name": "Fuente Web: fuente_reporte_tails.html (Scraped)",
+    "source_type": "WEB_SELENIUM_TAILS_REPORT",
+    "location_reported": "Tails' Workshop",
+    "threat_assessment": {
+      "initial_level": "medio",
+      "description": "Mis sensores remotos en Mystic Ruins han detectado una concentración inusual de Badniks tipo Motobug y Buzz Bomber. Patrón de movimiento sugiere exploración.",
+      "priority_score": 5
+    },
+    "original_raw_data": {
+      "device_id": "TAILS_SENSOR_ARRAY_003",
+      "reading_type": "multi_badnik_signature",
+      "value": 15,
+      "html_source_file": "fuente_reporte_tails.html"
+    },
+    "location_details": {
+      "zone_name": "Tails' Workshop",
+      "description": "Taller de Tails en Mystic Ruins.",
+      "known_nearby_heroes": [
+        "Tails",
+        "Sonic"
+      ],
+      "common_threats_in_zone": [
+        "Badniks exploradores",
+        "Espionaje"
+      ],
+      "css_class": "zone-mystic-ruins"
+    },
+    "urgency_level": "URGENCIA_MEDIA",
+    "game_state": {
+      "eggman_hp": 100,
+      "global_panic": 0
+    }
+  },
+  "decision_type": "Automática (Timeout)"
+}</pre></div></div></body></html>
